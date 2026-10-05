@@ -110,7 +110,7 @@ ID_TO_STEP = {
     "D6": "storm", "D7": "pda", "D8": "fedreg", "D9": "bea", "D11": "bea",
     "D10": "bls", "D12": "fred", "D13": "ttr", "D15": "dataverse",
     "D16": "dataverse", "D22": "dataverse", "D19": "census",
-    "D20": "voteview", "D21": "voteview", "D17": "governors", "D18": "governors",
+    "D20": "voteview", "D21": "voteview", "D17": "governors", "D18": "governors", "D14": "templates",
 }
 
 
@@ -896,6 +896,87 @@ def tau_rows_from_fedreg() -> list[list]:
     return [rows[k] for k in sorted(rows)]
 
 
+NASBO_DIR = RAW_DIR / "nasbo"
+NASBO_FILES = {
+    "nasbo_rainy_day.xlsx": "NASBO State Rainy Day Fund Balances Historical Dataset (Fiscal Survey of States)",
+    "nasbo_state_expenditure.xlsm": "NASBO State Expenditure Report Historical Dataset",
+}
+
+
+def register_nasbo(fx: Fetcher) -> None:
+    """D14 files come from NASBO's online store (free, account required), so they
+    are saved by hand into raw/nasbo/ and only registered here."""
+    for name, desc in NASBO_FILES.items():
+        p = NASBO_DIR / name
+        if not p.exists():
+            fx.manifest.record(dataset_id="D14", source="NASBO", url="https://www.nasbo.org (online store)",
+                               downloaded_at_utc=utc_now(), status="manual",
+                               note=f"{desc}: not on disk; download by hand into raw/nasbo/{name}")
+            continue
+        prev = fx.manifest.get(rel(p))
+        if prev and prev["sha256"] == sha256_of(p):
+            continue
+        fx.manifest.record(dataset_id="D14", source="NASBO", url="https://www.nasbo.org (online store)",
+                           local_path=rel(p), bytes=p.stat().st_size, sha256=sha256_of(p),
+                           downloaded_at_utc=datetime.fromtimestamp(p.stat().st_mtime, timezone.utc)
+                           .strftime("%Y-%m-%dT%H:%M:%SZ"),
+                           status="manual",
+                           note=f"{desc}; downloaded by hand (NASBO account); time is file mtime")
+
+
+def rainy_day_rows(fx: Fetcher) -> list[list]:
+    """Rainy day fund balances and general fund spending, 50 states x FY1992-2026.
+
+    - rainy_day_balance_usd_m: NASBO RDF balance ($ millions), as published.
+    - rdf_pct_gf_spending: NASBO's balance as a share of general fund spending.
+    - general_fund_expenditure_usd_m: balance / share, i.e. the Fiscal Survey
+      spending figure behind NASBO's ratio; not derivable when the balance is 0.
+    - ser_gf_spending_usd_m: general fund spending (incl. capital, GFTOT_CAPI)
+      from the State Expenditure Report, a separate survey with its own definition.
+    """
+    import pandas as pd
+    register_nasbo(fx)
+    years = range(1992, 2027)
+    rdf = NASBO_DIR / "nasbo_rainy_day.xlsx"
+    if not rdf.exists():
+        return [[st, y, "", "", "", "", "", "", "NASBO file not on disk"] for st in STATES for y in years]
+
+    def sheet(name):
+        df = pd.read_excel(rdf, sheet_name=name)
+        df["State"] = df["State"].astype(str).str.strip()
+        return df.set_index("State")
+
+    bal, pct = sheet("RDF Balances ($ in millions)"), sheet("RDF Balances (% of GF Spending)")
+    edition = bal.loc["Fiscal Survey Edition"] if "Fiscal Survey Edition" in bal.index else None
+    ser = {}
+    ser_path = NASBO_DIR / "nasbo_state_expenditure.xlsm"
+    if ser_path.exists():
+        d = pd.read_excel(ser_path, sheet_name="STATE EXP REPORT DATA")
+        d = d.rename(columns={d.columns[1]: "STATE"})
+        ser = {(str(r.STATE).strip(), int(r.YEAR)): r.GFTOT_CAPI for r in d.itertuples()}
+
+    num = lambda v: float(v) if isinstance(v, (int, float)) and not pd.isna(v) else None
+    rows = []
+    for code, name in STATES.items():
+        for y in years:
+            b = num(bal.at[name, y]) if name in bal.index and y in bal.columns else None
+            p = num(pct.at[name, y]) if name in pct.index and y in pct.columns else None
+            gf = round(b / p, 1) if b and p else None
+            s = num(ser.get((name, y)))
+            notes = []
+            if edition is not None and y in edition.index:
+                notes.append(f"Fiscal Survey {edition[y]}")
+            if y >= 2026:
+                notes.append("estimate (NASBO: latest two years are estimates/projections)")
+            if b == 0:
+                notes.append("balance 0 (NASBO reports negative balances as 0); GF spending not derivable")
+            rows.append([code, y, "" if b is None else b, "" if gf is None else gf,
+                         "NASBO Fiscal Survey RDF dataset" + ("; GF = balance / pct" if gf else ""),
+                         1 if b is not None else 0, "" if p is None else round(p, 6),
+                         "" if s is None else round(s, 1), "; ".join(notes)])
+    return rows
+
+
 def step_templates(fx: Fetcher) -> None:
     log("Templates")
     MANUAL_DIR.mkdir(parents=True, exist_ok=True)
@@ -914,8 +995,9 @@ def step_templates(fx: Fetcher) -> None:
 
     write_csv(MANUAL_DIR / "rainy_day_template.csv",
               ["state", "fiscal_year", "rainy_day_balance_usd_m",
-               "general_fund_expenditure_usd_m", "source", "verified"],
-              [[st, y, "", "", "", ""] for st in STATES for y in range(1992, 2027)])
+               "general_fund_expenditure_usd_m", "source", "verified",
+               "rdf_pct_gf_spending", "ser_gf_spending_usd_m", "notes"],
+              rainy_day_rows(fx))
 
     draft = RAW_DIR / "pda" / "pda_extracted_draft.csv"
     pdfs = sorted((RAW_DIR / "pda" / "pdfs").glob("*.pdf"))
@@ -1062,6 +1144,15 @@ def run_checks(manifest: Manifest) -> list[dict]:
             f"{f.name}: {int(df[ycol].min())}-{int(df[ycol].max())}, {len(df):,} rows",
             int(df[ycol].min()) <= 1993)
     guard("D22", "min year 1993", d22)
+
+    def d14():
+        df = pd.read_csv(MANUAL_DIR / "rainy_day_template.csv")
+        filled = df["rainy_day_balance_usd_m"].notna().mean()
+        add("D14 rainy day template: 50 states x FY1992-2026 with balances", "1,750 rows, balances filled",
+            f"{len(df):,} rows; balance filled {filled:.1%}; GF spending derived "
+            f"{df['general_fund_expenditure_usd_m'].notna().mean():.1%}; SER GF {df['ser_gf_spending_usd_m'].notna().mean():.1%}",
+            len(df) == 1750 and filled > 0.95)
+    guard("D14", "rainy day template filled", d14)
 
     def man():
         on_disk = {rel(p) for p in DATA_DIR.rglob("*")

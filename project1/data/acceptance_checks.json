@@ -78,9 +78,15 @@
     "result": "PASS"
   },
   {
+    "check": "D14 rainy day template: 50 states x FY1992-2026 with balances",
+    "expected": "1,750 rows, balances filled",
+    "observed": "1,750 rows; balance filled 99.4%; GF spending derived 85.6%; SER GF 97.1%",
+    "result": "PASS"
+  },
+  {
     "check": "Manifest: every file has a row with sha256; no empty status",
     "expected": "0 unlisted, 0 empty, 0 stale, 0 hash mismatches",
-    "observed": "220 files; unlisted 0 []; empty status 0; stale 0; hash mismatch 0 []",
+    "observed": "222 files; unlisted 0 []; empty status 0; stale 0; hash mismatch 0 []",
     "result": "PASS"
   }
 ]

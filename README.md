@@ -1,45 +1,25 @@
 # Johnny_Football
 
-Master repo for the Advanced Econometrics (ECON 438) projects 1 and 2.
+Master repo for the Advanced Econometrics (ECON 438) projects.
 
-| Folder | Contents |
-|---|---|
-| [`project1/`](project1/) | Project 1, US presidential disaster declarations, 1989-2026: raw data acquisition (code, raw files, manifest, fetch report, hand-coding templates) |
+| Folder | Contents | Start here |
+|---|---|---|
+| [`project1/`](project1/) | Project 1, US presidential disaster declarations, 1989-2026: all raw data, the scripts that fetched them, the manifest and fetch report, and the hand-coded tables (governors, FEMA's per capita indicator, state rainy-day funds) | [`project1/README.md`](project1/README.md) |
+| `project2/` | (to come) | |
 
-## Layout
-
-```
-project1/
-  docs/DATA_FETCH_BRIEF.md  the data acquisition specification
-  code/fetch_data.py        one-command downloader for every raw source
-  code/requirements.txt     pinned dependencies
-  code/build_governors.py   compiles data/manual/governors_template.csv from the governor sources
-  code/report_notes.md      hand-written notes merged into FETCH_REPORT.md
-  data/raw/<source>/        raw files exactly as served (never edited)
-  data/manual/*.csv         templates for hand-coded variables
-  data/manifest.csv         one row per file: URL, sha256, bytes, UTC download time, status
-  data/FETCH_REPORT.md      snapshot date, source table, failures, acceptance checks, open items
-```
-
-The specification the data were fetched against is [`project1/docs/DATA_FETCH_BRIEF.md`](project1/docs/DATA_FETCH_BRIEF.md); the GitHub release replaces its Google Drive step.
-
-Start with [`project1/data/FETCH_REPORT.md`](project1/data/FETCH_REPORT.md) for what was fetched, what failed and which manual items remain.
-
-Storm Events (`project1/data/raw/storm_events/`, about 310 MB) is too large for git. It is attached as `storm_events.zip` to the [`project1-data-2026-10-05` release](https://github.com/hussey17/Johnny_Football/releases/tag/project1-data-2026-10-05).
-
-## Reproduce
+## Quick start
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install -r project1/code/requirements.txt
-.venv/bin/python project1/code/fetch_data.py --email you@example.com
-```
-
-Files that already exist are skipped, so a rerun only fetches what is missing. Use `--force` to download everything again, and `--only <step|Dxx>` to run single sources. Run `python project1/code/fetch_data.py -h` for the list of steps.
-
-To restore Storm Events from the release instead of from NOAA:
-
-```bash
+git clone https://github.com/hussey17/Johnny_Football.git
+cd Johnny_Football
 gh release download project1-data-2026-10-05 -R hussey17/Johnny_Football -p storm_events.zip -D project1/data/raw
 unzip project1/data/raw/storm_events.zip -d project1/data/raw && rm project1/data/raw/storm_events.zip
 ```
+
+The second-to-last command restores NOAA Storm Events (about 310 MB), which is too large for git and is stored on the [`project1-data-2026-10-05` release](https://github.com/hussey17/Johnny_Football/releases/tag/project1-data-2026-10-05). Everything else is in the repo. [`project1/README.md`](project1/README.md) describes every folder, file and column.
+
+## Conventions
+
+- `data/raw/` files are kept exactly as their source served them. Put cleaned or derived data somewhere else.
+- `data/manifest.csv` records the URL, sha256 and UTC download time of every file. Cite those times in the paper.
+- Commit code, manifest, report and tables together, so they always match.
