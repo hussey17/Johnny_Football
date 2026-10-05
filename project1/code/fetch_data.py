@@ -623,8 +623,9 @@ def step_bls(fx: Fetcher) -> None:
 
 def step_fred(fx: Fetcher) -> None:
     log("D12 FRED CPIAUCSL")
-    fx.download("D12", "FRED", "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL",
-                RAW_DIR / "fred" / "CPIAUCSL.csv", validate=looks_like_csv(10))
+    for series in ("CPIAUCSL", "CPIAUCNS"):  # NSA headline index is what FEMA's notices cite
+        fx.download("D12", "FRED", f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series}",
+                    RAW_DIR / "fred" / f"{series}.csv", validate=looks_like_csv(10))
 
 
 TTR_PAGE = "https://home.treasury.gov/policy-issues/economic-policy/total-taxable-resources"
@@ -817,6 +818,35 @@ TAU_SENTENCE = re.compile(
     r"(declared|with an incident start date) on or after (October \d{1,2}, (\d{4}))", re.I)
 
 
+def tau_cpi_step(tau: float, pct: float) -> float:
+    """FEMA's annual adjustment: CPI-U change (12 months to August, rounded to
+    0.1 percent) applied to last year's amount, rounded to the cent. Run forward
+    from FY2001 this reproduces every published value for FY2002-FY2026."""
+    return round(tau * (1 + round(pct, 1) / 100) + 1e-9, 2)
+
+
+def backcast_tau(rows: dict, first_fy: int) -> None:
+    """Fill fiscal years before the first notice by inverting tau_cpi_step on CPI-U (NSA)."""
+    cpi_path = RAW_DIR / "fred" / "CPIAUCNS.csv"
+    if not rows or not cpi_path.exists():
+        return
+    import pandas as pd
+    c = pd.read_csv(cpi_path)
+    aug = {pd.Timestamp(d).year: float(v) for d, v in zip(c.iloc[:, 0], c.iloc[:, 1])
+           if pd.Timestamp(d).month == 8}
+    fy = min(rows)
+    tau = float(rows[fy][1])
+    while fy > first_fy:
+        pct = (aug[fy - 1] / aug[fy - 2] - 1) * 100  # change that produced FY `fy`
+        prev = round(tau / (1 + round(pct, 1) / 100), 2)
+        # pick the cent value that maps forward exactly onto the later year
+        prev = next((x for x in (prev, prev - 0.01, prev + 0.01) if tau_cpi_step(x, pct) == tau), prev)
+        fy, tau = fy - 1, prev
+        rows[fy] = [fy, f"{tau:.2f}", "", "", 1, 0, f"{fy - 1}-10-01", "declaration date",
+                    f"IMPUTED, not a FEMA figure: back-cast from FY{fy + 1} using the CPI-U (NSA) "
+                    f"change to August {fy} ({round(pct, 1)}%) and FEMA's rounding rule"]
+
+
 def tau_rows_from_fedreg() -> list[list]:
     """Statewide per capita indicator by fiscal year, from the FR notice text.
 
@@ -859,6 +889,7 @@ def tau_rows_from_fedreg() -> list[list]:
             if row[0] in rows:
                 raise ValueError(f"two notices for FY{row[0]}: {rows[row[0]][2]} and {row[2]}")
             rows[row[0]] = row
+    backcast_tau(rows, first_fy=1989)
     if rows:  # make gaps explicit rather than silent
         for fy in range(min(rows), max(rows) + 1):
             rows.setdefault(fy, [fy, "", "", "", "", 0, "", "", "no notice found"])
