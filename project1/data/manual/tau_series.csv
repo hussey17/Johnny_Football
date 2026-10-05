@@ -1,27 +1,27 @@
-fiscal_year,statewide_indicator_usd,fr_document_number,fr_url,amount_is_guess,verified
-2001,1.04,00-26536,https://www.federalregister.gov/documents/2000/10/16/00-26536/notice-of-adjustment-of-disaster-grant-amounts,1,0
-2002,1.07,01-25250,https://www.federalregister.gov/documents/2001/10/09/01-25250/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2003,1.09,02-25966,https://www.federalregister.gov/documents/2002/10/11/02-25966/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2004,1.11,03-25998,https://www.federalregister.gov/documents/2003/10/15/03-25998/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2005,1.14,04-23318,https://www.federalregister.gov/documents/2004/10/19/04-23318/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2006,1.18,05-20296,https://www.federalregister.gov/documents/2005/10/07/05-20296/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2007,1.22,E6-16656,https://www.federalregister.gov/documents/2006/10/10/E6-16656/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2008,1.24,E7-19838,https://www.federalregister.gov/documents/2007/10/09/E7-19838/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2009,1.31,E8-24066,https://www.federalregister.gov/documents/2008/10/10/E8-24066/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2010,1.29,E9-24068,https://www.federalregister.gov/documents/2009/10/06/E9-24068/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2011,1.30,2010-25334,https://www.federalregister.gov/documents/2010/10/07/2010-25334/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2012,1.35,2011-26611,https://www.federalregister.gov/documents/2011/10/14/2011-26611/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2013,1.37,2012-24673,https://www.federalregister.gov/documents/2012/10/09/2012-24673/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2014,1.39,2013-25333,https://www.federalregister.gov/documents/2013/10/28/2013-25333/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2015,1.41,2014-24811,https://www.federalregister.gov/documents/2014/10/20/2014-24811/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2016,1.41,2015-26174,https://www.federalregister.gov/documents/2015/10/14/2015-26174/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2017,1.43,2016-24634,https://www.federalregister.gov/documents/2016/10/12/2016-24634/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2018,1.46,2017-22036,https://www.federalregister.gov/documents/2017/10/12/2017-22036/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2019,1.50,2018-22888,https://www.federalregister.gov/documents/2018/10/22/2018-22888/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2020,1.53,2019-22469,https://www.federalregister.gov/documents/2019/10/16/2019-22469/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2021,1.55,2020-24237,https://www.federalregister.gov/documents/2020/11/02/2020-24237/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2022,1.63,2021-24751,https://www.federalregister.gov/documents/2021/11/15/2021-24751/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2023,1.77,2022-23159,https://www.federalregister.gov/documents/2022/10/25/2022-23159/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2024,1.84,2023-23167,https://www.federalregister.gov/documents/2023/10/20/2023-23167/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2025,1.89,2024-24696,https://www.federalregister.gov/documents/2024/10/24/2024-24696/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
-2027,1.94,2026-19855,https://www.federalregister.gov/documents/2026/09/29/2026-19855/notice-of-adjustment-of-statewide-per-capita-impact-indicator,1,0
+fiscal_year,statewide_indicator_usd,fr_document_number,fr_url,amount_is_guess,verified,effective_from,applies_by,notes
+2001,1.04,00-26536,https://www.federalregister.gov/documents/2000/10/16/00-26536/notice-of-adjustment-of-disaster-grant-amounts,0,1,2000-10-01,declaration date,published 2000-10-16
+2002,1.07,01-25250,https://www.federalregister.gov/documents/2001/10/09/01-25250/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2001-10-01,declaration date,published 2001-10-09
+2003,1.09,02-25966,https://www.federalregister.gov/documents/2002/10/11/02-25966/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2002-10-01,declaration date,published 2002-10-11
+2004,1.11,03-25998,https://www.federalregister.gov/documents/2003/10/15/03-25998/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2003-10-01,declaration date,published 2003-10-15
+2005,1.14,04-23318,https://www.federalregister.gov/documents/2004/10/19/04-23318/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2004-10-01,declaration date,published 2004-10-19
+2006,1.18,05-20296,https://www.federalregister.gov/documents/2005/10/07/05-20296/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2005-10-01,declaration date,published 2005-10-07
+2007,1.22,E6-16656,https://www.federalregister.gov/documents/2006/10/10/E6-16656/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2006-10-01,declaration date,published 2006-10-10
+2008,1.24,E7-19838,https://www.federalregister.gov/documents/2007/10/09/E7-19838/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2007-10-01,declaration date,published 2007-10-09
+2009,1.31,E8-24066,https://www.federalregister.gov/documents/2008/10/10/E8-24066/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2008-10-01,declaration date,published 2008-10-10
+2010,1.29,E9-24068,https://www.federalregister.gov/documents/2009/10/06/E9-24068/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2009-10-01,declaration date,published 2009-10-06
+2011,1.30,2010-25334,https://www.federalregister.gov/documents/2010/10/07/2010-25334/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2010-10-01,declaration date,published 2010-10-07
+2012,1.35,2011-26611,https://www.federalregister.gov/documents/2011/10/14/2011-26611/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2011-10-01,declaration date,published 2011-10-14
+2013,1.37,2012-24673,https://www.federalregister.gov/documents/2012/10/09/2012-24673/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2012-10-01,declaration date,published 2012-10-09
+2014,1.39,2013-25333,https://www.federalregister.gov/documents/2013/10/28/2013-25333/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2013-10-01,declaration date,published 2013-10-28
+2015,1.41,2014-24811,https://www.federalregister.gov/documents/2014/10/20/2014-24811/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2014-10-01,declaration date,published 2014-10-20
+2016,1.41,2015-26174,https://www.federalregister.gov/documents/2015/10/14/2015-26174/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2015-10-01,declaration date,published 2015-10-14
+2017,1.43,2016-24634,https://www.federalregister.gov/documents/2016/10/12/2016-24634/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2016-10-01,declaration date,published 2016-10-12
+2018,1.46,2017-22036,https://www.federalregister.gov/documents/2017/10/12/2017-22036/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2017-10-01,declaration date,published 2017-10-12
+2019,1.50,2018-22888,https://www.federalregister.gov/documents/2018/10/22/2018-22888/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2018-10-01,declaration date,published 2018-10-22
+2020,1.53,2019-22469,https://www.federalregister.gov/documents/2019/10/16/2019-22469/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2019-10-01,declaration date,published 2019-10-16
+2021,1.55,2020-24237,https://www.federalregister.gov/documents/2020/11/02/2020-24237/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2020-10-01,declaration date,published 2020-11-02
+2022,1.63,2021-24751,https://www.federalregister.gov/documents/2021/11/15/2021-24751/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2021-10-01,declaration date,published 2021-11-15
+2023,1.77,2022-23159,https://www.federalregister.gov/documents/2022/10/25/2022-23159/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2022-10-01,declaration date,published 2022-10-25
+2024,1.84,2023-23167,https://www.federalregister.gov/documents/2023/10/20/2023-23167/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2023-10-01,incident start date,published 2023-10-20
+2025,1.89,2024-24696,https://www.federalregister.gov/documents/2024/10/24/2024-24696/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2024-10-01,incident start date,published 2024-10-24
+2026,1.94,2026-19855,https://www.federalregister.gov/documents/2026/09/29/2026-19855/notice-of-adjustment-of-statewide-per-capita-impact-indicator,0,1,2025-10-01,incident start date,published 2026-09-29

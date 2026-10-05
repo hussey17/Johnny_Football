@@ -38,7 +38,10 @@ Per the user's instruction the data go to GitHub instead of Google Drive.
    - `verified = 1` (523 rows) means the governor and the term-limit status come from the election page and do not conflict with the rule table. It does not mean a person has checked the row.
    - For a governor who was re-elected, the new term's `term_start` is the state's inauguration day, inferred from observed handovers. The `notes` column says how well the inferred pattern fits.
    - The 9 acting or caretaker governors, who served a few days to a few weeks, have blank term-limit fields because the fields do not apply.
-2. **`manual/tau_series.csv`**: 26 fiscal years (FY2001-FY2025 and FY2027), extracted by regex and flagged `amount_is_guess = 1`. **FY2026 is missing:** no notice published in 2025 matched either query. Each amount needs checking against its notice.
+2. **`manual/tau_series.csv`: done for FY2001-FY2026.** Each of the 26 amounts matches its Federal Register notice: the notice gives the amount and the effective date in one sentence ("... increased to $X for all disasters declared on or after October 1, YYYY"), and every row is set to `amount_is_guess = 0`, `verified = 1`.
+   - **Fiscal year:** taken from the effective date. Notice 2026-19855 (published 29 Sep 2026) sets **FY2026** at $1.94, effective 1 Oct 2025. FEMA published it late, so FY2026 was never missing, and the FY2027 notice is not yet published.
+   - **Applies-by basis:** up to FY2023 the indicator applies to disasters *declared* on or after 1 October. From FY2024 it applies to disasters whose *incident started* on or after 1 October. The `applies_by` column records which.
+   - **Before FY2001:** no notices turned up for FY1989-FY2000; the earliest search result is October 2000. Values for those years would need another source.
 3. **`manual/rainy_day_template.csv`**: 50 states × FY1992-2026 = 1,750 empty rows, for the NASBO data (D14), which needs a registered account.
 4. **`manual/pda_review_queue.csv`**: empty (header only), because D7 is blocked.
 5. **SHELDUS (D5)**: out of scope (paid licence).

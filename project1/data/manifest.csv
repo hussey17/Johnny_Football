@@ -214,9 +214,9 @@ D8,GPO govinfo (Federal Register),https://www.govinfo.gov/content/pkg/FR-2009-11
 D9,BEA Regional,https://apps.bea.gov/regional/zip/SAGDP.zip,data/raw/bea/SAGDP.zip,10381511,3d3c5bc7bd243138cd4ec07d6f5e862bdb533683a538c3a6db61aa2fbc7085ef,200,2026-10-04T19:59:48Z,ok,
 D9,BEA Regional,https://apps.bea.gov/regional/zip/SAGDP_SIC.zip,data/raw/bea/SAGDP_SIC.zip,7024327,e52a5bbfa71dbc0c3083c2011f007dbc65716fbd0b37b766912ffb2080c42634,200,2026-10-04T19:59:49Z,ok,
 D9,BEA Regional,https://apps.bea.gov/regional/zip/SAINC.zip,data/raw/bea/SAINC.zip,17620171,cb28a9a200c71b48e283c4e4e6ef1b18524cb6c1edc31d7b768862c766ff770f,200,2026-10-04T19:59:45Z,ok,
-manual,template,,data/manual/governors_overrides.csv,3773,69e0500e43402d6f837b8ba4c353858f0b4b6d4a84d967fcf28c0a819b696fe8,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
-manual,template,,data/manual/governors_template.csv,86143,28aab8d819b1417f62be78ad6702132636f8b8e10e096c275b72729df6b26a1f,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
-manual,template,,data/manual/pda_review_queue.csv,98,b5599504c6e8951db14ccfcad7c0a388634b00e3d32b4ed35773d915ebcbb629,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
-manual,template,,data/manual/rainy_day_template.csv,22840,adff73ec8b5b84d4f5d46e27113309ebfe28065c9da1f523646cafbb97696bdf,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
-manual,template,,data/manual/tau_series.csv,3985,b965c55f42878d59a81600bea09b0b7986afac2dd3c15223766c3dee7c233948,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
-manual,template,,data/manual/term_limit_rules.csv,8948,7554ad8c3dee09955134fd6b846738aba6887008d30b9b0923e59eb784626215,,2026-10-05T08:50:08Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/governors_overrides.csv,3773,69e0500e43402d6f837b8ba4c353858f0b4b6d4a84d967fcf28c0a819b696fe8,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/governors_template.csv,86143,28aab8d819b1417f62be78ad6702132636f8b8e10e096c275b72729df6b26a1f,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/pda_review_queue.csv,98,b5599504c6e8951db14ccfcad7c0a388634b00e3d32b4ed35773d915ebcbb629,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/rainy_day_template.csv,22840,adff73ec8b5b84d4f5d46e27113309ebfe28065c9da1f523646cafbb97696bdf,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/tau_series.csv,5300,3a6f3c971ca6d542ecf20d1bdb99496b9b273b553bda91823f6de6255319b250,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout
+manual,template,,data/manual/term_limit_rules.csv,8948,7554ad8c3dee09955134fd6b846738aba6887008d30b9b0923e59eb784626215,,2026-10-05T09:18:05Z,manual,scaffold for hand coding; verified=0 throughout

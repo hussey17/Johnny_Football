@@ -811,15 +811,27 @@ def write_csv(path: Path, header: list[str], rows: list[list]) -> None:
     log(f"  wrote {rel(path)} ({len(rows)} rows)")
 
 
+TAU_SENTENCE = re.compile(
+    r"statewide per capita (?:impact )?indicator (?:will be (?:increased|decreased) to|"
+    r"will remain at|was increased to|was decreased to|to) \$\s?(\d+\.\d{2}) for all disasters "
+    r"(declared|with an incident start date) on or after (October \d{1,2}, (\d{4}))", re.I)
+
+
 def tau_rows_from_fedreg() -> list[list]:
-    """Statewide indicator amounts by regex on the FR notice text. All flagged as guesses."""
+    """Statewide per capita indicator by fiscal year, from the FR notice text.
+
+    A row is marked verified (amount_is_guess = 0, verified = 1) only when the
+    notice states the amount and its effective date in one sentence of the
+    form "... indicator will be increased to $X for all disasters declared on
+    or after October 1, YYYY"; the fiscal year is then YYYY + 1. Anything else
+    falls back to a looser match and stays flagged as a guess.
+    """
     index = RAW_DIR / "fedreg" / "fedreg_notices.csv"
     if not index.exists():
         return []
-    rows = []
-    amt = re.compile(r"statewide per capita (?:impact )?indicator[^$]{0,300}?\$\s?([\d,]+\.\d{2})",
-                     re.I | re.S)
-    fy = re.compile(r"fiscal year (\d{4})", re.I)
+    loose = re.compile(r"statewide per capita (?:impact )?indicator[^$]{0,300}?\$\s?([\d,]+\.\d{2})",
+                       re.I | re.S)
+    rows = {}
     with open(index, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             if "per capita" not in r["title"].lower() and "grant amounts" not in r["title"].lower():
@@ -831,15 +843,26 @@ def tau_rows_from_fedreg() -> list[list]:
                 continue
             text = re.sub(r"<[^>]+>", " ", txt_path.read_text(encoding="utf-8", errors="replace"))
             text = re.sub(r"\s+", " ", html.unescape(text))
-            m = amt.search(text)
-            if not m:
-                continue
-            fym = fy.search(text)
-            year = fym.group(1) if fym else str(int(r["publication_date"][:4]) + 1)
-            rows.append([year, m.group(1).replace(",", ""), r["document_number"],
-                         r["html_url"], 1, 0])
-    rows.sort(key=lambda x: (x[0], x[2]))
-    return rows
+            m = TAU_SENTENCE.search(text)
+            if m:
+                eff = datetime.strptime(m.group(3), "%B %d, %Y").date()
+                basis = "declaration date" if m.group(2).lower() == "declared" else "incident start date"
+                row = [eff.year + 1, m.group(1), r["document_number"], r["html_url"], 0, 1,
+                       eff.isoformat(), basis, f"published {r['publication_date']}"]
+            else:
+                m = loose.search(text)
+                if not m:
+                    continue
+                row = [int(r["publication_date"][:4]) + 1, m.group(1).replace(",", ""),
+                       r["document_number"], r["html_url"], 1, 0, "", "",
+                       f"published {r['publication_date']}; effective date not parsed"]
+            if row[0] in rows:
+                raise ValueError(f"two notices for FY{row[0]}: {rows[row[0]][2]} and {row[2]}")
+            rows[row[0]] = row
+    if rows:  # make gaps explicit rather than silent
+        for fy in range(min(rows), max(rows) + 1):
+            rows.setdefault(fy, [fy, "", "", "", "", 0, "", "", "no notice found"])
+    return [rows[k] for k in sorted(rows)]
 
 
 def step_templates(fx: Fetcher) -> None:
@@ -855,7 +878,7 @@ def step_templates(fx: Fetcher) -> None:
 
     write_csv(MANUAL_DIR / "tau_series.csv",
               ["fiscal_year", "statewide_indicator_usd", "fr_document_number", "fr_url",
-               "amount_is_guess", "verified"],
+               "amount_is_guess", "verified", "effective_from", "applies_by", "notes"],
               tau_rows_from_fedreg())
 
     write_csv(MANUAL_DIR / "rainy_day_template.csv",
