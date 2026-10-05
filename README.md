@@ -10,6 +10,7 @@ Master repo for the Advanced Econometrics (ECON 438) projects 1 and 2.
 
 ```
 project1/
+  docs/DATA_FETCH_BRIEF.md  the data acquisition specification
   code/fetch_data.py        one-command downloader for every raw source
   code/requirements.txt     pinned dependencies
   code/build_governors.py   compiles data/manual/governors_template.csv from the governor sources
@@ -19,6 +20,8 @@ project1/
   data/manifest.csv         one row per file: URL, sha256, bytes, UTC download time, status
   data/FETCH_REPORT.md      snapshot date, source table, failures, acceptance checks, open items
 ```
+
+The specification the data were fetched against is [`project1/docs/DATA_FETCH_BRIEF.md`](project1/docs/DATA_FETCH_BRIEF.md); the GitHub release replaces its Google Drive step.
 
 Start with [`project1/data/FETCH_REPORT.md`](project1/data/FETCH_REPORT.md) for what was fetched, what failed and which manual items remain.
 
