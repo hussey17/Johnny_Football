@@ -103,14 +103,14 @@ STATES = {
 
 STEPS = [
     "openfema", "storm", "pda", "fedreg", "bea", "bls", "fred", "ttr",
-    "dataverse", "census", "voteview", "templates", "report",
+    "dataverse", "census", "voteview", "governors", "templates", "report",
 ]
 ID_TO_STEP = {
     "D1": "openfema", "D2": "openfema", "D3": "openfema", "D4": "openfema",
     "D6": "storm", "D7": "pda", "D8": "fedreg", "D9": "bea", "D11": "bea",
     "D10": "bls", "D12": "fred", "D13": "ttr", "D15": "dataverse",
     "D16": "dataverse", "D22": "dataverse", "D19": "census",
-    "D20": "voteview", "D21": "voteview",
+    "D20": "voteview", "D21": "voteview", "D17": "governors", "D18": "governors",
 }
 
 
@@ -745,6 +745,59 @@ def step_voteview(fx: Fetcher) -> None:
                     validate=looks_like_csv(10))
 
 
+WIKI_API = "https://en.wikipedia.org/w/api.php"
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
+GOV_ELECTION_YEARS = range(1976, 2029)  # from 1976 so terms begun before 1989 split correctly
+
+
+def step_governors(fx: Fetcher) -> None:
+    """Sources for the governor template (D17 term limits, D18 election calendar).
+
+    - Wikipedia "<year> United States gubernatorial elections", 1976-2028:
+      one table per year with incumbent, party and result ("term-limited",
+      "retired", "re-elected", ...). Saved as the parse-API JSON as served.
+    - Wikidata: every tenure in each state's "Governor of <State>" position
+      (P39 with start/end qualifiers), saved as the SPARQL CSV as served.
+    These are encyclopedic secondary sources; build_governors.py cross-checks
+    them against each other and against Klarner (1989-2011).
+    """
+    log("D17/D18 governor sources (Wikipedia election pages, Wikidata tenures)")
+    out = RAW_DIR / "governors"
+    for year in GOV_ELECTION_YEARS:
+        page = f"{year} United States gubernatorial elections"
+        fx.download("D18", "Wikipedia", WIKI_API, out / "wikipedia" / f"{year}_gubernatorial_elections.json",
+                    params={"action": "parse", "page": page, "prop": "text|revid",
+                            "format": "json", "formatversion": 2, "redirects": 1},
+                    note=f"parse API: {page}", validate=magic(b"{", "JSON"))
+
+    # labels are not consistently capitalised (Iowa's item is "governor of Iowa")
+    labels = " ".join(f'"{g} of {s}"@en' for s in STATES.values() for g in ("Governor", "governor"))
+    pos_query = f"SELECT ?pos ?label WHERE {{ VALUES ?label {{ {labels} }} ?pos rdfs:label ?label . }}"
+    pos_file = out / "wikidata" / "governor_positions.csv"
+    fx.session.headers["Accept"] = "text/csv"
+    try:
+        fx.download("D17", "Wikidata", WIKIDATA_SPARQL, pos_file, params={"query": pos_query},
+                    note="Governor of <State> position items", validate=looks_like_csv(2))
+        if pos_file.exists():
+            with open(pos_file, encoding="utf-8") as f:
+                ids = sorted({r["pos"].rsplit("/", 1)[1] for r in csv.DictReader(f)})
+            tenure_query = f"""
+SELECT ?pos ?posLabel ?person ?personLabel ?start ?end ?replaces ?replacesLabel ?replacedBy ?replacedByLabel ?endCauseLabel WHERE {{
+  VALUES ?pos {{ {' '.join('wd:' + i for i in ids)} }}
+  ?person p:P39 ?st . ?st ps:P39 ?pos .
+  OPTIONAL {{ ?st pq:P580 ?start }} OPTIONAL {{ ?st pq:P582 ?end }}
+  OPTIONAL {{ ?st pq:P1365 ?replaces }} OPTIONAL {{ ?st pq:P1366 ?replacedBy }}
+  OPTIONAL {{ ?st pq:P1534 ?endCause }}
+  FILTER(!BOUND(?end) || ?end >= "1985-01-01"^^xsd:dateTime)
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+}} ORDER BY ?posLabel ?start"""
+            fx.download("D17", "Wikidata", WIKIDATA_SPARQL, out / "wikidata" / "governor_tenures.csv",
+                        params={"query": tenure_query}, note="P39 tenures ending 1985 or later",
+                        validate=looks_like_csv(100))
+    finally:
+        fx.session.headers.pop("Accept", None)
+
+
 # --------------------------------------------------------------------------
 # Templates (data/manual)
 # --------------------------------------------------------------------------
@@ -756,42 +809,6 @@ def write_csv(path: Path, header: list[str], rows: list[list]) -> None:
         w.writerow(header)
         w.writerows(rows)
     log(f"  wrote {rel(path)} ({len(rows)} rows)")
-
-
-def governor_spells_from_klarner() -> tuple[list[list], str]:
-    """Governor spells 1989+ from Klarner's state-year panel (hdl:1902.1/20408).
-
-    Klarner records the governor in office at the start of each year
-    (govname1) and party in govparty_a (1 = Democrat, 0 = Republican). A spell
-    is a run of consecutive years with the same govname1, so term_start and
-    term_end are calendar years, not exact dates; mid-year successions show up
-    only from the following year. Coverage ends in 2011, so each state also
-    gets one blank row as a reminder to add the 2012-2026 spells by hand.
-    """
-    import pandas as pd
-
-    folder = RAW_DIR / "dataverse" / "klarner_governors"
-    files = sorted(folder.glob("StateElections_Gub*Public_Version.xlsx"))
-    if not files:
-        return [], "Klarner governors file not on disk; template left empty"
-    df = pd.read_excel(files[0], usecols=["state", "year", "govname1", "govparty_a"])
-    df = df[(df["year"] >= 1989) & df["govname1"].notna()].sort_values(["state", "year"])
-    party_code = {1.0: "D", 0.0: "R"}
-    rows = []
-    for state, g in df.groupby("state", sort=True):
-        g = g.assign(spell=(g["govname1"] != g["govname1"].shift()).cumsum())
-        for _, sp in g.groupby("spell"):
-            parties = sp["govparty_a"].dropna().unique()
-            party = party_code.get(parties[0], "") if len(parties) == 1 else ""
-            note = "years in office at 1 Jan per Klarner govname1; exact dates to verify"
-            if party == "" and len(parties):
-                note += f"; govparty_a values {sorted(set(parties.round(3)))}"
-            rows.append([state, sp["govname1"].iloc[0], party, int(sp["year"].min()),
-                         int(sp["year"].max()), "", "", "", "klarner", 0, note])
-        rows.append([state, "", "", "", "", "", "", "", "", 0,
-                     "add spells from 2012 to 2026 (beyond Klarner coverage)"])
-    last = int(df["year"].max())
-    return rows, f"{len(rows)} rows from {files[0].name} (1989-{last})"
 
 
 def tau_rows_from_fedreg() -> list[list]:
@@ -829,12 +846,12 @@ def step_templates(fx: Fetcher) -> None:
     log("Templates")
     MANUAL_DIR.mkdir(parents=True, exist_ok=True)
 
-    gov_rows, gov_note = governor_spells_from_klarner()
-    log(f"  governors: {gov_note}")
-    write_csv(MANUAL_DIR / "governors_template.csv",
-              ["state", "governor", "party", "term_start", "term_end", "term_limited",
-               "eligible_next_election", "next_election_date", "source", "verified", "notes"],
-              gov_rows)
+    # governor terms are compiled from the D16-D18 sources by build_governors.py
+    try:
+        import build_governors
+        log(f"  governors: {build_governors.write_template()}")
+    except Exception as e:  # noqa: BLE001
+        log(f"  governors template not rebuilt: {type(e).__name__}: {e}")
 
     write_csv(MANUAL_DIR / "tau_series.csv",
               ["fiscal_year", "statewide_indicator_usd", "fr_document_number", "fr_url",
@@ -864,7 +881,7 @@ def step_templates(fx: Fetcher) -> None:
         rows = [[p.name, "", "", "", "", "", 0] for p in pdfs]
     write_csv(MANUAL_DIR / "pda_review_queue.csv", header, [list(r) for r in rows])
 
-    for p in sorted(MANUAL_DIR.glob("*.csv")):
+    for p in sorted(MANUAL_DIR.glob("*.csv")):  # templates, overrides and rule table
         fx.manifest.record(dataset_id="manual", source="template", url="",
                            local_path=rel(p), bytes=p.stat().st_size, sha256=sha256_of(p),
                            downloaded_at_utc=utc_now(), status="manual",
@@ -1143,6 +1160,7 @@ def main() -> int:
         "dataverse": lambda: step_dataverse(fx, only_ids),
         "census": lambda: step_census(fx),
         "voteview": lambda: step_voteview(fx),
+        "governors": lambda: step_governors(fx),
         "templates": lambda: step_templates(fx),
         "report": lambda: step_report(manifest),
     }

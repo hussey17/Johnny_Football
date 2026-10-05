@@ -1,0 +1,24 @@
+action,state,governor,match_start,new_start,new_end,source,note
+drop,Florida,Robert Ritchie,1992-01-01,,,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Florida&oldid=1377090957,Wikidata error: not a governor of Florida; Chiles served 1991-01-08 to 1998-12-12 without interruption
+drop,Florida,Robert Ritchie,2000-01-01,,,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Florida&oldid=1377090957,Wikidata error: not a governor of Florida; Jeb Bush served 1999-01-05 to 2007-01-02
+drop,West Virginia,Ray Sullivan,2002-01-01,,,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_West_Virginia&oldid=1375089589,Wikidata error: not a governor of West Virginia; Wise served 2001-01-15 to 2005-01-17
+set_end,California,Jerry Brown,2011-01-03,,2019-01-07,https://en.wikipedia.org/w/index.php?title=Jerry_Brown&oldid=1378405519,Wikidata end 2019-01-17 conflicts with Newsom start 2019-01-07
+set_start,Hawaii,Ben Cayetano,1994-12-02,1994-12-05,,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Hawaii&oldid=1375314011,Wikidata start 1994-12-02 conflicts with Waihee end 1994-12-05
+set_end,Rhode Island,Bruce Sundlun,1991-01-01,,1995-01-03,https://en.wikipedia.org/w/index.php?title=Lincoln_Almond&oldid=1374904563,Wikidata end 1995-01-07 conflicts with Almond start 1995-01-03
+set_end,Massachusetts,Paul Cellucci,1997-07-29,,2001-04-10,https://en.wikipedia.org/w/index.php?title=Paul_Cellucci&oldid=1375226546,acting (1997-07-29) and elected (1999-01-07) tenures merged into one continuous spell
+drop,Massachusetts,Paul Cellucci,1999-01-07,,,https://en.wikipedia.org/w/index.php?title=Paul_Cellucci&oldid=1375226546,merged into the 1997-07-29 spell
+add,Minnesota,Rudy Perpich,,1983-01-03,1991-01-07,https://en.wikipedia.org/w/index.php?title=Rudy_Perpich&oldid=1376628477,missing from Wikidata P39
+add,New Jersey,Richard Codey,,2002-01-12,2002-01-15,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_New_Jersey&oldid=1377365815,acting governor (Senate co-president) missing from Wikidata; Bennett and Codey split 8-15 Jan 2002
+set_end,New Jersey,John Orus Bennett III,2002-01-08,,2002-01-12,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_New_Jersey&oldid=1377365815,acting governor
+set_start,Montana,Marc Racicot,1993-01-03,1993-01-04,,https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Montana&oldid=1375321087,Wikidata start 1993-01-03 overlaps Stephens end 1993-01-04
+set_party,Delaware,Dale E. Wolf,,R,,https://www.wikidata.org/wiki/Q435023,party from Wikidata P102 (acting governor)
+set_party,Delaware,Bethany Hall-Long,,D,,https://www.wikidata.org/wiki/Q16105100,party from Wikidata P102 (acting governor)
+set_party,Florida,Buddy MacKay,,D,,https://www.wikidata.org/wiki/Q362669,party from Wikidata P102
+set_party,Missouri,Eric Greitens,,R,,https://www.wikidata.org/wiki/Q5386615,elected governor as a Republican in 2016 (was a Democrat before 2015)
+set_party,New Hampshire,Ralph D. Hough,,R,,https://www.wikidata.org/wiki/Q28026033,party from Wikidata P102 (acting governor)
+set_party,New Hampshire,Chuck Morse,,R,,https://www.wikidata.org/wiki/Q16193758,party from Wikidata P102 (acting governor)
+set_party,New Jersey,John Orus Bennett III,,R,,https://www.wikidata.org/wiki/Q1699314,party from Wikidata P102 (acting governor)
+set_party,New Jersey,John Farmer,,R,,https://www.wikidata.org/wiki/Q889628,party from Wikidata P102 (acting governor)
+set_party,New Jersey,Mikie Sherrill,,D,,https://www.wikidata.org/wiki/Q47087146,party from Wikidata P102
+set_party,Ohio,Nancy Hollister,,R,,https://www.wikidata.org/wiki/Q291690,party from Wikidata P102 (acting governor)
+set_party,Virginia,Abigail Spanberger,,D,,https://www.wikidata.org/wiki/Q55603085,party from Wikidata P102

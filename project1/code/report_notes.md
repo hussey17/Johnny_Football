@@ -27,7 +27,17 @@ Per the user's instruction the data go to GitHub instead of Google Drive.
 
 ## Manual items still open
 
-1. **`manual/governors_template.csv`**: 254 governor spells from 1989 to 2011, pre-filled from Klarner (`verified = 0`), plus one blank reminder row per state for the 2012-2026 spells. Klarner coverage ends in 2011, and the openICPSR source (project 102000) needs a login. `term_limited`, `eligible_next_election` and `next_election_date` are empty for every row (D17, D18). Rows whose party cell is blank had a mid-year change of governor (`govparty_a` between 0 and 1).
+1. **`manual/governors_template.csv`: done.** 581 rows, one per governor per term, covering every governor in office from 1989 to the snapshot, including the 50 governors serving now. `build_governors.py` builds the file from three sources:
+   - **Wikidata:** who held office, with exact dates.
+   - **Wikipedia's yearly gubernatorial election pages (1976-2028):** each incumbent's status at each election (term-limited, retired, re-elected and so on), which sets `term_limited`, `eligible_next_election` and `next_election_date`.
+   - **Klarner (1989-2011):** an independent check. The governor in office on 1 July agrees with Klarner in 1,149 of 1,150 state-years. The one exception is a timing convention: Idaho's Kempthorne left in May 2006.
+
+   Details:
+   - Data errors in the sources are fixed in `manual/governors_overrides.csv`, and each fix cites a Wikipedia revision or a Wikidata entry. For `set_party` rows, the `new_start` column holds the party code.
+   - For a governor who left before their next election (39 rows), `term_limited` comes from `manual/term_limit_rules.csv`, a sourced history of each state's term-limit rules. That rule table agrees with the status on Wikipedia's election pages in 519 of 529 rows where both exist. The 10 disagreements are flagged in `notes` and keep the election page's value.
+   - `verified = 1` (523 rows) means the governor and the term-limit status come from the election page and do not conflict with the rule table. It does not mean a person has checked the row.
+   - For a governor who was re-elected, the new term's `term_start` is the state's inauguration day, inferred from observed handovers. The `notes` column says how well the inferred pattern fits.
+   - The 9 acting or caretaker governors, who served a few days to a few weeks, have blank term-limit fields because the fields do not apply.
 2. **`manual/tau_series.csv`**: 26 fiscal years (FY2001-FY2025 and FY2027), extracted by regex and flagged `amount_is_guess = 1`. **FY2026 is missing:** no notice published in 2025 matched either query. Each amount needs checking against its notice.
 3. **`manual/rainy_day_template.csv`**: 50 states × FY1992-2026 = 1,750 empty rows, for the NASBO data (D14), which needs a registered account.
 4. **`manual/pda_review_queue.csv`**: empty (header only), because D7 is blocked.

@@ -12,6 +12,7 @@ Master repo for the Advanced Econometrics (ECON 438) projects 1 and 2.
 project1/
   code/fetch_data.py        one-command downloader for every raw source
   code/requirements.txt     pinned dependencies
+  code/build_governors.py   compiles data/manual/governors_template.csv from the governor sources
   code/report_notes.md      hand-written notes merged into FETCH_REPORT.md
   data/raw/<source>/        raw files exactly as served (never edited)
   data/manual/*.csv         templates for hand-coded variables

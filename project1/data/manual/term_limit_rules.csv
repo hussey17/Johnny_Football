@@ -1,0 +1,67 @@
+state,from,to,rule,partial_counts,source,note
+Alabama,1968-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Alabama&oldid=1376024039,1968 amendment: two consecutive 4-year terms
+Alaska,1959-01-03,,consec2,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Arizona,1900-01-01,1992-11-03,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Arizona&oldid=1375295888,no limit before the 1992 amendment
+Arizona,1992-11-03,,consec2,1,https://en.wikipedia.org/w/index.php?title=Governor_of_Arizona&oldid=1375295888,any partial term counts toward the limit
+Arkansas,1900-01-01,1992-11-03,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Arkansas&oldid=1373665717,limit adopted by 1992 referendum
+Arkansas,1992-11-03,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,two terms in a lifetime; terms before the 1992 referendum do not count
+California,1900-01-01,1990-11-06,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_California&oldid=1378460099,
+California,1990-11-06,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_California&oldid=1378460099,only terms served after 6 Nov 1990 count
+Colorado,1900-01-01,1990-11-06,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Colorado&oldid=1375313850,
+Colorado,1990-11-06,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Colorado&oldid=1375313850,1990 amendment
+Connecticut,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Delaware,1897-01-01,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Delaware&oldid=1375321817,1897 constitution: two terms
+Florida,1966-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Florida&oldid=1374515701,
+Georgia,1976-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Georgia&oldid=1373666242,1983 constitution: two terms then four years out
+Hawaii,1959-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Hawaii&oldid=1373666322,
+Idaho,1900-01-01,1994-11-08,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Idaho&oldid=1375310217,
+Idaho,1994-11-08,2002-02-01,unknown,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Idaho&oldid=1375310217,1994 statutory limit later repealed by the legislature; exact terms not established here
+Idaho,2002-02-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Illinois,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Illinois&oldid=1376358696,
+Indiana,1972-01-01,,eight_of_12,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Indiana&oldid=1373666403,8 years in any 12
+Iowa,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Iowa&oldid=1375320322,
+Kansas,1972-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Kansas&oldid=1375314163,1972 amendment
+Kentucky,1900-01-01,1995-12-12,no_consecutive,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Kentucky&oldid=1373666553,1992 amendment exempted incumbents; Patton (elected 1995) first eligible to succeed himself
+Kentucky,1995-12-12,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Kentucky&oldid=1373666553,
+Louisiana,1974-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Louisiana&oldid=1373666716,
+Maine,1957-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Maine&oldid=1374160888,
+Maryland,1900-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Massachusetts,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Massachusetts&oldid=1373666808,
+Michigan,1900-01-01,1992-11-03,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Michigan&oldid=1373666834,
+Michigan,1992-11-03,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Michigan&oldid=1373666834,only terms served after the amendment count
+Minnesota,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Mississippi,1986-11-04,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,1986 amendment allowed a second term
+Missouri,1965-01-01,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Missouri&oldid=1375310393,
+Montana,1900-01-01,1992-11-03,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Montana,1992-11-03,,eight_of_16,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,8 years in any 16
+Nebraska,1966-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Nebraska&oldid=1375310422,
+Nevada,1970-01-01,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Nevada&oldid=1375304024,
+New Hampshire,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_New_Hampshire&oldid=1373666967,
+New Jersey,1947-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_New_Jersey&oldid=1377122758,
+New Mexico,1900-01-01,1991-01-01,no_consecutive,0,https://en.wikipedia.org/w/index.php?title=Governor_of_New_Mexico&oldid=1373666980,consecutive terms allowed from the 1991 term
+New Mexico,1991-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_New_Mexico&oldid=1373666980,
+New York,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+North Carolina,1977-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_North_Carolina&oldid=1373667027,
+North Dakota,1900-01-01,2024-01-01,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_North_Dakota&oldid=1373667036,
+North Dakota,2024-01-01,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,2022 amendment applies to individuals elected after 2023
+Ohio,1954-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Ohio&oldid=1373667100,
+Oklahoma,1966-01-01,2010-11-02,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Oklahoma&oldid=1373667109,
+Oklahoma,2010-11-02,,lifetime2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Oklahoma&oldid=1373667109,2010 initiative: eight years in a lifetime
+Oregon,1900-01-01,,eight_of_12,1,https://en.wikipedia.org/w/index.php?title=Governor_of_Oregon&oldid=1375042690,8 years in any 12; time served counts
+Pennsylvania,1968-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Pennsylvania&oldid=1375310621,
+Rhode Island,1900-01-01,1995-01-03,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,two-year terms without limit before 1995
+Rhode Island,1995-01-03,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Rhode_Island&oldid=1373667259,
+South Carolina,1980-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_South_Carolina&oldid=1375283848,
+South Dakota,1950-01-01,,consec2,0,https://en.wikipedia.org/w/index.php?title=Governor_of_South_Dakota&oldid=1373667499,
+Tennessee,1978-01-01,,consec2,1,https://en.wikipedia.org/w/index.php?title=Governor_of_Tennessee&oldid=1373667607,a partial term counts toward the limit
+Texas,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Texas&oldid=1378555179,
+Utah,1900-01-01,1995-01-01,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Utah&oldid=1375322026,
+Utah,1995-01-01,2003-03-01,unknown,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Utah&oldid=1375322026,former statutory three-term limit repealed in 2003; start date and counting rule not established here
+Utah,2003-03-01,,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Utah&oldid=1375322026,
+Vermont,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Virginia,1900-01-01,,no_consecutive,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Washington,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+West Virginia,1970-01-01,,consec2,1,https://en.wikipedia.org/w/index.php?title=Governor_of_West_Virginia&oldid=1375089589,any partial term counts toward the limit
+Wisconsin,1900-01-01,,none,0,https://en.wikipedia.org/w/index.php?title=Term_limits_in_the_United_States&oldid=1377347804,
+Wyoming,1900-01-01,1992-11-03,none,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Wyoming&oldid=1375314842,
+Wyoming,1992-11-03,,eight_of_16,0,https://en.wikipedia.org/w/index.php?title=Governor_of_Wyoming&oldid=1375314842,1992 statute: 8 years in any 16

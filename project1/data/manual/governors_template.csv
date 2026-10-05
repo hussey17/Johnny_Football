@@ -1,305 +1,582 @@
 state,governor,party,term_start,term_end,term_limited,eligible_next_election,next_election_date,source,verified,notes
-Alabama,"Hunt, Guy",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,"Hunt, Guy and then James Folsom Jr.",,1993,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.693)]
-Alabama,"Folsom, James E. Jr.",D,1994,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,"James, Forrest H. ""Fob"" Jr.",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,"Siegelman, Donald",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,"Riley, Bob",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,"Bentley, Robert",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alabama,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Alaska,"Cowper, Steve C.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alaska,"Hickel, Walter J.",,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
-Alaska,"Knowles, Tony",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alaska,"Murkowski, Frank H.",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alaska,"Palin, Sarah H.",R,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alaska,"Parnell, Sean",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Alaska,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Arizona,"Mofford, Rose",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,"Mofford, Rose and then Fife Symington",,1991,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.178)]
-Arizona,"Symington, Fife",R,1992,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,Switch; Symington then Jane Hull-R,R,1997,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,"Hull, Jane",R,1998,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,"Napolitano, Janet",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,"Brewer, Jan",R,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arizona,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Arkansas,"Clinton, Bill",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arkansas,"Tucker, Jim Guy Jr.",D,1993,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arkansas,Switch; Tucker then Huckabee,,1996,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.538)]
-Arkansas,"Huckabee, Mike",R,1997,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arkansas,"Beebe, Mike",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Arkansas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-California,"Deukmejian, George",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,"Wilson, Peter B. ""Pete""",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,"Davis, Gray",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,Switch; Davis-D then Schwarzenegger,D,2003,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,"Schwarzenegger, Arnold",R,2004,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,"Brown, Edmund Gerald",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-California,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Colorado,"Romer, Roy",D,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Colorado,"Owens, Bill",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Colorado,"Ritter, Bill",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Colorado,"Hickenlooper, John",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Colorado,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Connecticut,"O'Neill, William A.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Connecticut,"Weicker, Lowell P. Jr.",,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
-Connecticut,"Rowland, John G. ",R,1995,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Connecticut,"Rell, M. Jodi",R,2004,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Connecticut,"Malloy, Dan",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Connecticut,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Delaware,"Castle, Michael N.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Delaware,"Carper, Thomas R.",D,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Delaware,"Minner, Ruth Ann",D,2001,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Delaware,"Markell, Jack",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Delaware,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Florida,"Martinez, Bob",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Florida,"Chiles, Lawton M. Jr.",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Florida,"Bush, Jeb",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Florida,"Crist, Charlie",R,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Florida,"Scott, Rick",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Florida,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Georgia,"Harris, Joe Frank",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Georgia,"Miller, Zell",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Georgia,"Barnes, Roy",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Georgia,"Perdue, Sonny",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Georgia,"Deal, Nathan",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Georgia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Hawaii,"Waihee, John",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Hawaii,"Cayetano, Benjamin J.",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Hawaii,"Lingle, Linda",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Hawaii,"Abercrombie, Neil",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Hawaii,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Idaho,"Andrus, Cecil D.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Idaho,"Batt, Philip E.",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Idaho,"Kempthorne, Dirk",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Idaho,"Otter, C. L. ""Butch""",R,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Idaho,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Illinois,"Thompson, James R.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Illinois,"Edgar, Jim",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Illinois,"Ryan, George",R,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Illinois,"Blagojevich, Rod R.",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Illinois,"Quinn, Patrick",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Illinois,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Indiana,"Bayh, Evan",D,1989,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,"O'Bannon, Frank L.",D,1997,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,Split: Frank L. O'Bannon-D and Joseph E. Kernan-D,D,2003,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,"Kernan, Joseph E.",D,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,"Daniels, Mitchell E.",R,2005,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,"Daniels, Mitch",R,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Indiana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Iowa,"Branstad, Terry E.",R,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Iowa,"Vilsack, Tom",D,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Iowa,"Culver, Chet",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Iowa,"Branstad, Terry E.",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Iowa,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Kansas,"Hayden, Mike",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,"Finney, Joan",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,"Graves, Bill",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,"Sebelius, Kathleen",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,"Parkinson, Mark",D,2009,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,"Brownback, Sam",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kansas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Kentucky,"Wilkinson, Wallace G.",D,1989,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kentucky,"Jones, Brereton C.",D,1992,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kentucky,"Patton, Paul E.",D,1996,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kentucky,"Fletcher, Ernie",R,2004,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kentucky,"Beshear, Steven L.",D,2008,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Kentucky,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Louisiana,"Roemer, Charles",,1989,1991,,,,klarner,0,"years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.162), np.float64(1.0)]"
-Louisiana,"Edwards, Edwin W.",D,1992,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Louisiana,"Foster, Mike",R,1996,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Louisiana,"Blanco, Kathleen Babineaux",D,2004,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Louisiana,"Jindal, Bobby",R,2008,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Louisiana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Maine,"McKernan, John R. Jr.",R,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maine,"King, Angus Jr.",,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
-Maine,"Baldacci, John",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maine,"LePage, Paul",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maine,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Maryland,"Schaefer, William D.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maryland,"Glendening, Parris N.",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maryland,"Ehrlich, Robert L. Jr.",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maryland,"O'Malley, Martin",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Maryland,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Massachusetts,"Dukakis, Michael S.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,"Weld, William F.",R,1991,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,Switch; Weld then Argeo Paul Cellucci-R,R,1997,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,"Cellucci, Argeo Paul",R,1998,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,Switch; Paul Cellucci then Swift,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,"Swift, Jane",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,"Romney, Mitt",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,"Patrick, Deval L.",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Massachusetts,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Michigan,"Blanchard, James J.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Michigan,"Engler, John",R,1991,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Michigan,"Granholm, Jennifer",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Michigan,"Snyder, Rick",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Michigan,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Minnesota,"Perpich, Rudy",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Minnesota,"Carlson, Arne H.",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Minnesota,"Ventura, Jesse",,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
-Minnesota,"Pawlenty, Tim",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Minnesota,"Dayton, Mark",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Minnesota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Mississippi,"Mabus, Ray",D,1989,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Mississippi,"Fordice, Kirk",R,1992,1999,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Mississippi,"Musgrove, Ronnie",D,2000,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Mississippi,"Barbour, Haley",R,2004,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Mississippi,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Missouri,"Ashcroft, John",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,"Carnahan, Mel E.",D,1993,1999,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,Split: Mel Carnahan-D and Roger B. Wilson-D,D,2000,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,"Holden, Bob",D,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,"Blunt, Matt",R,2005,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,"Nixon, Jay",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Missouri,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Montana,"Stephens, Stan",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Montana,"Racicot, Marc F.",R,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Montana,"Martz, Judy",R,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Montana,"Schweitzer, Brian",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Montana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Nebraska,"Orr, Kay A.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nebraska,"Nelson, Earl ""Ben""",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nebraska,"Johanns, Mike",R,1999,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nebraska,"Heineman, Dave",R,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nebraska,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Nevada,"Miller, Bob J.",D,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nevada,"Guinn, Kenny",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nevada,"Gibbons, James A.",R,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nevada,"Sandoval, Brian",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Nevada,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-New Hampshire,"Gregg, Judd",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Hampshire,"Merrill, Steve",R,1993,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Hampshire,"Shaheen, Jeanne",D,1997,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Hampshire,"Benson-, Craig",R,2003,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Hampshire,"Lynch, John",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Hampshire,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-New Jersey,"Kean, Thomas H.",R,1989,1989,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Florio, James J.",D,1990,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Whitman, Christine Todd",R,1994,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Donald T. DiFrancesco-R, took over January 31, 2001, because Whitman resigned on January 31, 2001.",R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"McGreevey, James E.",D,2002,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,McGreevey then Richard J. Codey-D,D,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Codey, Richard J.",D,2005,2005,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"corzine, Jon Stevens",D,2006,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Corzine, Jon",D,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,"Christie, Chris",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Jersey,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-New Mexico,"Carruthers, Garrey E.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Mexico,"King, Bruce",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Mexico,"Johnson, Gary E.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Mexico,"Richardson, Bill",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Mexico,"Martinez, Susana",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New Mexico,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-New York,"Cuomo, Mario M.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New York,"Pataki, George E.",R,1995,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New York,"Spitzer, Eliot",D,2007,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New York,"Paterson, David A.",D,2008,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New York,"Cuomo, Andrew",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-New York,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-North Carolina,"Martin, James G.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Carolina,"Hunt, James B. Jr.",D,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Carolina,"Easley, Michael F.",D,2001,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Carolina,"Perdue, Beverly",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Carolina,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-North Dakota,"Sinner, George",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Dakota,"Schafer, Edward T.",R,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Dakota,"Hoeven, John",R,2001,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Dakota,"Dalrymple, Jack",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-North Dakota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Ohio,"Celeste, Richard F.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Ohio,"Voinovich, George V.",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Ohio,"Taft, Bob",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Ohio,"Strickland, Ted",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Ohio,"Kasich, John",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Ohio,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Oklahoma,"Bellmon, Henry L.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oklahoma,"Walters, David",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oklahoma,"Keating, Frank",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oklahoma,"Henry, Brad",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oklahoma,"Fallin, Mary",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oklahoma,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Oregon,"Goldschmidt, Neil",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oregon,"Roberts, Barbara",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oregon,"Kitzhaber, John",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oregon,"Kulongoski, Ted",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oregon,"Kitzhaber, John A.",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Oregon,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Pennsylvania,"Casey, Robert P.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,"Ridge, Tom",R,1995,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,Switch; Ridge then Schweiker,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,"Schweiker, Mark",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,"Rendell, Edward G.",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,"Corbett, Tom",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Pennsylvania,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Rhode Island,"DiPrete, Edward D.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Rhode Island,"Sundlun, Bruce",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Rhode Island,"Almond, Lincoln C.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Rhode Island,"Carcieri, Don",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Rhode Island,"Chafee, Lincoln",,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
-Rhode Island,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-South Carolina,"Campbell, Carroll",R,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Carolina,"Beasley, David",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Carolina,"Hodges, Jim",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Carolina,"Sanford, Mark",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Carolina,"Haley, Nikki R.",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Carolina,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-South Dakota,"Mickelson, George S.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,"Mickelson, George S. followed by Walter D. Miller",R,1993,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,"Miller, Walter D.",R,1994,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,"Janklow, William J.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,"Rounds, Mike",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,"Daugaard, Dennis",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-South Dakota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Tennessee,"McWherter, Ned R.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Tennessee,"Sundquist, Don",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Tennessee,"Bredesen, Phil",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Tennessee,"Haslam, Bill",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Tennessee,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Texas,"Clements, William P.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Texas,"Richards, Ann W.",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Texas,"Bush, George W.",R,1995,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Texas,"Perry, Rick",R,2001,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Texas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Utah,"Bangerter, Norman H.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,"Leavitt, Mike O.",R,1993,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,"Walker, Olene S.",R,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,"Huntsman, Jon Jr.",R,2005,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,"Huntsman, Jon M. Jr.",R,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,"Herbert, Gary",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Utah,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Vermont,"Kunin, Madeleine M.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Vermont,"Snelling, Richard A. followed by Howard Dean",,1991,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.381)]
-Vermont,"Dean, Howard",D,1992,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Vermont,"Douglas, Jim",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Vermont,"Shumlin, Peter",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Vermont,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Virginia,"Baliles, Gerald L.",D,1989,1989,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"Wilder, L. Douglas",D,1990,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"Allen, George F.",R,1994,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"Gilmore, Jame S. III",R,1998,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"Warner, Mark",D,2002,2005,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"Kaine, Tim",D,2006,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Virginia,"McDonnell, Bob",,2010,2011,,,,klarner,0,"years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.0), np.float64(1.0)]"
-Virginia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Washington,"Gardner, Booth",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Washington,"Lowry, Mike",D,1993,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Washington,"Locke, Gary",D,1997,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Washington,"Gregoire, Christine",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Washington,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-West Virginia,"Caperton, Gaston",D,1989,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-West Virginia,"Underwood, Cecil H.",R,1997,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-West Virginia,"Wise, Bob",D,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-West Virginia,"Manchin, Joe III",D,2005,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-West Virginia,"Tomblin, Earl Ray",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-West Virginia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Wisconsin,"Thompson, Tommy G.",R,1989,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wisconsin,Switch; thompson then McCallum,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wisconsin,"McCallum, Scott",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wisconsin,"Doyle, Jim",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wisconsin,"Walker, Scott",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wisconsin,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
-Wyoming,"Sullivan, Michael J.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wyoming,"Geringer, Jim",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wyoming,"Freudenthal, Dave",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wyoming,"Mead, Matthew",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
-Wyoming,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Alabama,Harold Guy Hunt,R,1987-01-19,1991-01-21,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Alabama,Harold Guy Hunt,R,1991-01-21,1993-04-22,1,0,1994-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 1994 election; term_start inferred (week 3 Mon of month 1; fits 5 of 5 observed inaugurations)
+Alabama,"James Elisha Folsom, Jr.",D,1993-04-22,1995-01-16,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Alabama,"Forrest Hood James, Jr.",R,1995-01-16,1999-01-18,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Alabama,Don Siegelman,D,1999-01-18,2003-01-20,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Alabama,Bob Riley,R,2003-01-20,2007-01-15,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Alabama,Bob Riley,R,2007-01-15,2011-01-17,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 3 Mon of month 1; fits 5 of 5 observed inaugurations)
+Alabama,Robert J. Bentley,R,2011-01-17,2015-01-19,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Alabama,Robert J. Bentley,R,2015-01-19,2017-04-10,1,0,2018-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2018 election; term_start inferred (week 3 Mon of month 1; fits 5 of 5 observed inaugurations)
+Alabama,Kay Ivey,R,2017-04-10,2019-01-21,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Alabama,Kay Ivey,R,2019-01-21,2023-01-16,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 3 Mon of month 1; fits 5 of 5 observed inaugurations)
+Alabama,Kay Ivey,R,2023-01-16,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 3 Mon of month 1; fits 5 of 5 observed inaugurations)
+Alaska,Steve Cowper,D,1986-12-01,1990-12-03,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Alaska,Wally Hickel,R,1990-12-03,1994-12-05,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Alaska,Tony Knowles,D,1994-12-05,1998-12-07,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Alaska,Tony Knowles,D,1998-12-07,2002-12-02,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Mon of month 12; fits 7 of 7 observed inaugurations)
+Alaska,Frank Murkowski,R,2002-12-02,2006-12-04,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Alaska,Sarah Palin,R,2006-12-04,2009-07-26,0,1,2010-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 1 counted in current run); left office before the 2010 election
+Alaska,Sean Parnell,R,2009-07-26,2010-12-06,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Alaska,Sean Parnell,R,2010-12-06,2014-12-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 1 Mon of month 12; fits 7 of 7 observed inaugurations)
+Alaska,Bill Walker,I,2014-12-01,2018-12-03,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Alaska,Mike J. Dunleavy,R,2018-12-03,2022-12-05,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Alaska,Mike J. Dunleavy,R,2022-12-05,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 12; fits 7 of 7 observed inaugurations)
+Arizona,Rose Mofford,D,1988-04-04,1991-03-06,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Arizona,Fife Symington,R,1991-03-06,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Arizona,Fife Symington,R,1995-01-02,1997-09-05,1,0,1998-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 1998 election; term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Arizona,Jane Dee Hull,R,1997-09-05,1999-01-04,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Arizona,Jane Dee Hull,R,1999-01-04,2003-01-06,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Arizona,Janet Napolitano,D,2003-01-06,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Arizona,Janet Napolitano,D,2007-01-01,2009-01-21,1,0,2010-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2010 election; term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Arizona,Jan Brewer,R,2009-01-21,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Arizona,Jan Brewer,R,2011-01-03,2015-01-05,1,0,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Arizona,Doug Ducey,R,2015-01-05,2019-01-07,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Arizona,Doug Ducey,R,2019-01-07,2023-01-02,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Arizona,Katie Hobbs,D,2023-01-02,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Arkansas,Bill Clinton,D,1987-01-13,1991-01-08,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Bill Clinton,D,1991-01-08,1992-12-12,0,1,1994-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 0 counted since 1992-11-03); left office before the 1994 election; term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Jim Guy Tucker,D,1992-12-12,1995-01-10,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Arkansas,Jim Guy Tucker,D,1995-01-10,1996-07-15,0,1,1998-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 1 counted since 1992-11-03); left office before the 1998 election; term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Mike Huckabee,R,1996-07-15,1999-01-12,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Arkansas,Mike Huckabee,R,1999-01-12,2003-01-14,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Mike Huckabee,R,2003-01-14,2007-01-09,1,0,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Mike Beebe,D,2007-01-09,2011-01-11,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Arkansas,Mike Beebe,D,2011-01-11,2015-01-13,1,0,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Asa Hutchinson,R,2015-01-13,2019-01-08,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Arkansas,Asa Hutchinson,R,2019-01-08,2023-01-10,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 2 Tue of month 1; fits 4 of 4 observed inaugurations)
+Arkansas,Sarah Huckabee Sanders,R,2023-01-10,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+California,George Deukmejian,R,1987-01-05,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+California,Pete Wilson,R,1991-01-07,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+California,Pete Wilson,R,1995-01-02,1999-01-04,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+California,Gray Davis,D,1999-01-04,2003-01-06,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+California,Gray Davis,D,2003-01-06,2003-11-17,1,0,2006-11-07,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 2 counted since 1990-11-06); left office before the 2006 election; term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+California,Arnold Schwarzenegger,R,2003-11-17,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+California,Arnold Schwarzenegger,R,2007-01-01,2011-01-03,1,0,2010-11-02,wikidata; wikipedia 2010 elections,0,state rule suggests term_limited=0 (two terms in a lifetime; 1 counted since 1990-11-06); election page kept; term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+California,Jerry Brown,D,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,end date from https://en.wikipedia.org/w/index.php?title=Jerry_Brown&oldid=1378405519
+California,Jerry Brown,D,2015-01-05,2019-01-07,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations); end date from https://en.wikipedia.org/w/index.php?title=Jerry_Brown&oldid=1378405519
+California,Gavin Newsom,D,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+California,Gavin Newsom,D,2023-01-02,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+Colorado,Roy Romer,D,1987-01-13,1991-01-08,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Colorado,Roy Romer,D,1991-01-08,1995-01-10,0,1,1994-11-08,wikidata; wikipedia 1994 elections,0,state rule suggests term_limited=1 (two consecutive terms; 2 counted in current run); election page kept; term_start inferred (week 2 Tue of month 1; fits 5 of 5 observed inaugurations)
+Colorado,Roy Romer,D,1995-01-10,1999-01-12,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Tue of month 1; fits 5 of 5 observed inaugurations)
+Colorado,Bill Owens,R,1999-01-12,2003-01-14,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Colorado,Bill Owens,R,2003-01-14,2007-01-09,1,0,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 2 Tue of month 1; fits 5 of 5 observed inaugurations)
+Colorado,Bill Ritter,D,2007-01-09,2011-01-11,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Colorado,John Hickenlooper,D,2011-01-11,2015-01-13,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Colorado,John Hickenlooper,D,2015-01-13,2019-01-08,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Tue of month 1; fits 5 of 5 observed inaugurations)
+Colorado,Jared Polis,D,2019-01-08,2023-01-10,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Colorado,Jared Polis,D,2023-01-10,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Tue of month 1; fits 5 of 5 observed inaugurations)
+Connecticut,William O'Neill,D,1987-01-14,1991-01-09,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Connecticut,Lowell Weicker,A Connecticut Party,1991-01-09,1995-01-04,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Connecticut,John G. Rowland,R,1995-01-04,1999-01-13,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Connecticut,John G. Rowland,R,1999-01-13,2003-01-08,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Connecticut,John G. Rowland,R,2003-01-08,2004-07-01,0,1,2006-11-07,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2006 election; term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Connecticut,Jodi Rell,R,2004-07-01,2007-01-10,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Connecticut,Jodi Rell,R,2007-01-10,2011-01-05,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Connecticut,Dannel Malloy,D,2011-01-05,2015-01-14,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Connecticut,Dannel Malloy,D,2015-01-14,2019-01-09,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Connecticut,Ned Lamont,D,2019-01-09,2023-01-11,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Connecticut,Ned Lamont,D,2023-01-11,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Wed of month 1; fits 2 of 4 observed inaugurations)
+Delaware,Michael Castle,R,1985-01-15,1989-01-17,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+Delaware,Michael Castle,R,1989-01-17,1992-12-31,1,0,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 3 Tue of month 1; fits 5 of 6 observed inaugurations)
+Delaware,Dale E. Wolf,R,1992-12-31,1993-01-19,,,1992-11-03,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 1992 election; party from https://www.wikidata.org/wiki/Q435023
+Delaware,Tom Carper,D,1993-01-19,1997-01-21,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+Delaware,Tom Carper,D,1997-01-21,2001-01-03,1,0,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 3 Tue of month 1; fits 5 of 6 observed inaugurations)
+Delaware,Ruth Ann Minner,D,2001-01-03,2005-01-18,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Delaware,Ruth Ann Minner,D,2005-01-18,2009-01-20,1,0,2008-11-04,wikidata; wikipedia 2008 elections,1,term_start inferred (week 3 Tue of month 1; fits 5 of 6 observed inaugurations)
+Delaware,Jack Markell,D,2009-01-20,2013-01-15,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,
+Delaware,Jack Markell,D,2013-01-15,2017-01-17,1,0,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 3 Tue of month 1; fits 5 of 6 observed inaugurations)
+Delaware,John Carney,D,2017-01-17,2021-01-19,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+Delaware,John Carney,D,2021-01-19,2025-01-07,1,0,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 3 Tue of month 1; fits 5 of 6 observed inaugurations)
+Delaware,Bethany Hall-Long,D,2025-01-07,2025-01-21,,,2024-11-05,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 2024 election; party from https://www.wikidata.org/wiki/Q16105100
+Delaware,Matt Meyer,D,2025-01-21,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+Florida,Bob Martinez,R,1987-01-06,1991-01-08,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Florida,Lawton Chiles,D,1991-01-08,1995-01-03,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Florida,Lawton Chiles,D,1995-01-03,1998-12-12,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Tue of month 1; fits 4 of 6 observed inaugurations)
+Florida,Buddy MacKay,D,1998-12-12,1999-01-05,,,1998-11-03,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 1998 election; party from https://www.wikidata.org/wiki/Q362669
+Florida,Jeb Bush,R,1999-01-05,2003-01-07,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Florida,Jeb Bush,R,2003-01-07,2007-01-02,1,0,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 1 Tue of month 1; fits 4 of 6 observed inaugurations)
+Florida,Charlie Crist,I,2007-01-02,2011-01-04,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Florida,Rick Scott,R,2011-01-04,2015-01-06,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Florida,Rick Scott,R,2015-01-06,2019-01-07,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Tue of month 1; fits 4 of 6 observed inaugurations)
+Florida,Ron DeSantis,R,2019-01-08,2023-01-03,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Florida,Ron DeSantis,R,2023-01-03,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Tue of month 1; fits 4 of 6 observed inaugurations)
+Georgia,Joe Frank Harris,D,1987-01-12,1991-01-14,1,0,1990-11-06,wikidata; wikipedia 1990 elections,0,state rule suggests term_limited=0 (two consecutive terms; 1 counted in current run); election page kept; term_start inferred (week 2 Mon of month 1; fits 5 of 6 observed inaugurations)
+Georgia,Zell Miller,D,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Georgia,Zell Miller,D,1995-01-09,1999-01-11,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Mon of month 1; fits 5 of 6 observed inaugurations)
+Georgia,Roy Barnes,D,1999-01-11,2003-01-13,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Georgia,Sonny Perdue,R,2003-01-13,2007-01-08,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Georgia,Sonny Perdue,R,2007-01-08,2011-01-10,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 2 Mon of month 1; fits 5 of 6 observed inaugurations)
+Georgia,Nathan Deal,R,2011-01-10,2015-01-12,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Georgia,Nathan Deal,R,2015-01-12,2019-01-14,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Mon of month 1; fits 5 of 6 observed inaugurations)
+Georgia,Brian Kemp,R,2019-01-14,2023-01-09,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Georgia,Brian Kemp,R,2023-01-09,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Mon of month 1; fits 5 of 6 observed inaugurations)
+Hawaii,John D. Waihee III,D,1986-12-01,1990-12-03,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Hawaii,John D. Waihee III,D,1990-12-03,1994-12-05,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Mon of month 12; fits 6 of 6 observed inaugurations)
+Hawaii,Ben Cayetano,D,1994-12-05,1998-12-07,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,start date from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Hawaii&oldid=1375314011
+Hawaii,Ben Cayetano,D,1998-12-07,2002-12-02,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Mon of month 12; fits 6 of 6 observed inaugurations); start date from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Hawaii&oldid=1375314011
+Hawaii,Linda Lingle,R,2002-12-02,2006-12-04,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Hawaii,Linda Lingle,R,2006-12-04,2010-12-06,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Mon of month 12; fits 6 of 6 observed inaugurations)
+Hawaii,Neil Abercrombie,D,2010-12-06,2014-12-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Hawaii,David Ige,D,2014-12-01,2018-12-03,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Hawaii,David Ige,D,2018-12-03,2022-12-05,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 1 Mon of month 12; fits 6 of 6 observed inaugurations)
+Hawaii,Josh Green,D,2022-12-05,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Idaho,Cecil D. Andrus,D,1987-01-05,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Idaho,Cecil D. Andrus,D,1991-01-07,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 5 observed inaugurations)
+Idaho,Phil Batt,R,1995-01-02,1999-01-08,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Idaho,Dirk Kempthorne,R,1999-01-08,2003-01-06,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Idaho,Dirk Kempthorne,R,2003-01-06,2006-05-26,0,1,2006-11-07,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2006 election; term_start inferred (week 1 Mon of month 1; fits 4 of 5 observed inaugurations)
+Idaho,Jim Risch,R,2006-05-26,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Idaho,Butch Otter,R,2007-01-01,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Idaho,Butch Otter,R,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 5 observed inaugurations)
+Idaho,Butch Otter,R,2015-01-05,2019-01-07,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 5 observed inaugurations)
+Idaho,Brad Little,R,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Idaho,Brad Little,R,2023-01-02,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 5 observed inaugurations)
+Illinois,James R. Thompson,R,1987-01-12,1991-01-14,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Illinois,Jim Edgar,R,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Illinois,Jim Edgar,R,1995-01-09,1999-01-11,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Illinois,George Ryan,R,1999-01-11,2003-01-13,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Illinois,Rod Blagojevich,D,2003-01-13,2007-01-08,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Illinois,Rod Blagojevich,D,2007-01-08,2009-01-29,0,1,2010-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2010 election; term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Illinois,Pat Quinn,D,2009-01-29,2011-01-10,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Illinois,Pat Quinn,D,2011-01-10,2015-01-12,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Illinois,Bruce Rauner,R,2015-01-12,2019-01-14,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Illinois,JB Pritzker,D,2019-01-14,2023-01-09,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Illinois,JB Pritzker,D,2023-01-09,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Indiana,Robert D. Orr,R,1985-01-14,1989-01-09,1,0,1988-11-08,wikidata; wikipedia 1988 elections,0,state rule suggests term_limited=0 (8 years in 12; 4.0 served in window); election page kept; term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Indiana,Evan Bayh,D,1989-01-09,1993-01-11,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,
+Indiana,Evan Bayh,D,1993-01-11,1997-01-13,1,0,1996-11-05,wikidata; wikipedia 1996 elections,1,term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Indiana,Frank O'Bannon,D,1997-01-13,2001-01-08,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,
+Indiana,Frank O'Bannon,D,2001-01-08,2003-09-13,1,0,2004-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (8 years in 12; 8.0 served in window); left office before the 2004 election; term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Indiana,Joe Kernan,D,2003-09-13,2005-01-10,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Indiana,Mitch Daniels,R,2005-01-10,2009-01-12,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+Indiana,Mitch Daniels,R,2009-01-12,2013-01-14,1,0,2012-11-06,wikidata; wikipedia 2012 elections,1,term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Indiana,Mike Pence,R,2013-01-14,2017-01-09,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,
+Indiana,Eric Holcomb,R,2017-01-09,2021-01-11,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+Indiana,Eric Holcomb,R,2021-01-11,2025-01-13,1,0,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Indiana,Mike Braun,R,2025-01-13,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+Iowa,Terry Branstad,R,1987-01-09,1991-01-11,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Terry Branstad,R,1991-01-11,1995-01-13,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Terry Branstad,R,1995-01-13,1999-01-15,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Tom Vilsack,D,1999-01-15,2003-01-10,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Iowa,Tom Vilsack,D,2003-01-10,2007-01-12,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Chet Culver,D,2007-01-12,2011-01-14,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Iowa,Terry Branstad,R,2011-01-14,2015-01-09,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Iowa,Terry Branstad,R,2015-01-09,2017-05-24,0,1,2018-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2018 election; term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Kim Reynolds,R,2017-05-24,2019-01-11,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Iowa,Kim Reynolds,R,2019-01-11,2023-01-13,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Iowa,Kim Reynolds,R,2023-01-13,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Fri of month 1; fits 3 of 4 observed inaugurations)
+Kansas,Mike Hayden,R,1987-01-12,1991-01-14,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Kansas,Joan Finney,D,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Kansas,Bill Graves,R,1995-01-09,1999-01-11,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Kansas,Bill Graves,R,1999-01-11,2003-01-13,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Kansas,Kathleen Sebelius,D,2003-01-13,2007-01-08,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Kansas,Kathleen Sebelius,D,2007-01-08,2009-04-28,1,0,2010-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2010 election; term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Kansas,Mark Parkinson,D,2009-04-28,2011-01-10,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Kansas,Sam Brownback,R,2011-01-10,2015-01-12,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Kansas,Sam Brownback,R,2015-01-12,2018-01-31,1,0,2018-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2018 election; term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Kansas,Jeff Colyer,R,2018-01-31,2019-01-14,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Kansas,Laura Kelly,D,2019-01-14,2023-01-09,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Kansas,Laura Kelly,D,2023-01-09,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Kentucky,Wallace G. Wilkinson,D,1987-12-08,1991-12-10,1,0,1991-11-05,wikidata; wikipedia 1991 elections,1,
+Kentucky,Brereton C. Jones,D,1991-12-10,1995-12-12,1,0,1995-11-07,wikidata; wikipedia 1995 elections,1,
+Kentucky,Paul E. Patton,D,1995-12-12,1999-12-14,0,1,1999-11-02,wikidata; wikipedia 1999 elections,1,
+Kentucky,Paul E. Patton,D,1999-12-14,2003-12-09,1,0,2003-11-04,wikidata; wikipedia 2003 elections,1,term_start inferred (week 2 Tue of month 12; fits 7 of 7 observed inaugurations)
+Kentucky,Ernie Fletcher,R,2003-12-09,2007-12-11,0,1,2007-11-06,wikidata; wikipedia 2007 elections,1,
+Kentucky,Steve Beshear,D,2007-12-11,2011-12-13,0,1,2011-11-08,wikidata; wikipedia 2011 elections,1,
+Kentucky,Steve Beshear,D,2011-12-13,2015-12-08,1,0,2015-11-03,wikidata; wikipedia 2015 elections,1,term_start inferred (week 2 Tue of month 12; fits 7 of 7 observed inaugurations)
+Kentucky,Matt Bevin,R,2015-12-08,2019-12-10,0,1,2019-11-05,wikidata; wikipedia 2019 elections,1,
+Kentucky,Andy Beshear,D,2019-12-10,2023-12-12,0,1,2023-11-07,wikidata; wikipedia 2023 elections,1,
+Kentucky,Andy Beshear,D,2023-12-12,,1,0,2027-11-02,wikidata; wikipedia 2027 elections,1,term_start inferred (week 2 Tue of month 12; fits 7 of 7 observed inaugurations)
+Louisiana,Buddy Roemer,R,1988-03-14,1992-01-13,0,1,1991-11-05,wikidata; wikipedia 1991 elections,1,
+Louisiana,Edwin Edwards,D,1992-01-13,1996-01-08,0,1,1995-11-07,wikidata; wikipedia 1995 elections,1,
+Louisiana,Murphy J. Foster,R,1996-01-08,2000-01-10,0,1,1999-11-02,wikidata; wikipedia 1999 elections,1,
+Louisiana,Murphy J. Foster,R,2000-01-10,2004-01-12,1,0,2003-11-04,wikidata; wikipedia 2003 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Louisiana,Kathleen Blanco,D,2004-01-12,2008-01-14,0,1,2007-11-06,wikidata; wikipedia 2007 elections,1,
+Louisiana,Bobby Jindal,R,2008-01-14,2012-01-09,0,1,2011-11-08,wikidata; wikipedia 2011 elections,1,
+Louisiana,Bobby Jindal,R,2012-01-09,2016-01-11,1,0,2015-11-03,wikidata; wikipedia 2015 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Louisiana,John Bel Edwards,D,2016-01-11,2020-01-13,0,1,2019-11-05,wikidata; wikipedia 2019 elections,1,
+Louisiana,John Bel Edwards,D,2020-01-13,2024-01-08,1,0,2023-11-07,wikidata; wikipedia 2023 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Louisiana,Jeff Landry,R,2024-01-08,,0,1,2027-11-02,wikidata; wikipedia 2027 elections,1,
+Maine,John R. McKernan,R,1987-01-07,1991-01-02,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Maine,John R. McKernan,R,1991-01-02,1995-01-05,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Wed of month 1; fits 3 of 5 observed inaugurations)
+Maine,Angus King,I,1995-01-05,1999-01-06,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Maine,Angus King,I,1999-01-06,2003-01-08,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Wed of month 1; fits 3 of 5 observed inaugurations)
+Maine,John Baldacci,D,2003-01-08,2007-01-03,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Maine,John Baldacci,D,2007-01-03,2011-01-05,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Wed of month 1; fits 3 of 5 observed inaugurations)
+Maine,Paul LePage,R,2011-01-05,2015-01-07,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Maine,Paul LePage,R,2015-01-07,2019-01-02,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Wed of month 1; fits 3 of 5 observed inaugurations)
+Maine,Janet T. Mills,D,2019-01-02,2023-01-04,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Maine,Janet T. Mills,D,2023-01-04,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Wed of month 1; fits 3 of 5 observed inaugurations)
+Maryland,William Donald Schaefer,D,1987-01-20,1991-01-16,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Maryland,William Donald Schaefer,D,1991-01-16,1995-01-18,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 3 Wed of month 1; fits 5 of 6 observed inaugurations)
+Maryland,Parris Glendening,D,1995-01-18,1999-01-20,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Maryland,Parris Glendening,D,1999-01-20,2003-01-15,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 3 Wed of month 1; fits 5 of 6 observed inaugurations)
+Maryland,Bob Ehrlich,R,2003-01-15,2007-01-17,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Maryland,Martin O'Malley,D,2007-01-17,2011-01-19,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Maryland,Martin O'Malley,D,2011-01-19,2015-01-21,1,0,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 3 Wed of month 1; fits 5 of 6 observed inaugurations)
+Maryland,Larry Hogan,R,2015-01-21,2019-01-16,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Maryland,Larry Hogan,R,2019-01-16,2023-01-18,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 3 Wed of month 1; fits 5 of 6 observed inaugurations)
+Maryland,Wes Moore,D,2023-01-18,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Massachusetts,Michael Dukakis,D,1987-01-01,1991-01-03,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 6 observed inaugurations)
+Massachusetts,William Weld,R,1991-01-03,1995-01-05,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Massachusetts,William Weld,R,1995-01-05,1997-07-29,0,1,1998-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 1998 election; term_start inferred (week 1 Thu of month 1; fits 5 of 6 observed inaugurations)
+Massachusetts,Paul Cellucci,R,1997-07-29,1999-01-07,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,end date from https://en.wikipedia.org/w/index.php?title=Paul_Cellucci&oldid=1375226546
+Massachusetts,Paul Cellucci,R,1999-01-07,2001-04-10,0,1,2002-11-05,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2002 election; term_start inferred (week 1 Thu of month 1; fits 5 of 6 observed inaugurations); end date from https://en.wikipedia.org/w/index.php?title=Paul_Cellucci&oldid=1375226546
+Massachusetts,Jane Swift,R,2001-04-10,2003-01-02,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Massachusetts,Mitt Romney,R,2003-01-02,2007-01-04,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Massachusetts,Deval Patrick,D,2007-01-04,2011-01-06,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Massachusetts,Deval Patrick,D,2011-01-06,2015-01-08,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 6 observed inaugurations)
+Massachusetts,Charlie Baker,R,2015-01-08,2019-01-03,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Massachusetts,Charlie Baker,R,2019-01-03,2023-01-05,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 6 observed inaugurations)
+Massachusetts,Maura Healey,D,2023-01-05,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Michigan,James Blanchard,D,1987-01-01,1991-01-01,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Michigan,John Engler,R,1991-01-01,1995-01-01,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Michigan,John Engler,R,1995-01-01,1999-01-01,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Michigan,John Engler,R,1999-01-01,2003-01-01,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Michigan,Jennifer Granholm,D,2003-01-01,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Michigan,Jennifer Granholm,D,2007-01-01,2011-01-01,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Michigan,Rick Snyder,R,2011-01-01,2015-01-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Michigan,Rick Snyder,R,2015-01-01,2019-01-01,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Michigan,Gretchen Whitmer,D,2019-01-01,2023-01-01,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Michigan,Gretchen Whitmer,D,2023-01-01,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (01-01; fits 5 of 5 observed inaugurations)
+Minnesota,Rudy Perpich,D,1987-01-05,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations); added from https://en.wikipedia.org/w/index.php?title=Rudy_Perpich&oldid=1376628477
+Minnesota,Arne Carlson,R,1991-01-07,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Minnesota,Arne Carlson,R,1995-01-02,1999-01-04,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Minnesota,Jesse Ventura,Independence,1999-01-04,2003-01-06,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Minnesota,Tim Pawlenty,R,2003-01-06,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Minnesota,Tim Pawlenty,R,2007-01-01,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Minnesota,Mark Dayton,DFL,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Minnesota,Mark Dayton,DFL,2015-01-05,2019-01-07,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Minnesota,Tim Walz,DFL,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Minnesota,Tim Walz,DFL,2023-01-02,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Mississippi,Ray Mabus,D,1988-01-12,1992-01-14,0,1,1991-11-05,wikidata; wikipedia 1991 elections,1,
+Mississippi,Kirk Fordice,R,1992-01-14,1996-01-09,0,1,1995-11-07,wikidata; wikipedia 1995 elections,1,
+Mississippi,Kirk Fordice,R,1996-01-09,2000-01-11,1,0,1999-11-02,wikidata; wikipedia 1999 elections,1,term_start inferred (week 2 Tue of month 1; fits 6 of 6 observed inaugurations)
+Mississippi,Ronnie Musgrove,D,2000-01-11,2004-01-13,0,1,2003-11-04,wikidata; wikipedia 2003 elections,1,
+Mississippi,Haley Barbour,R,2004-01-13,2008-01-08,0,1,2007-11-06,wikidata; wikipedia 2007 elections,1,
+Mississippi,Haley Barbour,R,2008-01-08,2012-01-10,1,0,2011-11-08,wikidata; wikipedia 2011 elections,1,term_start inferred (week 2 Tue of month 1; fits 6 of 6 observed inaugurations)
+Mississippi,Phil Bryant,R,2012-01-10,2016-01-12,0,1,2015-11-03,wikidata; wikipedia 2015 elections,1,
+Mississippi,Phil Bryant,R,2016-01-12,2020-01-14,1,0,2019-11-05,wikidata; wikipedia 2019 elections,1,term_start inferred (week 2 Tue of month 1; fits 6 of 6 observed inaugurations)
+Mississippi,Tate Reeves,R,2020-01-14,2024-01-09,0,1,2023-11-07,wikidata; wikipedia 2023 elections,1,
+Mississippi,Tate Reeves,R,2024-01-09,,1,0,2027-11-02,wikidata; wikipedia 2027 elections,1,term_start inferred (week 2 Tue of month 1; fits 6 of 6 observed inaugurations)
+Missouri,John Ashcroft,R,1985-01-14,1989-01-09,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+Missouri,John Ashcroft,R,1989-01-09,1993-01-11,1,0,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Missouri,Mel Carnahan,D,1993-01-11,1997-01-13,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+Missouri,Mel Carnahan,D,1997-01-13,2000-10-16,1,0,2000-11-07,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 2 counted since 1965-01-01); left office before the 2000 election; term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Missouri,Roger B. Wilson,D,2000-10-16,2001-01-08,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,
+Missouri,Bob Holden,D,2001-01-08,2005-01-10,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Missouri,Matt Blunt,R,2005-01-10,2009-01-12,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+Missouri,Jay Nixon,D,2009-01-12,2013-01-14,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,
+Missouri,Jay Nixon,D,2013-01-14,2017-01-09,1,0,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Missouri,Eric Greitens,R,2017-01-09,2018-06-01,0,1,2020-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 1 counted since 1965-01-01); left office before the 2020 election; party from https://www.wikidata.org/wiki/Q5386615
+Missouri,Mike Parson,R,2018-06-01,2021-01-11,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+Missouri,Mike Parson,R,2021-01-11,2025-01-13,1,0,2024-11-05,wikidata; wikipedia 2024 elections,0,state rule suggests term_limited=0 (two terms in a lifetime; 1 counted since 1965-01-01); election page kept; term_start inferred (week 2 Mon of month 1; fits 7 of 7 observed inaugurations)
+Missouri,Mike Kehoe,R,2025-01-13,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+Montana,Ted Schwinden,D,1985-01-07,1989-01-02,1,0,1988-11-08,wikidata; wikipedia 1988 elections,0,state rule suggests term_limited=0 (no term limit); election page kept; term_start inferred (week 1 Mon of month 1; fits 7 of 7 observed inaugurations)
+Montana,Stan Stephens,R,1989-01-02,1993-01-04,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,
+Montana,Marc Racicot,R,1993-01-04,1997-01-06,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,start date from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Montana&oldid=1375321087
+Montana,Marc Racicot,R,1997-01-06,2001-01-01,1,0,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 1 Mon of month 1; fits 7 of 7 observed inaugurations); start date from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_Montana&oldid=1375321087
+Montana,Judy Martz,R,2001-01-01,2005-01-03,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Montana,Brian Schweitzer,D,2005-01-03,2009-01-05,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+Montana,Brian Schweitzer,D,2009-01-05,2013-01-07,1,0,2012-11-06,wikidata; wikipedia 2012 elections,1,term_start inferred (week 1 Mon of month 1; fits 7 of 7 observed inaugurations)
+Montana,Steve Bullock,D,2013-01-07,2017-01-02,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,
+Montana,Steve Bullock,D,2017-01-02,2021-01-04,1,0,2020-11-03,wikidata; wikipedia 2020 elections,1,term_start inferred (week 1 Mon of month 1; fits 7 of 7 observed inaugurations)
+Montana,Greg Gianforte,R,2021-01-04,2025-01-06,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,
+Montana,Greg Gianforte,R,2025-01-06,,1,0,2028-11-07,wikidata; wikipedia 2028 elections,1,term_start inferred (week 1 Mon of month 1; fits 7 of 7 observed inaugurations)
+Nebraska,Kay A. Orr,R,1987-01-09,1991-01-09,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Nebraska,Ben Nelson,D,1991-01-09,1995-01-05,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Nebraska,Ben Nelson,D,1995-01-05,1999-01-07,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Thu of month 1; fits 2 of 5 observed inaugurations)
+Nebraska,Mike Johanns,R,1999-01-07,2003-01-02,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Nebraska,Mike Johanns,R,2003-01-02,2005-01-20,1,0,2006-11-07,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2006 election; term_start inferred (week 1 Thu of month 1; fits 2 of 5 observed inaugurations)
+Nebraska,Dave Heineman,R,2005-01-20,2007-01-04,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Nebraska,Dave Heineman,R,2007-01-04,2011-01-06,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Thu of month 1; fits 2 of 5 observed inaugurations)
+Nebraska,Dave Heineman,R,2011-01-06,2015-01-08,1,0,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 1 Thu of month 1; fits 2 of 5 observed inaugurations)
+Nebraska,Pete Ricketts,R,2015-01-08,2019-01-03,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Nebraska,Pete Ricketts,R,2019-01-03,2023-01-05,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 1 Thu of month 1; fits 2 of 5 observed inaugurations)
+Nebraska,Jim Pillen,R,2023-01-05,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Nevada,Richard Bryan,D,1987-01-05,1989-01-03,0,1,1990-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two terms in a lifetime; 1 counted since 1970-01-01); left office before the 1990 election; term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Nevada,Bob Miller,D,1989-01-03,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Nevada,Bob Miller,D,1991-01-07,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Nevada,Bob Miller,D,1995-01-02,1999-01-04,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Nevada,Kenny Guinn,R,1999-01-04,2003-01-06,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Nevada,Kenny Guinn,R,2003-01-06,2007-01-01,1,0,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Nevada,Jim Gibbons,R,2007-01-01,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Nevada,Brian Sandoval,R,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Nevada,Brian Sandoval,R,2015-01-05,2019-01-07,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 6 of 6 observed inaugurations)
+Nevada,Steve Sisolak,D,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Nevada,Joe Lombardo,R,2023-01-02,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+New Hampshire,John H. Sununu,R,1987-01-01,1989-01-04,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Judd Gregg,R,1989-01-04,1991-01-03,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+New Hampshire,Judd Gregg,R,1991-01-03,1993-01-02,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Ralph D. Hough,R,1993-01-02,1993-01-07,,,1992-11-03,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 1992 election; party from https://www.wikidata.org/wiki/Q28026033
+New Hampshire,Steve Merrill,R,1993-01-07,1995-01-05,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+New Hampshire,Steve Merrill,R,1995-01-05,1997-01-09,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Jeanne Shaheen,D,1997-01-09,1999-01-07,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+New Hampshire,Jeanne Shaheen,D,1999-01-07,2001-01-04,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Jeanne Shaheen,D,2001-01-04,2003-01-09,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Craig Benson,R,2003-01-09,2005-01-06,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+New Hampshire,John Lynch,D,2005-01-06,2007-01-04,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+New Hampshire,John Lynch,D,2007-01-04,2009-01-01,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,John Lynch,D,2009-01-01,2011-01-06,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,John Lynch,D,2011-01-06,2013-01-03,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Maggie Hassan,D,2013-01-03,2015-01-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+New Hampshire,Maggie Hassan,D,2015-01-01,2017-01-02,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Chuck Morse,R,2017-01-02,2017-01-05,,,2016-11-08,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 2016 election; party from https://www.wikidata.org/wiki/Q16193758
+New Hampshire,Chris Sununu,R,2017-01-05,2019-01-03,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+New Hampshire,Chris Sununu,R,2019-01-03,2021-01-07,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Chris Sununu,R,2021-01-07,2023-01-05,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Chris Sununu,R,2023-01-05,2025-01-09,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 1 Thu of month 1; fits 5 of 9 observed inaugurations)
+New Hampshire,Kelly Ayotte,R,2025-01-09,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+New Jersey,Thomas Kean,R,1986-01-21,1990-01-16,1,0,1989-11-07,wikidata; wikipedia 1989 elections,0,state rule suggests term_limited=0 (two consecutive terms; 1 counted in current run); election page kept; term_start inferred (week 3 Tue of month 1; fits 8 of 8 observed inaugurations)
+New Jersey,James Florio,D,1990-01-16,1994-01-18,0,1,1993-11-02,wikidata; wikipedia 1993 elections,1,
+New Jersey,Christine Todd Whitman,R,1994-01-18,1998-01-20,0,1,1997-11-04,wikidata; wikipedia 1997 elections,1,
+New Jersey,Christine Todd Whitman,R,1998-01-20,2001-01-31,1,0,2001-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2001 election; term_start inferred (week 3 Tue of month 1; fits 8 of 8 observed inaugurations)
+New Jersey,Donald DiFrancesco,R,2001-01-31,2002-01-08,0,1,2001-11-06,wikidata; wikipedia 2001 elections,1,
+New Jersey,John Orus Bennett III,R,2002-01-08,2002-01-12,,,2001-11-06,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 2001 election; party from https://www.wikidata.org/wiki/Q1699314; end date from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_New_Jersey&oldid=1377365815
+New Jersey,John Farmer,R,2002-01-08,2002-01-08,,,2001-11-06,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 2001 election; party from https://www.wikidata.org/wiki/Q889628
+New Jersey,Richard Codey,D,2002-01-12,2002-01-15,,,2001-11-06,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 2001 election; added from https://en.wikipedia.org/w/index.php?title=List_of_governors_of_New_Jersey&oldid=1377365815
+New Jersey,Jim McGreevey,D,2002-01-15,2004-11-15,0,1,2005-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 1 counted in current run); left office before the 2005 election
+New Jersey,Richard Codey,D,2004-11-15,2006-01-17,0,1,2005-11-08,wikidata; wikipedia 2005 elections,1,
+New Jersey,Jon Corzine,D,2006-01-17,2010-01-19,0,1,2009-11-03,wikidata; wikipedia 2009 elections,1,
+New Jersey,Chris Christie,R,2010-01-19,2014-01-21,0,1,2013-11-05,wikidata; wikipedia 2013 elections,1,
+New Jersey,Chris Christie,R,2014-01-21,2018-01-16,1,0,2017-11-07,wikidata; wikipedia 2017 elections,1,term_start inferred (week 3 Tue of month 1; fits 8 of 8 observed inaugurations)
+New Jersey,Phil Murphy,D,2018-01-16,2022-01-18,0,1,2021-11-02,wikidata; wikipedia 2021 elections,1,
+New Jersey,Phil Murphy,D,2022-01-18,2026-01-20,1,0,2025-11-04,wikidata; wikipedia 2025 elections,1,term_start inferred (week 3 Tue of month 1; fits 8 of 8 observed inaugurations)
+New Jersey,Mikie Sherrill,D,2026-01-20,,0,1,2029-11-06,wikidata; term_limit_rules.csv,0,next_election_date from the 4-year cycle (no election page yet); term_limited derived from state rule (two consecutive terms; 1 counted in current run); party from https://www.wikidata.org/wiki/Q47087146
+New Mexico,Garrey Carruthers,R,1987-01-01,1991-01-01,1,0,1990-11-06,wikidata; wikipedia 1990 elections,1,
+New Mexico,Bruce King,D,1991-01-01,1995-01-01,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+New Mexico,Gary Johnson,R,1995-01-01,1999-01-01,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+New Mexico,Gary Johnson,R,1999-01-01,2003-01-01,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (01-01; fits 6 of 6 observed inaugurations)
+New Mexico,Bill Richardson,D,2003-01-01,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+New Mexico,Bill Richardson,D,2007-01-01,2011-01-01,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (01-01; fits 6 of 6 observed inaugurations)
+New Mexico,Susana Martinez,R,2011-01-01,2015-01-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+New Mexico,Susana Martinez,R,2015-01-01,2019-01-01,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (01-01; fits 6 of 6 observed inaugurations)
+New Mexico,Michelle Lujan Grisham,D,2019-01-01,2023-01-01,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+New Mexico,Michelle Lujan Grisham,D,2023-01-01,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (01-01; fits 6 of 6 observed inaugurations)
+New York,Mario Cuomo,D,1987-01-01,1991-01-01,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,Mario Cuomo,D,1991-01-01,1994-12-31,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,George Pataki,R,1995-01-01,1999-01-01,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+New York,George Pataki,R,1999-01-01,2003-01-01,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,George Pataki,R,2003-01-01,2006-12-31,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,Eliot Spitzer,D,2007-01-01,2008-03-17,0,1,2010-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2010 election
+New York,David Paterson,D,2008-03-17,2010-12-31,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+New York,Andrew Cuomo,D,2011-01-01,2015-01-01,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+New York,Andrew Cuomo,D,2015-01-01,2019-01-01,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,Andrew Cuomo,D,2019-01-01,2021-08-23,0,1,2022-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2022 election; term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+New York,Kathy Hochul,D,2021-08-24,2023-01-01,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+New York,Kathy Hochul,D,2023-01-01,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (01-01; fits 4 of 4 observed inaugurations)
+North Carolina,James G. Martin,R,1985-01-05,1989-01-07,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+North Carolina,James G. Martin,R,1989-01-07,1993-01-09,1,0,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 1 Sat of month 1; fits 3 of 7 observed inaugurations)
+North Carolina,Jim Hunt,D,1993-01-09,1997-01-04,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+North Carolina,Jim Hunt,D,1997-01-04,2001-01-06,1,0,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 1 Sat of month 1; fits 3 of 7 observed inaugurations)
+North Carolina,Mike Easley,D,2001-01-06,2005-01-01,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+North Carolina,Mike Easley,D,2005-01-01,2009-01-10,1,0,2008-11-04,wikidata; wikipedia 2008 elections,1,term_start inferred (week 1 Sat of month 1; fits 3 of 7 observed inaugurations)
+North Carolina,Bev Perdue,D,2009-01-10,2013-01-05,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,
+North Carolina,Pat McCrory,R,2013-01-05,2017-01-01,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,
+North Carolina,Roy Cooper,D,2017-01-01,2021-01-02,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+North Carolina,Roy Cooper,D,2021-01-02,2025-01-01,1,0,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 1 Sat of month 1; fits 3 of 7 observed inaugurations)
+North Carolina,Josh Stein,D,2025-01-01,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+North Dakota,George Sinner,Democratic–NPL,1988-12-15,1992-12-15,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,Ed Schafer,R,1992-12-15,1996-12-15,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+North Dakota,Ed Schafer,R,1996-12-15,2000-12-15,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,John Hoeven,R,2000-12-15,2004-12-15,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+North Dakota,John Hoeven,R,2004-12-15,2008-12-15,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,John Hoeven,R,2008-12-15,2010-12-07,0,1,2012-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2012 election; term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,Jack Dalrymple,R,2010-12-07,2012-12-15,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,
+North Dakota,Jack Dalrymple,R,2012-12-15,2016-12-15,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,Doug Burgum,R,2016-12-15,2020-12-15,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+North Dakota,Doug Burgum,R,2020-12-15,2024-12-15,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (12-15; fits 4 of 5 observed inaugurations)
+North Dakota,Kelly M. Armstrong,R,2024-12-15,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+Ohio,Dick Celeste,D,1987-01-12,1991-01-14,1,0,1990-11-06,wikidata; wikipedia 1990 elections,0,state rule suggests term_limited=0 (two consecutive terms; 1 counted in current run); election page kept; term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Ohio,George Voinovich,R,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Ohio,George Voinovich,R,1995-01-09,1998-12-31,1,0,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Ohio,Nancy Hollister,R,1998-12-31,1999-01-11,,,1998-11-03,wikidata,0,acting/caretaker governor; term-limit fields not applicable; left office before the 1998 election; party from https://www.wikidata.org/wiki/Q291690
+Ohio,Bob Taft,R,1999-01-11,2003-01-13,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Ohio,Bob Taft,R,2003-01-13,2007-01-08,1,0,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Ohio,Ted Strickland,D,2007-01-08,2011-01-10,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,
+Ohio,John Kasich,R,2011-01-10,2015-01-12,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Ohio,John Kasich,R,2015-01-12,2019-01-14,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Ohio,Mike DeWine,R,2019-01-14,2023-01-09,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Ohio,Mike DeWine,R,2023-01-09,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Oklahoma,Henry Bellmon,R,1987-01-12,1991-01-14,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Oklahoma,David Walters,D,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Oklahoma,Frank Keating,R,1995-01-09,1999-01-11,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Oklahoma,Frank Keating,R,1999-01-11,2003-01-13,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Oklahoma,Brad Henry,D,2003-01-13,2007-01-08,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Oklahoma,Brad Henry,D,2007-01-08,2011-01-10,1,0,2010-11-02,wikidata; wikipedia 2010 elections,0,state rule suggests term_limited=0 (two terms in a lifetime; 0 counted since 2010-11-02); election page kept; term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Oklahoma,Mary Fallin,R,2011-01-10,2015-01-12,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Oklahoma,Mary Fallin,R,2015-01-12,2019-01-14,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Oklahoma,Kevin Stitt,R,2019-01-14,2023-01-09,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Oklahoma,Kevin Stitt,R,2023-01-09,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 6 observed inaugurations)
+Oregon,Neil Goldschmidt,D,1987-01-12,1991-01-14,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Oregon,Barbara Roberts,D,1991-01-14,1995-01-09,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Oregon,John Kitzhaber,D,1995-01-09,1999-01-11,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Oregon,John Kitzhaber,D,1999-01-11,2003-01-13,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 7 observed inaugurations)
+Oregon,Ted Kulongoski,D,2003-01-13,2007-01-08,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Oregon,Ted Kulongoski,D,2007-01-08,2011-01-10,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 7 observed inaugurations)
+Oregon,John Kitzhaber,D,2011-01-10,2015-02-18,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Oregon,Kate Brown,D,2015-02-18,2017-01-09,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,next election is a special election
+Oregon,Kate Brown,D,2017-01-09,2019-01-14,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 7 observed inaugurations)
+Oregon,Kate Brown,D,2019-01-14,2023-01-09,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 2 Mon of month 1; fits 6 of 7 observed inaugurations)
+Oregon,Tina Kotek,D,2023-01-09,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Pennsylvania,Robert P. Casey,D,1987-01-20,1991-01-15,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Pennsylvania,Robert P. Casey,D,1991-01-15,1995-01-17,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 3 Tue of month 1; fits 6 of 6 observed inaugurations)
+Pennsylvania,Tom Ridge,R,1995-01-17,1999-01-19,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Pennsylvania,Tom Ridge,R,1999-01-19,2001-10-05,1,0,2002-11-05,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2002 election; term_start inferred (week 3 Tue of month 1; fits 6 of 6 observed inaugurations)
+Pennsylvania,Mark S. Schweiker,R,2001-10-05,2003-01-21,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Pennsylvania,Ed Rendell,D,2003-01-21,2007-01-16,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Pennsylvania,Ed Rendell,D,2007-01-16,2011-01-18,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 3 Tue of month 1; fits 6 of 6 observed inaugurations)
+Pennsylvania,Tom Corbett,R,2011-01-18,2015-01-20,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Pennsylvania,Tom Wolf,D,2015-01-20,2019-01-15,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Pennsylvania,Tom Wolf,D,2019-01-15,2023-01-17,1,0,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 3 Tue of month 1; fits 6 of 6 observed inaugurations)
+Pennsylvania,Josh Shapiro,D,2023-01-17,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Rhode Island,Edward D. DiPrete,R,1987-01-06,1989-01-03,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+Rhode Island,Edward D. DiPrete,R,1989-01-03,1991-01-01,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+Rhode Island,Bruce Sundlun,D,1991-01-01,1993-01-05,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,end date from https://en.wikipedia.org/w/index.php?title=Lincoln_Almond&oldid=1374904563
+Rhode Island,Bruce Sundlun,D,1993-01-05,1995-01-03,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations); end date from https://en.wikipedia.org/w/index.php?title=Lincoln_Almond&oldid=1374904563
+Rhode Island,Lincoln Almond,R,1995-01-03,1999-01-05,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Rhode Island,Lincoln Almond,R,1999-01-05,2003-01-07,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+Rhode Island,Donald Carcieri,R,2003-01-07,2007-01-02,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Rhode Island,Donald Carcieri,R,2007-01-02,2011-01-04,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+Rhode Island,Lincoln Chafee,D,2011-01-04,2015-01-06,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Rhode Island,Gina Raimondo,D,2015-01-06,2019-01-01,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Rhode Island,Gina Raimondo,D,2019-01-01,2021-03-02,1,0,2022-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2022 election; term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+Rhode Island,Daniel McKee,D,2021-03-02,2023-01-03,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Rhode Island,Daniel McKee,D,2023-01-03,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Tue of month 1; fits 6 of 6 observed inaugurations)
+South Carolina,"Carroll A. Campbell, Jr.",R,1987-01-14,1991-01-09,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+South Carolina,"Carroll A. Campbell, Jr.",R,1991-01-09,1995-01-11,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 2 Wed of month 1; fits 4 of 5 observed inaugurations)
+South Carolina,David Beasley,R,1995-01-11,1999-01-13,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+South Carolina,Jim Hodges,D,1999-01-13,2003-01-15,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+South Carolina,Mark Sanford,R,2003-01-15,2007-01-10,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+South Carolina,Mark Sanford,R,2007-01-10,2011-01-12,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 2 Wed of month 1; fits 4 of 5 observed inaugurations)
+South Carolina,Nikki Haley,R,2011-01-12,2015-01-14,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+South Carolina,Nikki Haley,R,2015-01-14,2017-01-24,1,0,2018-11-06,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2018 election; term_start inferred (week 2 Wed of month 1; fits 4 of 5 observed inaugurations)
+South Carolina,Henry McMaster,R,2017-01-24,2019-01-09,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+South Carolina,Henry McMaster,R,2019-01-09,2023-01-11,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 2 Wed of month 1; fits 4 of 5 observed inaugurations)
+South Carolina,Henry McMaster,R,2023-01-11,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Wed of month 1; fits 4 of 5 observed inaugurations)
+South Dakota,George S. Mickelson,R,1987-01-06,1991-01-01,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+South Dakota,George S. Mickelson,R,1991-01-01,1993-04-19,1,0,1994-11-08,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 1994 election; term_start inferred (week 1 Tue of month 1; fits 2 of 5 observed inaugurations)
+South Dakota,Walter Dale Miller,R,1993-04-19,1995-01-07,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+South Dakota,Bill Janklow,R,1995-01-07,1999-01-05,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+South Dakota,Bill Janklow,R,1999-01-05,2003-01-03,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Tue of month 1; fits 2 of 5 observed inaugurations)
+South Dakota,Mike Rounds,R,2003-01-07,2007-01-02,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+South Dakota,Mike Rounds,R,2007-01-02,2011-01-08,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Tue of month 1; fits 2 of 5 observed inaugurations)
+South Dakota,Dennis Daugaard,R,2011-01-08,2015-01-06,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+South Dakota,Dennis Daugaard,R,2015-01-06,2019-01-05,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Tue of month 1; fits 2 of 5 observed inaugurations)
+South Dakota,Kristi Noem,R,2019-01-05,2023-01-03,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+South Dakota,Kristi Noem,R,2023-01-03,2025-01-25,1,0,2026-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2026 election; term_start inferred (week 1 Tue of month 1; fits 2 of 5 observed inaugurations)
+South Dakota,Larry Rhoden,R,2025-01-25,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,
+Tennessee,Ned McWherter,D,1987-01-17,1991-01-19,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Tennessee,Ned McWherter,D,1991-01-19,1995-01-21,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 3 Sat of month 1; fits 5 of 5 observed inaugurations)
+Tennessee,Don Sundquist,R,1995-01-21,1999-01-16,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Tennessee,Don Sundquist,R,1999-01-16,2003-01-18,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 3 Sat of month 1; fits 5 of 5 observed inaugurations)
+Tennessee,Phil Bredesen,D,2003-01-18,2007-01-20,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Tennessee,Phil Bredesen,D,2007-01-20,2011-01-15,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 3 Sat of month 1; fits 5 of 5 observed inaugurations)
+Tennessee,Bill Haslam,R,2011-01-15,2015-01-17,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Tennessee,Bill Haslam,R,2015-01-17,2019-01-19,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 3 Sat of month 1; fits 5 of 5 observed inaugurations)
+Tennessee,Bill Lee,R,2019-01-19,2023-01-21,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Tennessee,Bill Lee,R,2023-01-21,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 3 Sat of month 1; fits 5 of 5 observed inaugurations)
+Texas,Bill Clements,R,1987-01-20,1991-01-15,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Texas,Ann Richards,D,1991-01-15,1995-01-17,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,
+Texas,George W. Bush,R,1995-01-17,1999-01-19,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Texas,George W. Bush,R,1999-01-19,2000-12-21,0,1,2002-11-05,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2002 election; term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Texas,Rick Perry,R,2000-12-21,2003-01-21,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Texas,Rick Perry,R,2003-01-21,2007-01-16,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Texas,Rick Perry,R,2007-01-16,2011-01-18,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Texas,Rick Perry,R,2011-01-18,2015-01-20,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Texas,Greg Abbott,R,2015-01-20,2019-01-15,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Texas,Greg Abbott,R,2019-01-15,2023-01-17,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Texas,Greg Abbott,R,2023-01-17,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 3 Tue of month 1; fits 4 of 4 observed inaugurations)
+Utah,Norman H. Bangerter,R,1985-01-07,1989-01-02,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+Utah,Norman H. Bangerter,R,1989-01-02,1993-01-04,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Mike Leavitt,R,1993-01-04,1997-01-06,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+Utah,Mike Leavitt,R,1997-01-06,2001-01-01,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Mike Leavitt,R,2001-01-01,2003-11-05,0,1,2004-11-02,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2004 election; term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Olene S. Walker,R,2003-11-05,2005-01-03,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Utah,Jon Meade Huntsman Jr.,R,2005-01-03,2009-01-05,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+Utah,Jon Meade Huntsman Jr.,R,2009-01-05,2009-08-11,0,1,2010-11-02,wikidata; term_limit_rules.csv,0,next election is a special election; term_limited derived from state rule (no term limit); left office before the 2010 election; term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Gary Herbert,R,2009-08-11,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,next election is a special election
+Utah,Gary Herbert,R,2011-01-03,2013-01-07,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Gary Herbert,R,2013-01-07,2017-01-02,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Gary Herbert,R,2017-01-02,2021-01-04,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Utah,Spencer Cox,R,2021-01-04,2025-01-06,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,
+Utah,Spencer Cox,R,2025-01-06,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,term_start inferred (week 1 Mon of month 1; fits 4 of 4 observed inaugurations)
+Vermont,Madeleine Kunin,D,1987-01-08,1989-01-12,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Madeleine Kunin,D,1989-01-12,1991-01-10,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Richard A. Snelling,R,1991-01-10,1991-08-13,0,1,1992-11-03,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 1992 election
+Vermont,Howard Dean,D,1991-08-14,1993-01-14,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,
+Vermont,Howard Dean,D,1993-01-14,1995-01-12,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Howard Dean,D,1995-01-12,1997-01-09,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Howard Dean,D,1997-01-09,1999-01-14,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Howard Dean,D,1999-01-14,2001-01-11,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Howard Dean,D,2001-01-11,2003-01-08,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Jim Douglas,R,2003-01-09,2005-01-13,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+Vermont,Jim Douglas,R,2005-01-13,2007-01-11,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Jim Douglas,R,2007-01-11,2009-01-08,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Jim Douglas,R,2009-01-08,2011-01-06,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Peter Shumlin,D,2011-01-06,2013-01-10,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,
+Vermont,Peter Shumlin,D,2013-01-10,2015-01-08,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Peter Shumlin,D,2015-01-08,2017-01-05,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Phil Scott,R,2017-01-05,2019-01-10,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,
+Vermont,Phil Scott,R,2019-01-10,2021-01-14,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Phil Scott,R,2021-01-14,2023-01-12,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Phil Scott,R,2023-01-12,2025-01-09,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Vermont,Phil Scott,R,2025-01-09,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 2 Thu of month 1; fits 3 of 5 observed inaugurations)
+Virginia,Gerald L. Baliles,D,1986-01-18,1990-01-13,1,0,1989-11-07,wikidata; wikipedia 1989 elections,1,
+Virginia,Douglas Wilder,D,1990-01-13,1994-01-15,1,0,1993-11-02,wikidata; wikipedia 1993 elections,1,
+Virginia,George Allen,R,1994-01-15,1998-01-17,1,0,1997-11-04,wikidata; wikipedia 1997 elections,1,
+Virginia,Jim Gilmore,R,1998-01-17,2002-01-12,1,0,2001-11-06,wikidata; wikipedia 2001 elections,1,
+Virginia,Mark Warner,D,2002-01-12,2006-01-14,1,0,2005-11-08,wikidata; wikipedia 2005 elections,1,
+Virginia,Tim Kaine,D,2006-01-14,2010-01-16,1,0,2009-11-03,wikidata; wikipedia 2009 elections,1,
+Virginia,Bob McDonnell,R,2010-01-16,2014-01-11,1,0,2013-11-05,wikidata; wikipedia 2013 elections,1,
+Virginia,Terry McAuliffe,D,2014-01-11,2018-01-13,1,0,2017-11-07,wikidata; wikipedia 2017 elections,1,
+Virginia,Ralph Northam,D,2018-01-13,2022-01-15,1,0,2021-11-02,wikidata; wikipedia 2021 elections,1,
+Virginia,Glenn Youngkin,R,2022-01-15,2026-01-17,1,0,2025-11-04,wikidata; wikipedia 2025 elections,1,
+Virginia,Abigail Spanberger,D,2026-01-17,,1,0,2029-11-06,wikidata; term_limit_rules.csv,0,next_election_date from the 4-year cycle (no election page yet); term_limited derived from state rule (no consecutive terms); party from https://www.wikidata.org/wiki/Q55603085
+Washington,Booth Gardner,D,1985-01-16,1989-01-18,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+Washington,Booth Gardner,D,1989-01-18,1993-01-13,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,term_start inferred (week 3 Wed of month 1; fits 4 of 6 observed inaugurations)
+Washington,Mike Lowry,D,1993-01-13,1997-01-15,0,1,1996-11-05,wikidata; wikipedia 1996 elections,1,
+Washington,Gary Locke,D,1997-01-15,2001-01-17,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,
+Washington,Gary Locke,D,2001-01-17,2005-01-12,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,term_start inferred (week 3 Wed of month 1; fits 4 of 6 observed inaugurations)
+Washington,Christine Gregoire,D,2005-01-12,2009-01-21,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+Washington,Christine Gregoire,D,2009-01-21,2013-01-16,0,1,2012-11-06,wikidata; wikipedia 2012 elections,1,term_start inferred (week 3 Wed of month 1; fits 4 of 6 observed inaugurations)
+Washington,Jay Inslee,D,2013-01-16,2017-01-18,0,1,2016-11-08,wikidata; wikipedia 2016 elections,1,
+Washington,Jay Inslee,D,2017-01-18,2021-01-20,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,term_start inferred (week 3 Wed of month 1; fits 4 of 6 observed inaugurations)
+Washington,Jay Inslee,D,2021-01-20,2025-01-15,0,1,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 3 Wed of month 1; fits 4 of 6 observed inaugurations)
+Washington,Bob Ferguson,D,2025-01-15,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+West Virginia,Arch A. Moore,R,1985-01-14,1989-01-16,0,1,1988-11-08,wikidata; wikipedia 1988 elections,1,
+West Virginia,Gaston Caperton,D,1989-01-16,1993-01-18,0,1,1992-11-03,wikidata; wikipedia 1992 elections,1,
+West Virginia,Gaston Caperton,D,1993-01-18,1997-01-13,1,0,1996-11-05,wikidata; wikipedia 1996 elections,1,term_start inferred (week 3 Mon of month 1; fits 4 of 7 observed inaugurations)
+West Virginia,Cecil H. Underwood,R,1997-01-13,2001-01-15,0,1,2000-11-07,wikidata; wikipedia 2000 elections,1,
+West Virginia,Bob Wise,D,2001-01-15,2005-01-17,0,1,2004-11-02,wikidata; wikipedia 2004 elections,1,
+West Virginia,Joe Manchin,D,2005-01-17,2009-01-19,0,1,2008-11-04,wikidata; wikipedia 2008 elections,1,
+West Virginia,Joe Manchin,D,2009-01-19,2010-11-15,1,0,2011-11-08,wikidata; term_limit_rules.csv,0,next election is a special election; term_limited derived from state rule (two consecutive terms; 2 counted in current run); left office before the 2011 election; term_start inferred (week 3 Mon of month 1; fits 4 of 7 observed inaugurations)
+West Virginia,Earl Ray Tomblin,D,2010-11-15,2012-01-16,0,1,2011-11-08,wikidata; wikipedia 2011 elections,1,next election is a special election
+West Virginia,Earl Ray Tomblin,D,2012-01-16,2013-01-21,0,1,2012-11-06,wikidata; wikipedia 2012 elections,0,state rule suggests term_limited=1 (two consecutive terms; 2 counted in current run); election page kept; term_start inferred (week 3 Mon of month 1; fits 4 of 7 observed inaugurations)
+West Virginia,Earl Ray Tomblin,D,2013-01-21,2017-01-16,1,0,2016-11-08,wikidata; wikipedia 2016 elections,1,term_start inferred (week 3 Mon of month 1; fits 4 of 7 observed inaugurations)
+West Virginia,Jim Justice,R,2017-01-16,2021-01-18,0,1,2020-11-03,wikidata; wikipedia 2020 elections,1,
+West Virginia,Jim Justice,R,2021-01-18,2025-01-13,1,0,2024-11-05,wikidata; wikipedia 2024 elections,1,term_start inferred (week 3 Mon of month 1; fits 4 of 7 observed inaugurations)
+West Virginia,Patrick Morrisey,R,2025-01-13,,0,1,2028-11-07,wikidata; wikipedia 2028 elections,1,
+Wisconsin,Tommy Thompson,R,1987-01-05,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Wisconsin,Tommy Thompson,R,1991-01-07,1995-01-02,0,1,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wisconsin,Tommy Thompson,R,1995-01-02,1999-01-04,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wisconsin,Tommy Thompson,R,1999-01-04,2001-02-01,0,1,2002-11-05,wikidata; term_limit_rules.csv,0,term_limited derived from state rule (no term limit); left office before the 2002 election; term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wisconsin,Scott McCallum,R,2001-02-01,2003-01-06,0,1,2002-11-05,wikidata; wikipedia 2002 elections,1,
+Wisconsin,Jim Doyle,D,2003-01-07,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Wisconsin,Jim Doyle,D,2007-01-01,2011-01-03,0,1,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wisconsin,Scott Walker,R,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Wisconsin,Scott Walker,R,2015-01-05,2019-01-07,0,1,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wisconsin,Tony Evers,D,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Wisconsin,Tony Evers,D,2023-01-02,,0,1,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 1; fits 3 of 4 observed inaugurations)
+Wyoming,Mike Sullivan,D,1987-01-05,1991-01-07,0,1,1990-11-06,wikidata; wikipedia 1990 elections,1,
+Wyoming,Mike Sullivan,D,1991-01-07,1995-01-02,1,0,1994-11-08,wikidata; wikipedia 1994 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+Wyoming,Jim Geringer,R,1995-01-02,1999-01-04,0,1,1998-11-03,wikidata; wikipedia 1998 elections,1,
+Wyoming,Jim Geringer,R,1999-01-04,2003-01-06,1,0,2002-11-05,wikidata; wikipedia 2002 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+Wyoming,Dave Freudenthal,D,2003-01-06,2007-01-01,0,1,2006-11-07,wikidata; wikipedia 2006 elections,1,
+Wyoming,Dave Freudenthal,D,2007-01-01,2011-01-03,1,0,2010-11-02,wikidata; wikipedia 2010 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+Wyoming,Matt Mead,R,2011-01-03,2015-01-05,0,1,2014-11-04,wikidata; wikipedia 2014 elections,1,
+Wyoming,Matt Mead,R,2015-01-05,2019-01-07,1,0,2018-11-06,wikidata; wikipedia 2018 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
+Wyoming,Mark Gordon,R,2019-01-07,2023-01-02,0,1,2022-11-08,wikidata; wikipedia 2022 elections,1,
+Wyoming,Mark Gordon,R,2023-01-02,,1,0,2026-11-03,wikidata; wikipedia 2026 elections,1,term_start inferred (week 1 Mon of month 1; fits 5 of 5 observed inaugurations)
