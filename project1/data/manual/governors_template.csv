@@ -1,0 +1,305 @@
+state,governor,party,term_start,term_end,term_limited,eligible_next_election,next_election_date,source,verified,notes
+Alabama,"Hunt, Guy",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,"Hunt, Guy and then James Folsom Jr.",,1993,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.693)]
+Alabama,"Folsom, James E. Jr.",D,1994,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,"James, Forrest H. ""Fob"" Jr.",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,"Siegelman, Donald",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,"Riley, Bob",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,"Bentley, Robert",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alabama,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Alaska,"Cowper, Steve C.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alaska,"Hickel, Walter J.",,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
+Alaska,"Knowles, Tony",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alaska,"Murkowski, Frank H.",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alaska,"Palin, Sarah H.",R,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alaska,"Parnell, Sean",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Alaska,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Arizona,"Mofford, Rose",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,"Mofford, Rose and then Fife Symington",,1991,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.178)]
+Arizona,"Symington, Fife",R,1992,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,Switch; Symington then Jane Hull-R,R,1997,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,"Hull, Jane",R,1998,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,"Napolitano, Janet",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,"Brewer, Jan",R,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arizona,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Arkansas,"Clinton, Bill",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arkansas,"Tucker, Jim Guy Jr.",D,1993,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arkansas,Switch; Tucker then Huckabee,,1996,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.538)]
+Arkansas,"Huckabee, Mike",R,1997,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arkansas,"Beebe, Mike",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Arkansas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+California,"Deukmejian, George",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,"Wilson, Peter B. ""Pete""",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,"Davis, Gray",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,Switch; Davis-D then Schwarzenegger,D,2003,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,"Schwarzenegger, Arnold",R,2004,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,"Brown, Edmund Gerald",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+California,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Colorado,"Romer, Roy",D,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Colorado,"Owens, Bill",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Colorado,"Ritter, Bill",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Colorado,"Hickenlooper, John",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Colorado,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Connecticut,"O'Neill, William A.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Connecticut,"Weicker, Lowell P. Jr.",,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
+Connecticut,"Rowland, John G. ",R,1995,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Connecticut,"Rell, M. Jodi",R,2004,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Connecticut,"Malloy, Dan",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Connecticut,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Delaware,"Castle, Michael N.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Delaware,"Carper, Thomas R.",D,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Delaware,"Minner, Ruth Ann",D,2001,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Delaware,"Markell, Jack",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Delaware,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Florida,"Martinez, Bob",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Florida,"Chiles, Lawton M. Jr.",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Florida,"Bush, Jeb",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Florida,"Crist, Charlie",R,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Florida,"Scott, Rick",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Florida,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Georgia,"Harris, Joe Frank",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Georgia,"Miller, Zell",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Georgia,"Barnes, Roy",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Georgia,"Perdue, Sonny",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Georgia,"Deal, Nathan",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Georgia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Hawaii,"Waihee, John",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Hawaii,"Cayetano, Benjamin J.",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Hawaii,"Lingle, Linda",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Hawaii,"Abercrombie, Neil",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Hawaii,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Idaho,"Andrus, Cecil D.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Idaho,"Batt, Philip E.",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Idaho,"Kempthorne, Dirk",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Idaho,"Otter, C. L. ""Butch""",R,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Idaho,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Illinois,"Thompson, James R.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Illinois,"Edgar, Jim",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Illinois,"Ryan, George",R,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Illinois,"Blagojevich, Rod R.",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Illinois,"Quinn, Patrick",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Illinois,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Indiana,"Bayh, Evan",D,1989,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,"O'Bannon, Frank L.",D,1997,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,Split: Frank L. O'Bannon-D and Joseph E. Kernan-D,D,2003,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,"Kernan, Joseph E.",D,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,"Daniels, Mitchell E.",R,2005,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,"Daniels, Mitch",R,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Indiana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Iowa,"Branstad, Terry E.",R,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Iowa,"Vilsack, Tom",D,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Iowa,"Culver, Chet",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Iowa,"Branstad, Terry E.",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Iowa,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Kansas,"Hayden, Mike",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,"Finney, Joan",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,"Graves, Bill",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,"Sebelius, Kathleen",D,2003,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,"Parkinson, Mark",D,2009,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,"Brownback, Sam",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kansas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Kentucky,"Wilkinson, Wallace G.",D,1989,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kentucky,"Jones, Brereton C.",D,1992,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kentucky,"Patton, Paul E.",D,1996,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kentucky,"Fletcher, Ernie",R,2004,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kentucky,"Beshear, Steven L.",D,2008,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Kentucky,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Louisiana,"Roemer, Charles",,1989,1991,,,,klarner,0,"years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.162), np.float64(1.0)]"
+Louisiana,"Edwards, Edwin W.",D,1992,1995,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Louisiana,"Foster, Mike",R,1996,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Louisiana,"Blanco, Kathleen Babineaux",D,2004,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Louisiana,"Jindal, Bobby",R,2008,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Louisiana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Maine,"McKernan, John R. Jr.",R,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maine,"King, Angus Jr.",,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
+Maine,"Baldacci, John",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maine,"LePage, Paul",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maine,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Maryland,"Schaefer, William D.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maryland,"Glendening, Parris N.",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maryland,"Ehrlich, Robert L. Jr.",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maryland,"O'Malley, Martin",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Maryland,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Massachusetts,"Dukakis, Michael S.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,"Weld, William F.",R,1991,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,Switch; Weld then Argeo Paul Cellucci-R,R,1997,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,"Cellucci, Argeo Paul",R,1998,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,Switch; Paul Cellucci then Swift,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,"Swift, Jane",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,"Romney, Mitt",R,2003,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,"Patrick, Deval L.",D,2007,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Massachusetts,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Michigan,"Blanchard, James J.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Michigan,"Engler, John",R,1991,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Michigan,"Granholm, Jennifer",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Michigan,"Snyder, Rick",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Michigan,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Minnesota,"Perpich, Rudy",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Minnesota,"Carlson, Arne H.",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Minnesota,"Ventura, Jesse",,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
+Minnesota,"Pawlenty, Tim",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Minnesota,"Dayton, Mark",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Minnesota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Mississippi,"Mabus, Ray",D,1989,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Mississippi,"Fordice, Kirk",R,1992,1999,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Mississippi,"Musgrove, Ronnie",D,2000,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Mississippi,"Barbour, Haley",R,2004,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Mississippi,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Missouri,"Ashcroft, John",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,"Carnahan, Mel E.",D,1993,1999,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,Split: Mel Carnahan-D and Roger B. Wilson-D,D,2000,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,"Holden, Bob",D,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,"Blunt, Matt",R,2005,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,"Nixon, Jay",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Missouri,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Montana,"Stephens, Stan",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Montana,"Racicot, Marc F.",R,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Montana,"Martz, Judy",R,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Montana,"Schweitzer, Brian",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Montana,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Nebraska,"Orr, Kay A.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nebraska,"Nelson, Earl ""Ben""",D,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nebraska,"Johanns, Mike",R,1999,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nebraska,"Heineman, Dave",R,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nebraska,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Nevada,"Miller, Bob J.",D,1989,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nevada,"Guinn, Kenny",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nevada,"Gibbons, James A.",R,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nevada,"Sandoval, Brian",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Nevada,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+New Hampshire,"Gregg, Judd",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Hampshire,"Merrill, Steve",R,1993,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Hampshire,"Shaheen, Jeanne",D,1997,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Hampshire,"Benson-, Craig",R,2003,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Hampshire,"Lynch, John",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Hampshire,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+New Jersey,"Kean, Thomas H.",R,1989,1989,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Florio, James J.",D,1990,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Whitman, Christine Todd",R,1994,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Donald T. DiFrancesco-R, took over January 31, 2001, because Whitman resigned on January 31, 2001.",R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"McGreevey, James E.",D,2002,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,McGreevey then Richard J. Codey-D,D,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Codey, Richard J.",D,2005,2005,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"corzine, Jon Stevens",D,2006,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Corzine, Jon",D,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,"Christie, Chris",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Jersey,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+New Mexico,"Carruthers, Garrey E.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Mexico,"King, Bruce",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Mexico,"Johnson, Gary E.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Mexico,"Richardson, Bill",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Mexico,"Martinez, Susana",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New Mexico,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+New York,"Cuomo, Mario M.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New York,"Pataki, George E.",R,1995,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New York,"Spitzer, Eliot",D,2007,2007,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New York,"Paterson, David A.",D,2008,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New York,"Cuomo, Andrew",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+New York,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+North Carolina,"Martin, James G.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Carolina,"Hunt, James B. Jr.",D,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Carolina,"Easley, Michael F.",D,2001,2008,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Carolina,"Perdue, Beverly",D,2009,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Carolina,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+North Dakota,"Sinner, George",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Dakota,"Schafer, Edward T.",R,1993,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Dakota,"Hoeven, John",R,2001,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Dakota,"Dalrymple, Jack",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+North Dakota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Ohio,"Celeste, Richard F.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Ohio,"Voinovich, George V.",R,1991,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Ohio,"Taft, Bob",R,1999,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Ohio,"Strickland, Ted",D,2007,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Ohio,"Kasich, John",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Ohio,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Oklahoma,"Bellmon, Henry L.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oklahoma,"Walters, David",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oklahoma,"Keating, Frank",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oklahoma,"Henry, Brad",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oklahoma,"Fallin, Mary",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oklahoma,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Oregon,"Goldschmidt, Neil",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oregon,"Roberts, Barbara",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oregon,"Kitzhaber, John",D,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oregon,"Kulongoski, Ted",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oregon,"Kitzhaber, John A.",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Oregon,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Pennsylvania,"Casey, Robert P.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,"Ridge, Tom",R,1995,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,Switch; Ridge then Schweiker,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,"Schweiker, Mark",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,"Rendell, Edward G.",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,"Corbett, Tom",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Pennsylvania,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Rhode Island,"DiPrete, Edward D.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Rhode Island,"Sundlun, Bruce",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Rhode Island,"Almond, Lincoln C.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Rhode Island,"Carcieri, Don",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Rhode Island,"Chafee, Lincoln",,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.5)]
+Rhode Island,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+South Carolina,"Campbell, Carroll",R,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Carolina,"Beasley, David",R,1995,1998,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Carolina,"Hodges, Jim",D,1999,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Carolina,"Sanford, Mark",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Carolina,"Haley, Nikki R.",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Carolina,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+South Dakota,"Mickelson, George S.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,"Mickelson, George S. followed by Walter D. Miller",R,1993,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,"Miller, Walter D.",R,1994,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,"Janklow, William J.",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,"Rounds, Mike",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,"Daugaard, Dennis",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+South Dakota,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Tennessee,"McWherter, Ned R.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Tennessee,"Sundquist, Don",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Tennessee,"Bredesen, Phil",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Tennessee,"Haslam, Bill",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Tennessee,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Texas,"Clements, William P.",R,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Texas,"Richards, Ann W.",D,1991,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Texas,"Bush, George W.",R,1995,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Texas,"Perry, Rick",R,2001,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Texas,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Utah,"Bangerter, Norman H.",R,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,"Leavitt, Mike O.",R,1993,2003,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,"Walker, Olene S.",R,2004,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,"Huntsman, Jon Jr.",R,2005,2006,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,"Huntsman, Jon M. Jr.",R,2007,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,"Herbert, Gary",R,2010,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Utah,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Vermont,"Kunin, Madeleine M.",D,1989,1990,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Vermont,"Snelling, Richard A. followed by Howard Dean",,1991,1991,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.381)]
+Vermont,"Dean, Howard",D,1992,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Vermont,"Douglas, Jim",R,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Vermont,"Shumlin, Peter",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Vermont,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Virginia,"Baliles, Gerald L.",D,1989,1989,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"Wilder, L. Douglas",D,1990,1993,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"Allen, George F.",R,1994,1997,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"Gilmore, Jame S. III",R,1998,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"Warner, Mark",D,2002,2005,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"Kaine, Tim",D,2006,2009,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Virginia,"McDonnell, Bob",,2010,2011,,,,klarner,0,"years in office at 1 Jan per Klarner govname1; exact dates to verify; govparty_a values [np.float64(0.0), np.float64(1.0)]"
+Virginia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Washington,"Gardner, Booth",D,1989,1992,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Washington,"Lowry, Mike",D,1993,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Washington,"Locke, Gary",D,1997,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Washington,"Gregoire, Christine",D,2005,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Washington,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+West Virginia,"Caperton, Gaston",D,1989,1996,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+West Virginia,"Underwood, Cecil H.",R,1997,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+West Virginia,"Wise, Bob",D,2001,2004,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+West Virginia,"Manchin, Joe III",D,2005,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+West Virginia,"Tomblin, Earl Ray",D,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+West Virginia,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Wisconsin,"Thompson, Tommy G.",R,1989,2000,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wisconsin,Switch; thompson then McCallum,R,2001,2001,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wisconsin,"McCallum, Scott",R,2002,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wisconsin,"Doyle, Jim",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wisconsin,"Walker, Scott",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wisconsin,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)
+Wyoming,"Sullivan, Michael J.",D,1989,1994,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wyoming,"Geringer, Jim",R,1995,2002,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wyoming,"Freudenthal, Dave",D,2003,2010,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wyoming,"Mead, Matthew",R,2011,2011,,,,klarner,0,years in office at 1 Jan per Klarner govname1; exact dates to verify
+Wyoming,,,,,,,,,0,add spells from 2012 to 2026 (beyond Klarner coverage)

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS / Office
+.DS_Store
+~$*
+
+# In-progress downloads
+*.part
+
+# Large raw folders: published as GitHub Release assets instead (see README)
+project1/data/raw/storm_events/
+project1/data/raw/pda/pdfs/

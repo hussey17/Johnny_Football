@@ -1,0 +1,86 @@
+[
+  {
+    "check": "D1 rows",
+    "expected": ">= 1,300",
+    "observed": "1,303",
+    "result": "PASS"
+  },
+  {
+    "check": "D1 Major Disaster rows",
+    "expected": ">= 881",
+    "observed": "881",
+    "result": "PASS"
+  },
+  {
+    "check": "D1 and D2 contain declarationRequestNumber",
+    "expected": "Yes",
+    "observed": "Yes",
+    "result": "PASS"
+  },
+  {
+    "check": "D3 rows",
+    "expected": ">= 5,270; >= 2,943 Major Disaster",
+    "observed": "5,273; 2,943 Major Disaster",
+    "result": "PASS"
+  },
+  {
+    "check": "D4 rows",
+    "expected": ">= 4,000",
+    "observed": "4,036",
+    "result": "PASS"
+  },
+  {
+    "check": "D6 details file per year 1988-2025 (2026 if published)",
+    "expected": "no gaps",
+    "observed": "1988-2026, 39 years; missing none; 2026 present",
+    "result": "PASS"
+  },
+  {
+    "check": "D9 three zips open",
+    "expected": "3 valid zips",
+    "observed": "SAINC: 1017 members; SAGDP: 570 members; SAGDP_SIC: 504 members",
+    "result": "PASS"
+  },
+  {
+    "check": "D10 LAUS data through 2026",
+    "expected": "max year 2026",
+    "observed": "2026 M08",
+    "result": "PASS"
+  },
+  {
+    "check": "D12 monthly CPI-U ending 2026",
+    "expected": "monthly, last obs 2026",
+    "observed": "1947-01 to 2026-08, monthly=True",
+    "result": "PASS"
+  },
+  {
+    "check": "D13 one file per year 1999-2025 (2004 may be missing)",
+    "expected": "missing \u2286 {2004}",
+    "observed": "26 years; missing [2004]",
+    "result": "PASS"
+  },
+  {
+    "check": "D15 years 1976-2024, 50 states + DC",
+    "expected": "13 elections, 51 units",
+    "observed": "1976-2024 (13 elections), 51 state units",
+    "result": "PASS"
+  },
+  {
+    "check": "D21 party mean column",
+    "expected": "nominate_dim1_mean or equivalent",
+    "observed": "present",
+    "result": "PASS"
+  },
+  {
+    "check": "D22 state-year coverage starts 1993",
+    "expected": "min year 1993",
+    "observed": "shor mccarty 1993-2022 state aggregate data January 2025 release.dta: 1993-2022, 1,500 rows",
+    "result": "PASS"
+  },
+  {
+    "check": "Manifest: every file has a row with sha256; no empty status",
+    "expected": "0 unlisted, 0 empty, 0 stale, 0 hash mismatches",
+    "observed": "162 files; unlisted 0 []; empty status 0; stale 0; hash mismatch 0 []",
+    "result": "PASS"
+  }
+]

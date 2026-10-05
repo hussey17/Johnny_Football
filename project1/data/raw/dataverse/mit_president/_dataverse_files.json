@@ -1,0 +1,100 @@
+{
+  "persistentId": "doi:10.7910/DVN/42MVDX",
+  "note": "",
+  "retrieved_at_utc": "2026-10-05T05:51:06Z",
+  "status": "OK",
+  "totalCount": 3,
+  "data": [
+    {
+      "description": "Time series data set of presidential returns by state",
+      "label": "1976-2024-president.csv",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 747246,
+      "dataFile": {
+        "id": 13887042,
+        "persistentId": "",
+        "filename": "1976-2024-president.csv",
+        "contentType": "text/comma-separated-values",
+        "friendlyType": "Comma Separated Values",
+        "filesize": 514108,
+        "description": "Time series data set of presidential returns by state",
+        "storageIdentifier": "s3://dvn-cloud-iqss:19e17cf541e-b26c7275c4d6",
+        "rootDataFileId": 4299753,
+        "previousDataFileId": 13887037,
+        "md5": "405af83db7625cb35d8c19a5ebe029ff",
+        "checksum": {
+          "type": "MD5",
+          "value": "405af83db7625cb35d8c19a5ebe029ff"
+        },
+        "tabularData": false,
+        "creationDate": "2026-05-11",
+        "publicationDate": "2026-05-11",
+        "lastUpdateTime": "2026-09-04T16:15:49Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "readme file for the presidential returns data",
+      "label": "codebook-us-president-1976-2020.md",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 747246,
+      "dataFile": {
+        "id": 7241480,
+        "persistentId": "",
+        "filename": "codebook-us-president-1976-2020.md",
+        "contentType": "text/markdown",
+        "friendlyType": "Markdown Text",
+        "filesize": 3176,
+        "description": "readme file for the presidential returns data",
+        "storageIdentifier": "s3://dvn-cloud:18963f9fe17-afeda902f75e",
+        "rootDataFileId": 4299754,
+        "previousDataFileId": 4299754,
+        "md5": "d40a38c2847781b54f002aa893921ef8",
+        "checksum": {
+          "type": "MD5",
+          "value": "d40a38c2847781b54f002aa893921ef8"
+        },
+        "tabularData": false,
+        "creationDate": "2023-07-17",
+        "publicationDate": "2023-07-17",
+        "lastUpdateTime": "2026-09-04T16:15:49Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "A csv of the sources for the elections data",
+      "label": "sources-president.tab",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 747246,
+      "dataFile": {
+        "id": 4304791,
+        "persistentId": "",
+        "filename": "sources-president.tab",
+        "contentType": "text/tab-separated-values",
+        "friendlyType": "Tab-Delimited",
+        "filesize": 5038,
+        "description": "A csv of the sources for the elections data",
+        "storageIdentifier": "s3://dvn-cloud:1771b28b2e1-a82abdafa104",
+        "originalFileFormat": "text/csv",
+        "originalFormatLabel": "Comma Separated Values",
+        "originalFileSize": 4580,
+        "originalFileName": "sources-president.csv",
+        "UNF": "UNF:6:xpBppxfswpr+u9xZe7/u7w==",
+        "rootDataFileId": -1,
+        "md5": "ee979c4c5ea7a6df903db86dab3f869e",
+        "checksum": {
+          "type": "MD5",
+          "value": "ee979c4c5ea7a6df903db86dab3f869e"
+        },
+        "tabularData": true,
+        "creationDate": "2021-01-19",
+        "publicationDate": "2023-07-17",
+        "lastUpdateTime": "2026-09-04T16:15:49Z",
+        "fileAccessRequest": false
+      }
+    }
+  ]
+}

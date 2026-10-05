@@ -1,0 +1,79 @@
+{
+  "persistentId": "hdl:1902.1/20408",
+  "note": "",
+  "retrieved_at_utc": "2026-10-05T05:51:16Z",
+  "status": "OK",
+  "totalCount": 2,
+  "data": [
+    {
+      "description": "",
+      "label": "StateElections_Gub_2012_09_06_Public_Version_Codebook.docx",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52391,
+      "categories": [
+        "1. Documentation"
+      ],
+      "dataFile": {
+        "id": 2432033,
+        "persistentId": "doi:10.7910/DVN/PQ0Y1N/VUYHHD",
+        "pidURL": "https://doi.org/10.7910/DVN/PQ0Y1N/VUYHHD",
+        "filename": "StateElections_Gub_2012_09_06_Public_Version_Codebook.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "friendlyType": "MS Word",
+        "filesize": 32196,
+        "description": "",
+        "categories": [
+          "1. Documentation"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102378",
+        "rootDataFileId": -1,
+        "md5": "8dd1a9f7ba138e4e04e20540f46e3c2a",
+        "checksum": {
+          "type": "MD5",
+          "value": "8dd1a9f7ba138e4e04e20540f46e3c2a"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:31:05Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "",
+      "label": "StateElections_Gub_2012_09_06_Public_Version.xlsx",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52391,
+      "categories": [
+        "2. Data"
+      ],
+      "dataFile": {
+        "id": 2432034,
+        "persistentId": "doi:10.7910/DVN/PQ0Y1N/AUKPHB",
+        "pidURL": "https://doi.org/10.7910/DVN/PQ0Y1N/AUKPHB",
+        "filename": "StateElections_Gub_2012_09_06_Public_Version.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "friendlyType": "MS Excel Spreadsheet",
+        "filesize": 1113667,
+        "description": "",
+        "categories": [
+          "2. Data"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102377",
+        "rootDataFileId": -1,
+        "md5": "f300dc26657ad0bef3754f8484055f83",
+        "checksum": {
+          "type": "MD5",
+          "value": "f300dc26657ad0bef3754f8484055f83"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:31:05Z",
+        "fileAccessRequest": false
+      }
+    }
+  ]
+}

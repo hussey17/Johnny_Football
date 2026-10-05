@@ -1,0 +1,118 @@
+{
+  "persistentId": "doi:10.7910/DVN/T53FFK",
+  "note": "newest of 5 versions: Aggregate State Legislator Shor-McCarty Ideology Data, January 2025 update",
+  "retrieved_at_utc": "2026-10-05T05:51:19Z",
+  "status": "OK",
+  "totalCount": 4,
+  "data": [
+    {
+      "label": "shor and mccarty 2011 final apsr.pdf",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 435882,
+      "dataFile": {
+        "id": 10853751,
+        "persistentId": "",
+        "filename": "shor and mccarty 2011 final apsr.pdf",
+        "contentType": "application/pdf",
+        "friendlyType": "Adobe PDF",
+        "filesize": 1278615,
+        "storageIdentifier": "s3://dvn-cloud:194bcfae745-d3a14105ba4c",
+        "rootDataFileId": -1,
+        "md5": "9601a2ab9603e0f6174c790b3e4c1fb1",
+        "checksum": {
+          "type": "MD5",
+          "value": "9601a2ab9603e0f6174c790b3e4c1fb1"
+        },
+        "tabularData": false,
+        "creationDate": "2025-01-31",
+        "publicationDate": "2025-01-31",
+        "lastUpdateTime": "2025-01-31T15:34:58Z",
+        "fileAccessRequest": true
+      }
+    },
+    {
+      "label": "shor mccarty 1993-2022 state aggregate data January 2025 release.tab",
+      "restricted": false,
+      "version": 3,
+      "datasetVersionId": 435882,
+      "dataFile": {
+        "id": 10853749,
+        "persistentId": "",
+        "filename": "shor mccarty 1993-2022 state aggregate data January 2025 release.tab",
+        "contentType": "text/tab-separated-values",
+        "friendlyType": "Tab-Delimited",
+        "filesize": 536672,
+        "storageIdentifier": "s3://dvn-cloud:194bcfae7e1-6133e55922fa",
+        "originalFileFormat": "application/x-stata-14",
+        "originalFormatLabel": "Stata 14 Binary",
+        "originalFileSize": 459315,
+        "originalFileName": "shor mccarty 1993-2022 state aggregate data January 2025 release.dta",
+        "UNF": "UNF:6:lfw6DrzG9tscoduSYR6fVw==",
+        "rootDataFileId": -1,
+        "md5": "844e31de2a7bbad7a9542eec2a625601",
+        "checksum": {
+          "type": "MD5",
+          "value": "844e31de2a7bbad7a9542eec2a625601"
+        },
+        "tabularData": true,
+        "creationDate": "2025-01-31",
+        "publicationDate": "2025-01-31",
+        "lastUpdateTime": "2025-01-31T15:34:58Z",
+        "fileAccessRequest": true
+      }
+    },
+    {
+      "label": "shor mccarty state aggregate data codebook jan 2025.pdf",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 435882,
+      "dataFile": {
+        "id": 10853750,
+        "persistentId": "",
+        "filename": "shor mccarty state aggregate data codebook jan 2025.pdf",
+        "contentType": "application/pdf",
+        "friendlyType": "Adobe PDF",
+        "filesize": 43368,
+        "storageIdentifier": "s3://dvn-cloud:194bcfae89f-241ad52d5ed4",
+        "rootDataFileId": -1,
+        "md5": "0ae168fb2ca5ca4b4389a72021ecc5fb",
+        "checksum": {
+          "type": "MD5",
+          "value": "0ae168fb2ca5ca4b4389a72021ecc5fb"
+        },
+        "tabularData": false,
+        "creationDate": "2025-01-31",
+        "publicationDate": "2025-01-31",
+        "lastUpdateTime": "2025-01-31T15:34:58Z",
+        "fileAccessRequest": true
+      }
+    },
+    {
+      "label": "two decades of polarization - shor and mccarty 2022.pdf",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 435882,
+      "dataFile": {
+        "id": 10853748,
+        "persistentId": "",
+        "filename": "two decades of polarization - shor and mccarty 2022.pdf",
+        "contentType": "application/pdf",
+        "friendlyType": "Adobe PDF",
+        "filesize": 5441571,
+        "storageIdentifier": "s3://dvn-cloud:194bcfaec09-58785bec62ae",
+        "rootDataFileId": -1,
+        "md5": "2f0fe416270db8dbbf9c9874215a8d23",
+        "checksum": {
+          "type": "MD5",
+          "value": "2f0fe416270db8dbbf9c9874215a8d23"
+        },
+        "tabularData": false,
+        "creationDate": "2025-01-31",
+        "publicationDate": "2025-01-31",
+        "lastUpdateTime": "2025-01-31T15:34:58Z",
+        "fileAccessRequest": true
+      }
+    }
+  ]
+}

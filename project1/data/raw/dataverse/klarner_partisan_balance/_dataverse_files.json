@@ -1,0 +1,149 @@
+{
+  "persistentId": "hdl:1902.1/20403",
+  "note": "",
+  "retrieved_at_utc": "2026-10-05T05:51:11Z",
+  "status": "OK",
+  "totalCount": 4,
+  "data": [
+    {
+      "description": "",
+      "label": "Partisan_Balance_For_Use2011_06_09b.xlsx",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52397,
+      "categories": [
+        "2. Data"
+      ],
+      "dataFile": {
+        "id": 2432030,
+        "persistentId": "doi:10.7910/DVN/LZHMG3/1BSFI3",
+        "pidURL": "https://doi.org/10.7910/DVN/LZHMG3/1BSFI3",
+        "filename": "Partisan_Balance_For_Use2011_06_09b.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "friendlyType": "MS Excel Spreadsheet",
+        "filesize": 1546736,
+        "description": "",
+        "categories": [
+          "2. Data"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102371",
+        "rootDataFileId": -1,
+        "md5": "31f6d7b4b85f821b9e563142f0907506",
+        "checksum": {
+          "type": "MD5",
+          "value": "31f6d7b4b85f821b9e563142f0907506"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:21:08Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "",
+      "label": "Partisan_Balance_For_Use2012_10_18_Codebook.docx",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52397,
+      "categories": [
+        "1. Codebook"
+      ],
+      "dataFile": {
+        "id": 2432028,
+        "persistentId": "doi:10.7910/DVN/LZHMG3/ZWSONK",
+        "pidURL": "https://doi.org/10.7910/DVN/LZHMG3/ZWSONK",
+        "filename": "Partisan_Balance_For_Use2012_10_18_Codebook.docx",
+        "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "friendlyType": "MS Word",
+        "filesize": 30979,
+        "description": "",
+        "categories": [
+          "1. Codebook"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102372",
+        "rootDataFileId": -1,
+        "md5": "df5f4649adbf97d1f4d7a0d2d9af6724",
+        "checksum": {
+          "type": "MD5",
+          "value": "df5f4649adbf97d1f4d7a0d2d9af6724"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:21:08Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "",
+      "label": "StatePartisanBalance1934to2011_SourceFiles_2011_05_24_Codebook.doc",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52397,
+      "categories": [
+        "1. Codebook"
+      ],
+      "dataFile": {
+        "id": 2432029,
+        "persistentId": "doi:10.7910/DVN/LZHMG3/H6N9BO",
+        "pidURL": "https://doi.org/10.7910/DVN/LZHMG3/H6N9BO",
+        "filename": "StatePartisanBalance1934to2011_SourceFiles_2011_05_24_Codebook.doc",
+        "contentType": "application/msword",
+        "friendlyType": "MS Word",
+        "filesize": 161280,
+        "description": "",
+        "categories": [
+          "1. Codebook"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102374",
+        "rootDataFileId": -1,
+        "md5": "0999e15b422d6d9c19da2e39981efa92",
+        "checksum": {
+          "type": "MD5",
+          "value": "0999e15b422d6d9c19da2e39981efa92"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:21:08Z",
+        "fileAccessRequest": false
+      }
+    },
+    {
+      "description": "",
+      "label": "StatePartisanBalance1934to2011_SourceFiles_2011_05_24.xlsx",
+      "restricted": false,
+      "version": 1,
+      "datasetVersionId": 52397,
+      "categories": [
+        "2. Data"
+      ],
+      "dataFile": {
+        "id": 2432027,
+        "persistentId": "doi:10.7910/DVN/LZHMG3/JE16QK",
+        "pidURL": "https://doi.org/10.7910/DVN/LZHMG3/JE16QK",
+        "filename": "StatePartisanBalance1934to2011_SourceFiles_2011_05_24.xlsx",
+        "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "friendlyType": "MS Excel Spreadsheet",
+        "filesize": 2795480,
+        "description": "",
+        "categories": [
+          "2. Data"
+        ],
+        "storageIdentifier": "s3://dvn-cloud:102373",
+        "rootDataFileId": -1,
+        "md5": "e168ee7c7c549c417471c7ec15b30356",
+        "checksum": {
+          "type": "MD5",
+          "value": "e168ee7c7c549c417471c7ec15b30356"
+        },
+        "tabularData": false,
+        "creationDate": "2013-02-26",
+        "publicationDate": "2013-02-25",
+        "lastUpdateTime": "2013-02-26T17:21:08Z",
+        "fileAccessRequest": false
+      }
+    }
+  ]
+}
