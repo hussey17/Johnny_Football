@@ -1,0 +1,564 @@
+source_variable,variable_label
+V101,Case ID
+commonweight_vv,Common content with voter validation weights
+commonweight_vv_post,Common content with voter validation weights post-election
+commonweight_vv_lgbt,Weights for LGBT variable analysis
+commonweight,Common content weights
+commonweight_post,Common content weights post-election
+tookpost,Took post-election wave
+lookupzip,Zip code for mapping CD
+inputstate,State
+cdid113,CD 113th/114th Congress
+cdid115,CD 115th Congress
+countyfips,County FIPS code
+countyname,County Name
+CurrentGovName,Current Governor Name
+CurrentGovParty,Current Governor Party
+CurrentHouseGender,Current House Gender
+CurrentHouseName,Current House Name
+CurrentHouseParty,Current House Party
+CurrentSen1Gender,Current Senate 1 Gender
+CurrentSen1Name,Current Senate 1 Name
+CurrentSen1Party,Current Senate 1 Party
+CurrentSen2Gender,Current Senate 2 Gender
+CurrentSen2Name,Current Senate 2 Name
+CurrentSen2Party,Current Senate 2 Party
+GovCand1Incumbent,Governor Candidate 1 Incumbent
+GovCand1Name,Governor Candidate 1 Name
+GovCand1Party,Governor Candidate 1 Party
+GovCand2Incumbent,Governor Candidate 2 Incumbent
+GovCand2Name,Governor Candidate 2 Name
+GovCand2Party,Governor Candidate 2 Party
+GovCand3Name,Governor Candidate 3 Name
+GovCand3Party,Governor Candidate 3 Party
+HouseCand1Incumbent,House Candidate 1 Incumbent
+HouseCand1Name,House Candidate 1 Name
+HouseCand1Party,House Candidate 1 Party
+HouseCand2Incumbent,House Candidate 2 Incumbent
+HouseCand2Name,House Candidate 2 Name
+HouseCand2Party,House Candidate 2 Party
+HouseCand3Name,House Candidate 3 Name
+HouseCand3Party,House Candidate 3 Party
+HouseCand4Name,House Candidate 4 Name
+HouseCand4Party,House Candidate 4 Party
+HouseCand5Name,House Candidate 5 Name
+HouseCand5Party,House Candidate 5 Party
+HouseCand6Name,House Candidate 6 Name
+HouseCand6Party,House Candidate 6 Party
+HouseCand7Name,House Candidate 7 Name
+HouseCand7Party,House Candidate 7 Party
+HouseCand8Name,House Candidate 8 Name
+HouseCand8Party,House Candidate 8 Party
+HouseCand9Name,House Candidate 9 Name
+HouseCand9Party,House Candidate 9 Party
+HouseCand10Name,House Candidate 10 Name
+HouseCand10Party,House Candidate 10 Party
+HouseCand11Name,House Candidate 11 Name
+HouseCand11Party,House Candidate 11 Party
+LegName,Legislature name
+LowerChamberName,Lower chamber name
+SenCand1Incumbent,Senate Candidate 1 Incumbent
+SenCand1Name,Senate Candidate 1 Name
+SenCand1Party,Senate Candidate 1 Party
+SenCand2Incumbent,Senate Candidate 2 Incumbent
+SenCand2Name,Senate Candidate 2 Name
+SenCand2Party,Senate Candidate 2 Party
+SenCand3Name,Senate Candidate 3 Name
+SenCand3Party,Senate Candidate 3 Party
+SenCand4Name,Senate Candidate 4 Name
+SenCand4Party,Senate Candidate 4 Party
+CCEStake,Consent to participate
+comptype,Computer or mobile user
+add_confirm,Is the name and address displayed above correct?
+votereg,Voter Registration Status
+votereg_f,Registered to vote
+regzip,Zip code where registered
+inputzip,Zip code
+birthyr,Birth year
+gender,Gender
+educ,Education
+race,Race
+race_other,"Race, other"
+hispanic,"Spanish, Latino or Hispanic origin or descent"
+marstat,Marital Status
+multrace_1,Multi-racial - White
+multrace_2,Multi-racial - Black
+multrace_3,Multi-racial - Hispanic
+multrace_4,Multi-racial - Asian
+multrace_5,Multi-racial - Native American
+multrace_8,Multi-racial - Middle Eastern
+multrace_97,Multi-racial - Other
+multrace_98,Multi-racial - Don't know
+multrace_99,Multi-racial - None of these
+Hispanic_origin_1,Hispanic_origin - No Country in Particular
+Hispanic_origin_2,Hispanic_origin - United States
+Hispanic_origin_3,Hispanic_origin - Mexico
+Hispanic_origin_4,Hispanic_origin - Puerto Rico
+Hispanic_origin_5,Hispanic_origin - Cuba
+Hispanic_origin_6,Hispanic_origin - Dominican Republic
+Hispanic_origin_7,Hispanic_origin - South America
+Hispanic_origin_8,Hispanic_origin - Central America
+Hispanic_origin_9,Hispanic_origin - Caribbean
+Hispanic_origin_10,Hispanic_origin - Spain
+Hispanic_origin_11,Hispanic_origin - Other
+Hispanic_origin_12,"Hispanic_origin - I am not of Latino, Hispanic or Spanish Heritage"
+Hispanic_origin_t,Hispanic_origin - None
+Asian_origin_1,Asian_origin - No Country in Particular
+Asian_origin_2,Asian_origin - United States
+Asian_origin_3,Asian_origin - China
+Asian_origin_4,Asian_origin - Japan
+Asian_origin_5,Asian_origin - India
+Asian_origin_6,Asian_origin - Philippines
+Asian_origin_7,Asian_origin - Taiwan
+Asian_origin_8,Asian_origin - Korea
+Asian_origin_9,Asian_origin - Vietnam
+Asian_origin_10,Asian_origin - Pakistan
+Asian_origin_11,Asian_origin - Hmong
+Asian_origin_12,Asian_origin - Cambodia
+Asian_origin_13,Asian_origin - Thailand
+Asian_origin_14,Asian_origin - Other
+Asian_origin_15,Asian_origin - I am not of Asian Heritage
+Asian_origin_t,Asian_origin - None
+ccesmodule,Survey assigned
+CC16_300_1,Media Use - Blog
+CC16_300_2,Media Use - TV
+CC16_300_3,Media Use - Newspaper
+CC16_300_4,Media Use - Radio
+CC16_300_5,Media Use - Social Media
+CC16_300_6,Media Use - None
+CC16_300b,"Watch local news, national news or both"
+CC16_300c,"Read print news, online news or both"
+CC16_300d_1,"Social media - Posted a story, photo, video or link about politics"
+CC16_300d_2,Social media - Posted a comment about politics
+CC16_300d_3,Social media - Read a story or watched a video about politics
+CC16_300d_4,Social media - Followed a political event
+CC16_300d_5,"Social media - Forwarded a story, photo, video or link about politics to friends"
+CC16_301a,Most Important Problem - Gun control
+CC16_301b,Most Important Problem - Abortion
+CC16_301c,Most Important Problem - Taxes
+CC16_301d,Most Important Problem - Immigration
+CC16_301e,Most Important Problem - Budget deficit
+CC16_301f,Most Important Problem - Defense spending
+CC16_301g,Most Important Problem - Social security
+CC16_301h,Most Important Problem - Environment
+CC16_301i,Most Important Problem - Jobs
+CC16_301j,Most Important Problem - Crime
+CC16_301k,Most Important Problem - National security
+CC16_301l,Most Important Problem - Race relations
+CC16_301m,Most Important Problem - Health care
+CC16_301n,Most Important Problem - Gay marriage
+CC16_301o,Most Important Problem - Government corruption
+CC16_302,National Economy
+CC16_303,Past year - household income
+CC16_304,Next year - household income
+CC16_305_1,Past four years - Married
+CC16_305_2,Past four years - Lost a job
+CC16_305_3,Past four years - Finished school
+CC16_305_4,Past four years - Retired
+CC16_305_5,Past four years - Divorced
+CC16_305_6,Past four years - Had a child
+CC16_305_7,Past four years - Taken a new job
+CC16_305_8,Past four years - Been issued a traffic ticket
+CC16_305_9,Past four years - Been a victim of a crime
+CC16_305_10,Past four years - Visited an emergency room
+CC16_305_11,Past four years - Received a raise at work
+CC16_307,Police make R feel safe
+CC16_312_1,Do not get involved
+CC16_312_2,"Send food, medicine and other aid to countries affected"
+CC16_312_3,Provide arms to those opposing ISIS
+CC16_312_4,Enforce a no-fly zone
+CC16_312_5,Use drones and aircraft to bomb ISIS troops
+CC16_312_6,Send military support staff (non-combat)
+CC16_312_7,Send significant force to fight ISIS
+CC16_321a,Party of Government Knowledge - Reps
+CC16_321b,Party of Government Knowledge - Senate
+CC16_321c,Party of Government Knowledge - State Senate
+CC16_321d,Party of Government Knowledge - Lower Chamber
+CC16_322a,Party Recall + Name Recognition - Governor
+CC16_322b,Party Recall + Name Recognition - Senator 1
+CC16_322c,Party Recall + Name Recognition - Senator 2
+CC16_322d,Party Recall + Name Recognition - Rep
+CC16_320a,Approve of Job - Obama
+CC16_320b,Approve of Job - Congress
+CC16_320c,Approve of Job - Supreme Court
+CC16_320d,Approve of Job - Governor
+CC16_320e,Approve of Job - Legislature
+CC16_320f,Approve of Job - Rep
+CC16_320g,Approve of Job - Senator 1
+CC16_320h,Approve of Job - Senator 2
+CC16_316,Vote 2012
+CC16_326,President 2012
+CC16_326_t,President 2012 - open
+CC16_327,Vote primary 2016
+CC16_328,Vote primary 2016 candidate
+CC16_330a,"Gun Control - Background checks for all sales, including at gun shows and over t"
+CC16_330b,Gun Control - Prohibit state and local governments from publishing the names and
+CC16_330d,Gun Control - Ban assault rifles
+CC16_330e,Gun Control - Make it easier for people to obtain concealed-carry permit
+CC16_331_1,Immigration - Grant legal status to all illegal immigrants who have held jobs an
+CC16_331_2,Immigration - Increase the number of border patrols on the U.S.-Mexican border
+CC16_331_3,Immigration - Grant legal status to people who were brought to the US illegally 
+CC16_331_4,Immigration - Fine U.S. businesses that hire illegal immigrants
+CC16_331_5,Immigration - Admit no refugees from Syria
+CC16_331_6,Immigration - Increase the number of visas for overseas workers to work in the U
+CC16_331_7,Immigration - Identify and deport illegal immigrants
+CC16_331_8,Immigration - Ban Muslims from immigrating to the U.S.
+CC16_331_9,Immigration - None of these
+CC16_332a,Abortion Policies - Always allow a woman to obtain an abortion as a matter of ch
+CC16_332b,"Abortion Policies - Permit abortion only in case of rape, incest or when the wom"
+CC16_332c,Abortion Policies - Prohibit all abortions after the 20th week of pregnancy
+CC16_332d,Abortion Policies - Allow employers to decline coverage of abortions in insuranc
+CC16_332e,Abortion Policies - Prohibit the expenditure of funds authorized or appropriated
+CC16_332f,Abortion Policies - Make abortions illegal in all circumstances
+CC16_333a,Environment Policies - Give Environmental Protection Agency power to regulate Ca
+CC16_333b,Environment Policies - Raise required fuel efficiency for the average automobile
+CC16_333c,"Environment Policies - Require a minimum amount of renewable fuels (wind, solar,"
+CC16_333d,Environment Policies - Strengthen enforcement of the Clean Air Act and Clean Wat
+CC16_334a,Crime Policies - Eliminate mandatory minimum sentences for non-violent drug offe
+CC16_334b,Crime Policies - Require police officers to wear body cameras that record all of
+CC16_334c,"Crime Policies - Increase the number of police on the street by 10 percent, even"
+CC16_334d,Crime Policies - Increase prison sentences for felons who have already committed
+CC16_335,Gay Marriage
+CC16_337_1,Budget Priorities - Cut Defense Spending
+CC16_337_2,Budget Priorities - Cut Domestic Spending
+CC16_337_3,Budget Priorities - Raise Taxes
+CC16_340a,Ideology - Yourself
+CC16_340b,Ideology - Governor
+CC16_340c,Ideology - Obama
+CC16_340d,Ideology - Hillary Clinton
+CC16_340e,Ideology - Donald Trump
+CC16_340f,Ideology - Merrick Garland
+CC16_340g,Ideology - The Democratic Party
+CC16_340h,Ideology - The Republican Party
+CC16_340i,Ideology - The United States Supreme Court
+CC16_340j,Ideology - $CurrentSen1Name
+CC16_340k,Ideology - $CurrentSen2Name
+CC16_340l,Ideology - $SenCand1Name
+CC16_340m,Ideology - $SenCand2Name
+CC16_340n,Ideology - $HouseCand1Name
+CC16_340o,Ideology - $HouseCand2Name
+CC16_340p,Ideology - House member
+CC16_350,SC_Appointments
+CC16_351A,For or Against - Congress - Approve Garland nomination
+CC16_351B,For or Against - Congress - Trans-Pacific Partnership Act
+CC16_351C,For or Against - Congress - USA Freedom Act
+CC16_351D,For or Against - Congress - Trade Adjustment Assistence Act
+CC16_351E,For or Against - Congress - Education Reform
+CC16_351F,For or Against - Congress - Highway and Transportation Funding Act
+CC16_351G,For or Against - Congress - Iran Sanctions Act
+CC16_351H,For or Against - Congress - Medicare Accountability and Cost Reform Act
+CC16_351I,For or Against - Congress - Repeal Affordable Care Act
+CC16_351K,For or Against - Congress - Minimum wage
+CC16_360,Party Registration
+CC16_361,Residence
+CC16_364,Does R Intend to Vote in 2016
+CC16_364b,Pres vote
+CC16_364b_t,Pres vote - open
+CC16_364c,Pres pref
+CC16_364c_t,Pres pref - open
+CC16_365,Senator pref
+CC16_365_t,Senator pref - open
+CC16_365a,Senator pref 2nd choice
+CC16_365a_t,Senator pref 2nd choice - open
+CC16_366,Governor pref
+CC16_366_t,Governor pref - open
+CC16_366a,Governor pref 2nd choice
+CC16_366a_t,Governor pref 2nd choice - open
+CC16_367,House pref
+CC16_367_t,House pref - open
+CC16_367a,House pref 2nd choice
+CC16_367a_t,House pref 2nd choice - open
+CC16_365x,Senator vote
+CC16_365x_t,Senator vote - open
+CC16_366x,Governor vote
+CC16_366x_t,Governor vote - open
+CC16_367x,House vote
+CC16_367x_t,House vote - open
+employ,Employment Status
+employ_t,Employment Status - open
+hadjob,Had job in past five years
+whatkindofwork,$whatkindofworktext
+jobactivities,$jobactivitiestext
+industryclass,Industry classification
+ownhome,Home ownership
+ownhome_t,Home ownership - open
+child18,Child under 18 years
+child18num,Number of children under 18 years
+pid3,3 point party ID
+pid3_t,3 point party ID - other
+pid7,7 point Party ID
+immstat,Citizen
+pew_bornagain,Born Again (Pew version)
+pew_religimp,Importance of religion (Pew version)
+pew_churatd,Church attendance (Pew version)
+pew_prayer,Frequency of Prayer (Pew version)
+religpew,Pew religion
+religpew_t,Pew religion - open
+religpew_protestant,Protestant Church
+religpew_protestant_t,Protestant Church - open
+religpew_baptist,Baptist Church
+religpew_baptist_t,Baptist Church - open
+religpew_methodist,Methodist Church
+religpew_methodist_t,Methodist Church - open
+religpew_nondenom,Nondenominational or Independent Church
+religpew_nondenom_t,Nondenominational or Independent Church - open
+religpew_lutheran,Lutheran Church
+religpew_lutheran_t,Lutheran Church - open
+religpew_presby,Presbyterian Church
+religpew_presby_t,Presbyterian Church - open
+religpew_pentecost,Pentecostal Church
+religpew_pentecost_t,Pentecostal Church - open
+religpew_episcop,Episcopal Church
+religpew_episcop_t,Episcopal Church - open
+religpew_christian,Christian Church
+religpew_christian_t,Christian Church - open
+religpew_congreg,Congregational Church
+religpew_congreg_t,Congregational Church - open
+religpew_holiness,Holiness Church
+religpew_holiness_t,Holiness Church - open
+religpew_reformed,Reformed Church
+religpew_reformed_t,Reformed Church - open
+religpew_advent,Adventist Church
+religpew_advent_t,Adventist Church - open
+religpew_catholic,Catholic Church
+religpew_catholic_t,Catholic Church - open
+religpew_mormon,Mormon Church
+religpew_mormon_t,Mormon Church - open
+religpew_orthodox,Orthodox Church
+religpew_orthodox_t,Orthodox Church - open
+religpew_jewish,Jewish Group
+religpew_jewish_t,Jewish Group - open
+religpew_muslim,Muslim Group
+religpew_muslim_t,Muslim Group - open
+religpew_buddhist,Buddhist group
+religpew_buddhist_t,Buddhist group - open
+religpew_hindu,Hindu Group
+religpew_hindu_t,Hindu Group - open
+ideo5,Ideology
+milstat_1,Military Household - I am
+milstat_2,Military Household - Family
+milstat_3,Military Household - I served previously
+milstat_4,Military Household - Family served previously
+milstat_5,Military Household - None
+citylength_1,Current city residence length - Years
+citylength_2,Current city residence length - Months
+union,Labor union member
+unionhh,Family labor union member
+newsint,Political Interest
+faminc,Family income
+investor,Stock ownership
+sexuality,Sexual Orientation
+trans,Transgender
+healthins_1,"Health insurance - Yes, through my job or a family member's employer"
+healthins_2,"Health insurance - Yes, through a government program, such as Medicare or Medica"
+healthins_3,"Health insurance - Yes, through my school"
+healthins_4,"Health insurance - Yes, I purchased my own"
+healthins_5,Health insurance - Not sure
+healthins_6,Health insurance - No
+healthins2,Purchase health insurance thru exchange
+phone,Phone service
+internethome,Internet Access at Home
+internetwork,Internet access at work
+lookupzip_post,Zip code for mapping CD - post
+cdid113_post,CD 113th/114th Congress - post
+cdid115_post,CD 115th Congress - post
+inputstate_post,State
+regzip_confirm_post,Confirm registered zip code post
+reszip_confirm_post,Confirm zip code post
+inputzip_post,Zip code post
+votereg_post,Voter Registration Status
+votereg_f_post,Registered to vote post
+regzip_post,Zip code where registered post
+countyfips_post,County FIPS code - post
+countyname_post,County Name - post
+AskParty_post,Ask party registration flag
+CurrentGovName_post,Current Governor Name - post
+CurrentGovParty_post,Current Governor Party - post
+CurrentHouseGender_post,Current House Gender - post
+CurrentHouseName_post,Current House Name - post
+CurrentHouseParty_post,Current House Party - post
+CurrentSen1Gender_post,Current Senate 1 Gender - post
+CurrentSen1Name_post,Current Senate 1 Name - post
+CurrentSen1Party_post,Current Senate 1 Party - post
+CurrentSen2Gender_post,Current Senate 2 Gender - post
+CurrentSen2Name_post,Current Senate 2 Name - post
+CurrentSen2Party_post,Current Senate 2 Party - post
+GovCand1Incumbent_post,Governor Candidate 1 Incumbent - post
+GovCand1Name_post,Governor Candidate 1 Name - post
+GovCand1Party_post,Governor Candidate 1 Party - post
+GovCand2Incumbent_post,Governor Candidate 2 Incumbent - post
+GovCand2Name_post,Governor Candidate 2 Name - post
+GovCand2Party_post,Governor Candidate 2 Party - post
+GovCand3Name_post,Governor Candidate 3 Name - post
+GovCand3Party_post,Governor Candidate 3 Party - post
+HouseCand1Incumbent_post,House Candidate 1 Incumbent - post
+HouseCand1Name_post,House Candidate 1 Name - post
+HouseCand1Party_post,House Candidate 1 Party - post
+HouseCand2Incumbent_post,House Candidate 2 Incumbent - post
+HouseCand2Name_post,House Candidate 2 Name - post
+HouseCand2Party_post,House Candidate 2 Party - post
+HouseCand3Name_post,House Candidate 3 Name - post
+HouseCand3Party_post,House Candidate 3 Party - post
+HouseCand4Name_post,House Candidate 4 Name - post
+HouseCand4Party_post,House Candidate 4 Party - post
+HouseCand5Name_post,House Candidate 5 Name - post
+HouseCand5Party_post,House Candidate 5 Party - post
+HouseCand6Name_post,House Candidate 6 Name - post
+HouseCand6Party_post,House Candidate 6 Party - post
+HouseCand7Name_post,House Candidate 7 Name - post
+HouseCand7Party_post,House Candidate 7 Party - post
+HouseCand8Name_post,House Candidate 8 Name - post
+HouseCand8Party_post,House Candidate 8 Party - post
+HouseCand9Name_post,House Candidate 9 Name - post
+HouseCand9Party_post,House Candidate 9 Party - post
+HouseCand10Name_post,House Candidate 10 Name - post
+HouseCand10Party_post,House Candidate 10 Party - post
+HouseCand11Name_post,House Candidate 11 Name - post
+HouseCand11Party_post,House Candidate 11 Party - post
+LegName_post,Legislature name - post
+LowerChamberName_post,Lower chamber name - post
+SenCand1Incumbent_post,Senate Candidate 1 Incumbent - post
+SenCand1Name_post,Senate Candidate 1 Name - post
+SenCand1Party_post,Senate Candidate 1 Party - post
+SenCand2Incumbent_post,Senate Candidate 2 Incumbent - post
+SenCand2Name_post,Senate Candidate 2 Name - post
+SenCand2Party_post,Senate Candidate 2 Party - post
+SenCand3Name_post,Senate Candidate 3 Name - post
+SenCand3Party_post,Senate Candidate 3 Party - post
+SenCand4Name_post,Senate Candidate 4 Name - post
+SenCand4Party_post,Senate Candidate 4 Party - post
+CC16_401,Voted 2016
+CC16_402a,Main reason didn't vote
+CC16_402a_t,Main reason didn't vote - open
+CC16_402b,Second reason didn't vote
+CC16_402b_t,Second reason didn't vote - open
+CC16_403,Vote in person or by mail
+CC16_403b,Vote at precinct polling place or vote center
+CC16_404,Voting length wait time
+CC16_404_t,Voting length wait time - open
+CC16_405,Registered to vote on Election Day
+CC16_406a,Problem with voter registration or ID when trying to vote
+CC16_406b_1,Problem with voting - ID
+CC16_406b_2,Problem with voting - Registration
+CC16_406b_3,Problem with voting - Wrong Place
+CC16_406b_4,Problem with voting - Other
+CC16_406b_t,Problem with voting - open
+CC16_406c,Allowed to vote
+CC16_407a,Feel intimidated voting
+CC16_407b,Why intimidated voting
+CC16_410a,President vote
+CC16_410a_t,President vote - open
+CC16_410b,Senator vote
+CC16_410b_t,Senator vote - open
+CC16_411,Governor vote
+CC16_411_t,Governor vote - open
+CC16_412,House vote
+CC16_412_t,House vote - open
+CC16_410a_nv,President prefer
+CC16_410a_nv_t,President prefer - open
+CC16_410b_nv,Senator prefer
+CC16_410b_nv_t,Senator prefer - open
+CC16_411_nv,Governor prefer
+CC16_411_nv_t,Governor prefer - open
+CC16_412_nv,House prefer
+CC16_412_nv_t,House prefer - open
+CC16_413_grid,For whom did you vote for in the following state elections ...
+CC16_413a,Vote in state elections - Attorney General
+CC16_413b,Vote in state elections - Secretary of State
+CC16_413c,Vote in state elections - $inputstate State Senate
+CC16_413d,Vote in state elections - $LowerChamberName
+CC16_414_1,Approve use of US military - Ensure the supply of oil
+CC16_414_2,Approve use of US military - Destroy a terrorist camp
+CC16_414_3,Approve use of US military - Intervene in a region where there is genocide or a 
+CC16_414_4,Approve use of US military - Assist the spread of democracy
+CC16_414_5,Approve use of US military - Protect American allies under attack by foreign nat
+CC16_414_6,Approve use of US military - Help the United Nations uphold international law
+CC16_414_7,Approve use of US military - None of the above
+CC16_415r,Budget deficit - spending cuts vs tax increases
+CC16_416r,Raise taxes - income tax vs. sales tax
+CC16_417a_1,Past year - Attend local political meetings (such as school board or city counci
+CC16_417a_2,Past year - Put up a political sign (such as a lawn sign or bumper sticker)
+CC16_417a_3,Past year - Work for a candidate or campaign
+CC16_417a_4,"Past year - Donate money to a candidate, campaign, or political organization"
+CC16_417a_5,Past year - Donate blood
+CC16_417a_6,Past year - None of these
+CC16_417bx_1,Donate money - Candidate for President
+CC16_417bx_2,Donate money - Candidate for U.S. Senate in my state
+CC16_417bx_3,Donate money - Candidate for U.S. Senate in another state
+CC16_417bx_4,Donate money - Candidate for U.S. House in my state
+CC16_417bx_5,Donate money - Candidate for U.S. House in another state
+CC16_417bx_6,Donate money - Candidate for state office
+CC16_417bx_7,Donate money - Political party committee (such as the DNC or RNC)
+CC16_417bx_8,Donate money - Political action committee at work (such as corporate or union PA
+CC16_417bx_9,Donate money - Political group (not at your work)
+CC16_417bx_10,Donate money - Other
+CC16_417bx_t1,Donate money - Political group not at work - open
+CC16_417bx_t2,Donate money - Other - open
+CC16_417c,Amount contribute to all candidates/committees
+CC16_417d_1,How many of the above statements are true for you?
+CC16_417d_2,How many of the above statements are true for you?
+CC16_417e_1,Campaign contributions are an effective way to influence public policy
+CC16_417e_2,Campaign contributions are an effective way to help my business/industry
+CC16_417e_3,Campaign contributions allow me to be part of a network with other contributors
+CC16_417e_4,I prefer to give directly to candidates rather than contribute money to a politi
+CC16_417e_5,"For anyone who can afford to contribute, it is a civic duty to contribute financ"
+CC16_425a,Contacted by candidate/political org
+CC416_25b_1,Candidate/campaign contact - In person
+CC416_25b_2,Candidate/campaign contact - Phone call
+CC416_25b_3,Candidate/campaign contact - Email or text message
+CC416_25b_4,Candidate/campaign contact - Letter or post card
+CC16_418a,Ever run for elective office
+CC16_418bx_1,Run for office - School Board
+CC16_418bx_2,Run for office - Other local board or commission (e.g. zoning commission)
+CC16_418bx_3,Run for office - City Council
+CC16_418bx_4,Run for office - Mayor
+CC16_418bx_5,Run for office - City or District Attorney
+CC16_418bx_6,Run for office - Countywide office (e.g. supervisor)
+CC16_418bx_7,Run for office - State legislature
+CC16_418bx_8,Run for office - Statewide office
+CC16_418bx_9,Run for office - Federal legislature (U.S. House or Senate)
+CC16_418bx_10,Run for office - Judge
+CC16_418bx_11,Run for office - Other
+CC16_418b_t,Run for office - open
+CC16_421a,3 pt party ID
+CC16_421_t,3 pt party ID - open
+CC16_421_dem,Party ID Dem strength
+CC16_421_rep,Party ID Rep strength
+CC16_421b,Party ID lean
+CC16_422c,Racism - angry racist exists
+CC16_422d,Racism - white people have advantages
+CC16_422e,Racism - fearful of people of other races
+CC16_422f,"Racism - racial problems are rare, isoluated situations"
+CC16_423a,Race/ethnicity politicians - $HouseCand1Name
+CC16_423b,Race/ethnicity politicians - $HouseCand2Name
+CC16_423c,Race/ethnicity politicians - $CurrentHouseName
+CC16_423a_other,Race/ethnicity politicians - $HouseCand1Name - open
+CC16_423b_other,Race/ethnicity politicians - $HouseCand2Name - open
+CC16_423c_other,Race/ethnicity politicians - $CurrentHouseName - open
+CC16_426_1,State spending - Welfare
+CC16_426_2,State spending - Health Care
+CC16_426_3,State spending - Education
+CC16_426_4,State spending - Law Enforcement
+CC16_426_5,State spending - Transportation/Infrastructure
+CC16_427_a,Grade local community - The schools
+CC16_427_b,Grade local community - The police
+CC16_427_c,Grade local community - The roads
+CC16_427_d,Grade local community - Zoning and development
+CC16_427_e,Grade local community - The Mayor or Town/City Manager
+CC16_427_f,Grade local community - The Town/City Council
+edloan,Student debtor
+CL_matched,Catalist - Panelist matched to voter file
+CL_voterstatus,Catalist - Voter status
+CL_partyaffiliation,Catalist - Party affiliation
+CL_state,Catalist - Voter file matched state
+CL_E2016GVM,Catalist - 2016 General election voting method
+CL_E2016PPEP,Catalist - 2016 Presidential Primary election party
+CL_E2016PPVM,Catalist - 2016 Presidential Primary election voting method
+CL_E2016PEP,Catalist - 2016 Primary election party
+CL_E2016PVM,Catalist - 2016 Primary election voting method
+starttime_pre,Interview Start Time
+endtime_pre,Interview End Time
+starttime_post,Interview Start Time
+endtime_post,Interview End Time
+dma,dma
+dmaname,DMA name

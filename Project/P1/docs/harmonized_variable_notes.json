@@ -1,0 +1,23 @@
+{
+  "turnout_matched": "1 validated voter; 0 matched with no voting record; missing unmatched. 2024 TS_g2024=7 is a NONVOTER.",
+  "turnout_unmatched_zero": "Sensitivity: 1 validated voter; 0 everybody else, including unmatched.",
+  "republican_any": "Only validated voters with usable post choice: 1 Republican; 0 other reported candidate, including Other.",
+  "republican_2party": "Only validated voters reporting Republican or Democrat. Third-party and other records remain missing.",
+  "pre_republican_any": "Coalesced usable pre-wave early vote and candidate preference. Hold out from model controls if used for validation.",
+  "post_nonvoter_pref_raw": "Hypothetical post-election preference, routed by SELF-reported nonvoting; not an observed ballot.",
+  "gender_group": "2016/2020: 1 Male, 2 Female. 2024: 1 Man, 2 Woman, 3 Non-binary, 4 Other. Measure changes over time.",
+  "income_group": "Nominal annual household income: 1 <30k; 2 30k-49,999; 3 50k-99,999; 4 100k-149,999; 5 >=150k.",
+  "race_h": "Original race 1-8, overriding to 3 Hispanic if race=3 OR hispanic=1. Retains raw inputs.",
+  "education": "1 No HS; 2 HS graduate; 3 Some college; 4 2-year; 5 4-year; 6 Post-grad. Nonanswers missing.",
+  "pid7": "1 Strong Democrat through 7 Strong Republican. Not sure/dont know/nonanswers missing; raw codes retained.",
+  "ideology5": "1 Very liberal through 5 Very conservative. Nonanswers missing; raw codes retained.",
+  "sample_candidate": "Convenience flag: matched adult citizen, 50 states, post-wave, positive adult post weight, full controls, and known choice if voter. Not the finalized model sample.",
+  "state_fips": "PRE-election inputstate, mapped to postal abbreviation. Post-wave and later voter-file state retained separately.",
+  "weight_adult_pre": "2016 commonweight_vv; 2020/2024 commonweight.",
+  "weight_adult_post": "2016 commonweight_vv_post; 2020/2024 commonpostweight.",
+  "weight_reg_pre": "2020/2024 vvweight for ACTIVE registered adults only. Missing by design in 2016 extract.",
+  "weight_reg_post": "2020/2024 vvweight_post for ACTIVE registered post-wave adults only. Missing by design in 2016.",
+  "covi_final": "Published revised FinalCOVI, no rescaling/re-estimation. Higher means higher voting costs.",
+  "covi_covid": "Published COVIDCOVI for 2020 only; missing outside 2020 is intentional.",
+  "covi_state_ordinal": "COVI statenu retained for provenance. It is NOT Census state FIPS."
+}

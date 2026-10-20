@@ -1,0 +1,16 @@
+.DS_Store
+~$*
+.venv/
+__pycache__/
+*.pyc
+*.part
+
+# Original CES microdata exceed normal GitHub per-file limits.
+# Keep them locally; fetch/import from their pinned public releases.
+data/CES/*/*.dta
+data/CES/*/*.csv
+!data/CES/2020/misidentifiedNCrespondents.csv
+data/CES/archives/
+
+# Recreated from the small versioned CSV.gz with --restore-stata.
+data/prepared/*.dta

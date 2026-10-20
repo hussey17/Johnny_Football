@@ -1,0 +1,15 @@
+{
+  "raw_rows": 64600,
+  "raw_variables": 563,
+  "unique_case_ids": 64600,
+  "post_wave": 52899,
+  "matched_file": 45117,
+  "unmatched_file": 19483,
+  "validated_voters": 35829,
+  "matched_nonvoters": 9288,
+  "voters_without_usable_choice": 4585,
+  "validated_voters_with_choice": 31244,
+  "matched_nonvoters_with_pre_pref": 6945,
+  "post_hypothetical_pref_nonmissing": 7611,
+  "state_pre_post_changes": 156
+}

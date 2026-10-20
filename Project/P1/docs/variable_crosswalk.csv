@@ -1,0 +1,76 @@
+year,role,source_variable,source_label
+2016,id,V101,Case ID
+2016,turnout,CL_E2016GVM,Catalist - 2016 General election voting method
+2016,match,CL_matched,Catalist - Panelist matched to voter file
+2016,status,CL_voterstatus,Catalist - Voter status
+2016,file_state,CL_state,Catalist - Voter file matched state
+2016,gender,gender,Gender
+2016,income,faminc,Family income
+2016,post_vote,CC16_410a,President vote
+2016,pre_early,CC16_364b,Pres vote
+2016,pre_pref,CC16_364c,Pres pref
+2016,post_nv,CC16_410a_nv,President prefer
+2016,self_turnout,CC16_401,Voted 2016
+2016,w_pre,commonweight_vv,Common content with voter validation weights
+2016,w_post,commonweight_vv_post,Common content with voter validation weights post-election
+2016,inputstate,inputstate,State
+2016,inputstate_post,inputstate_post,State
+2016,birthyr,birthyr,Birth year
+2016,educ,educ,Education
+2016,race,race,Race
+2016,hispanic,hispanic,"Spanish, Latino or Hispanic origin or descent"
+2016,pid7,pid7,7 point Party ID
+2016,ideo5,ideo5,Ideology
+2016,immstat,immstat,Citizen
+2016,tookpost,tookpost,Took post-election wave
+2016,votereg_post,votereg_post,Voter Registration Status
+2020,id,caseid,Panman Sample ID
+2020,turnout,CL_2020gvm,VOTED_IN_2020_GENERAL_VOTING_METHOD
+2020,match,CL_voter_status,VOTER_STATUS
+2020,status,CL_voter_status,VOTER_STATUS
+2020,file_state,CL_state,REGISTRATION_ADDRESS_STATE
+2020,gender,gender,Gender
+2020,income,faminc_new,Family income
+2020,post_vote,CC20_410,2020 Pres vote
+2020,pre_early,CC20_364a,President vote
+2020,pre_pref,CC20_364b,President preference
+2020,post_nv,CC20_410a_nv,President prefer
+2020,self_turnout,CC20_401,Voted in 2020
+2020,w_pre,commonweight,Weight - Common
+2020,w_post,commonpostweight,Weight - Common Post
+2020,inputstate,inputstate,State of Residence
+2020,inputstate_post,inputstate_post,State post
+2020,birthyr,birthyr,Birth Year
+2020,educ,educ,Education
+2020,race,race,Race
+2020,hispanic,hispanic,hispanic
+2020,pid7,pid7,7 point Party ID
+2020,ideo5,ideo5,Ideology
+2020,immstat,immstat,Immigration background
+2020,tookpost,tookpost,Took post-election survey
+2020,votereg_post,votereg_post,Voter Registration Status post
+2024,id,caseid,Case ID
+2024,turnout,TS_g2024,
+2024,match,TS_voterstatus,Voter Status
+2024,status,TS_voterstatus,Voter Status
+2024,file_state,TS_state,
+2024,gender,gender4,Gender
+2024,income,faminc_new,Family income
+2024,post_vote,CC24_410,Pres vote post
+2024,pre_early,CC24_364a,Pres vote
+2024,pre_pref,CC24_364b,Pres preference
+2024,post_nv,CC24_410_nv,President prefer
+2024,self_turnout,CC24_401,Voted in 2024 General election
+2024,w_pre,commonweight,Weight - Common
+2024,w_post,commonpostweight,Weight - Common Post
+2024,inputstate,inputstate,State of Residence
+2024,inputstate_post,inputstate_post,State post
+2024,birthyr,birthyr,Birth Year
+2024,educ,educ,Education
+2024,race,race,Race
+2024,hispanic,hispanic,Hispanic
+2024,pid7,pid7,7 point Party ID
+2024,ideo5,ideo5,Ideology
+2024,immstat,immstat,Immigration background
+2024,tookpost,tookpost,Took post-election survey
+2024,votereg_post,votereg_post,Voter Registration Status post

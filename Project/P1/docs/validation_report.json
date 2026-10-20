@@ -1,0 +1,91 @@
+{
+  "ces": {
+    "2016": {
+      "raw_rows": 64600,
+      "raw_variables": 563,
+      "unique_case_ids": 64600,
+      "post_wave": 52899,
+      "matched_file": 45117,
+      "unmatched_file": 19483,
+      "validated_voters": 35829,
+      "matched_nonvoters": 9288,
+      "voters_without_usable_choice": 4585,
+      "validated_voters_with_choice": 31244,
+      "matched_nonvoters_with_pre_pref": 6945,
+      "post_hypothetical_pref_nonmissing": 7611,
+      "state_pre_post_changes": 156,
+      "covi_matched": 64408,
+      "covi_unmatched_dc": 192,
+      "candidate_sample": 32453,
+      "candidate_sample_nonvoters": 5539
+    },
+    "2020": {
+      "raw_rows": 61000,
+      "raw_variables": 716,
+      "unique_case_ids": 61000,
+      "post_wave": 51551,
+      "matched_file": 48180,
+      "unmatched_file": 12820,
+      "validated_voters": 39198,
+      "matched_nonvoters": 8982,
+      "voters_without_usable_choice": 3419,
+      "validated_voters_with_choice": 35779,
+      "matched_nonvoters_with_pre_pref": 6770,
+      "post_hypothetical_pref_nonmissing": 5861,
+      "state_pre_post_changes": 108,
+      "covi_matched": 60803,
+      "covi_unmatched_dc": 197,
+      "candidate_sample": 36513,
+      "candidate_sample_nonvoters": 5257
+    },
+    "2024": {
+      "raw_rows": 60000,
+      "raw_variables": 694,
+      "unique_case_ids": 60000,
+      "post_wave": 49432,
+      "matched_file": 39800,
+      "unmatched_file": 20200,
+      "validated_voters": 36448,
+      "matched_nonvoters": 3352,
+      "voters_without_usable_choice": 3507,
+      "validated_voters_with_choice": 32941,
+      "matched_nonvoters_with_pre_pref": 2683,
+      "post_hypothetical_pref_nonmissing": 5588,
+      "state_pre_post_changes": 94,
+      "covi_matched": 59830,
+      "covi_unmatched_dc": 170,
+      "candidate_sample": 31484,
+      "candidate_sample_nonvoters": 2185
+    }
+  },
+  "covi": {
+    "rows": 150,
+    "years": {
+      "2016": {
+        "states": 50,
+        "final_index_missing": 0,
+        "covid_index_available": 0
+      },
+      "2020": {
+        "states": 50,
+        "final_index_missing": 0,
+        "covid_index_available": 50
+      },
+      "2024": {
+        "states": 50,
+        "final_index_missing": 0,
+        "covid_index_available": 0
+      }
+    },
+    "policy_rows_removed": {
+      "2016": 0,
+      "2020": 0,
+      "2024": 3
+    },
+    "states_with_final_index_change": 50
+  },
+  "pooled_rows": 185600,
+  "pooled_columns": 65,
+  "duplicate_year_case_id": 0,
+  "export_roundtrip": "passed"
+}

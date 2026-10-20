@@ -1,0 +1,69 @@
+{
+  "collection_date_local": "2026-10-20",
+  "timezone": "Asia/Karachi",
+  "ces": {
+    "2016": {
+      "doi": "10.7910/DVN/GDF6Z0",
+      "version": "5.0",
+      "expected_rows": 64600,
+      "expected_dta": "CCES16_Common_OUTPUT_Feb2018_VV.dta",
+      "title": "CCES Common Content, 2016",
+      "citation": "Ansolabehere, Stephen; Schaffner, Brian F., 2017. Harvard Dataverse, V5.",
+      "notes": "Corrected February 2018 vote-validation data. Guide revised January 2025; some descriptive guide counts refer to older data.",
+      "page_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/GDF6Z0&version=5.0",
+      "license": "CC0 1.0",
+      "expected_files": [
+        "CCES Guide 2016.pdf",
+        "CCES16_Common_OUTPUT_Feb2018_VV.dta"
+      ]
+    },
+    "2020": {
+      "doi": "10.7910/DVN/E9N6PH",
+      "version": "4.0",
+      "expected_rows": 61000,
+      "expected_dta": "CES20_Common_OUTPUT_vv.dta",
+      "title": "Cooperative Election Study Common Content, 2020",
+      "citation": "Schaffner, Brian; Ansolabehere, Stephen; Luks, Sam, 2021. Harvard Dataverse, V4.",
+      "notes": "Catalist validation; retain the North Carolina district-error memo and case list.",
+      "page_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/E9N6PH&version=4.0",
+      "license": "CC0 1.0",
+      "expected_files": [
+        "CCES Guide 2020.pdf",
+        "CES20_Common_OUTPUT_vv.csv",
+        "CES20_Common_OUTPUT_vv.dta",
+        "CES20_Common_post_qx.pdf",
+        "CES20_Common_pre_qx.pdf",
+        "Technical Memo on NC Respondents Assigned to Incorrect Districts.pdf",
+        "misidentifiedNCrespondents.csv"
+      ]
+    },
+    "2024": {
+      "doi": "10.7910/DVN/X11EP6",
+      "version": "9.0",
+      "expected_rows": 60000,
+      "expected_dta": "CCES24_Common_OUTPUT_vv_topost_final.dta",
+      "title": "Cooperative Election Study Common Content, 2024",
+      "citation": "Schaffner, Brian; Shih, Marissa; Ansolabehere, Stephen; Pope, Jeremy, 2025. Harvard Dataverse, V9.",
+      "notes": "TargetSmart validation released September 2025; TS_g2024 code 7 is did not vote.",
+      "page_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/X11EP6&version=9.0",
+      "license": "CC0 1.0",
+      "expected_files": [
+        "CCES24_Common_OUTPUT_vv_topost_final.csv",
+        "CCES24_Common_OUTPUT_vv_topost_final.dta",
+        "CCES24_Common_post.docx",
+        "CCES24_Common_pre.docx",
+        "CES_2024_GUIDE_vv.pdf"
+      ]
+    }
+  },
+  "covi": {
+    "source_page": "https://costofvotingindex.com/data",
+    "files": {
+      "Master 1996 2024 Election voting requirements.xlsx": "https://img1.wsimg.com/blobby/go/6390118f-6ee4-4460-a245-79d1f8be7ec6/downloads/cf7e79b4-f91e-41ec-b5f8-c2350e98fc10/Master%201996%202024%20Election%20voting%20requirements.xlsx?ver=1783966107769",
+      "COVI Values 1996-2024 website.xlsx": "https://img1.wsimg.com/blobby/go/6390118f-6ee4-4460-a245-79d1f8be7ec6/downloads/b11df6a2-164a-422e-9823-98015a03d011/COVI%20Values%201996-2024%20website.xlsx?ver=1783966107770",
+      "Code Book Master 1996 2024 election voting re.docx": "https://img1.wsimg.com/blobby/go/6390118f-6ee4-4460-a245-79d1f8be7ec6/downloads/2e566849-87ce-4eb0-aab7-ad754b74b807/Code%20Book%20Master%201996%202024%20election%20voting%20re.docx?ver=1783966107770"
+    },
+    "downloaded_at_utc": "2026-10-20T18:05:54.041261+00:00"
+  },
+  "api_note": "Harvard Dataverse returned HTTP 403 to urllib in this session. All CES releases were downloaded via its public browser UI, Original Format ZIP. No login was required."
+}

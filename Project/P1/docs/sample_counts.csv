@@ -1,0 +1,4 @@
+year,raw_rows,raw_variables,unique_case_ids,post_wave,matched_file,unmatched_file,validated_voters,matched_nonvoters,voters_without_usable_choice,validated_voters_with_choice,matched_nonvoters_with_pre_pref,post_hypothetical_pref_nonmissing,state_pre_post_changes,covi_matched,covi_unmatched_dc,candidate_sample,candidate_sample_nonvoters
+2016,64600,563,64600,52899,45117,19483,35829,9288,4585,31244,6945,7611,156,64408,192,32453,5539
+2020,61000,716,61000,51551,48180,12820,39198,8982,3419,35779,6770,5861,108,60803,197,36513,5257
+2024,60000,694,60000,49432,39800,20200,36448,3352,3507,32941,2683,5588,94,59830,170,31484,2185

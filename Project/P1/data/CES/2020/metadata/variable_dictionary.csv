@@ -1,0 +1,717 @@
+source_variable,variable_label
+caseid,Panman Sample ID
+commonweight,Weight - Common
+commonpostweight,Weight - Common Post
+vvweight,Weight - Validated Registered Voters
+vvweight_post,Weight - Validated Registered Voters - Post
+tookpost,Took post-election survey
+CCEStake,Consent to participate
+birthyr,Birth Year
+gender,Gender
+educ,Education
+race,Race
+race_other,"Race, other"
+hispanic,hispanic
+CC20_hisp_1,Latin Heritage - No Country in Particular
+CC20_hisp_2,Latin Heritage - United States
+CC20_hisp_3,Latin Heritage - Mexico
+CC20_hisp_4,Latin Heritage - Puerto Rico
+CC20_hisp_5,Latin Heritage - Cuba
+CC20_hisp_6,Latin Heritage - Dominican Republic
+CC20_hisp_7,Latin Heritage - South America
+CC20_hisp_8,Latin Heritage - Central America
+CC20_hisp_9,Latin Heritage - Caribbean
+CC20_hisp_10,Latin Heritage - Spain
+CC20_hisp_11,Latin Heritage - Other
+CC20_hisp_12,"Latin heritage - I am not of Latino, Hispanic or Spanish heritage"
+CC20_hisp_t,Latin Heritage - open
+CC20_asian_1,Asian Heritage - No Country in Particular
+CC20_asian_2,Asian Heritage - United States
+CC20_asian_3,Asian Heritage - China
+CC20_asian_4,Asian Heritage - Japan
+CC20_asian_5,Asian Heritage - India
+CC20_asian_6,Asian Heritage - Phillipines
+CC20_asian_7,Asian Heritage - Taiwan
+CC20_asian_8,Asian Heritage - Korea
+CC20_asian_9,Asian Heritage - Vietnam
+CC20_asian_10,Asian Heritage - Pakistan
+CC20_asian_11,Asian Heritage - Hmong
+CC20_asian_12,Asian Heritage - Cambodia
+CC20_asian_13,Asian Heritage - Thailand
+CC20_asian_14,Asian Heritage - Other
+CC20_asian_15,Asian Heritage - I am not of Asian Heritage
+CC20_asian_t,Asian Heritage - open
+marstat,Marital Status
+multrace_1,Multiracial - White
+multrace_2,Multiracial - Black
+multrace_3,Multiracial - Hispanic
+multrace_4,Multiracial - Asian
+multrace_5,Multiracial - Native American
+multrace_8,Multiracial - Middle Eastern
+multrace_97,Multiracial - Other
+multrace_98,Multiracial - Don't know
+comptype,Device type
+add_confirm,Confirm address
+inputzip,Zip code
+inputstate,State of Residence
+votereg,Voter Registration Status
+votereg_f,Registered to vote
+regzip,Zip code where registered
+region,Region
+ccesmodule,Team module assigned
+CC20_300_1,Media use past 24 hrs - Used social media
+CC20_300_2,Media use past 24 hrs - Watched TV news
+CC20_300_3,Media use past 24 hrs - Read a newspaper
+CC20_300_4,Media use past 24 hrs - Listened to radio news
+CC20_300_5,Media use past 24 hrs - None of these
+CC20_300a,Media use - TV news type
+CC20_300c,Media use - Newspaper type
+CC20_300b_1,Media networks - ABC
+CC20_300b_2,Media networks - CBS
+CC20_300b_3,Media networks - NBC
+CC20_300b_4,Media networks - CNN
+CC20_300b_5,Media networks - Fox News
+CC20_300b_6,Media networks - MSNBC
+CC20_300b_7,Media networks - PBS
+CC20_300b_8,Media networks - Other
+CC20_300d_1,"Recent social media use - Posted a story, photo, video or link about politics"
+CC20_300d_2,Recent social media use - Posted a comment about politics
+CC20_300d_3,Recent social media use - Read a story or watched a video about politics
+CC20_300d_4,Recent social media use - Followed a political event
+CC20_300d_5,"Recent social media use - Forwarded a story, photo, video or link about politics"
+CC20_300d_6,Recent social media use - None of the above
+CC20_302,National Economics
+CC20_303,Household income
+CC20_305_1,Life Changes - Married
+CC20_305_2,Life Changes - Lost a job
+CC20_305_3,Life Changes - Finished school
+CC20_305_4,Life Changes - Retired
+CC20_305_5,Life Changes - Divorced
+CC20_305_6,Life Changes - Had a child
+CC20_305_7,Life Changes - Taken a new job
+CC20_305_9,Life Changes - Been a victim of a crime
+CC20_305_10,Life Changes - Visited an emergency room
+CC20_305_11,Life Changes - Visited a doctor for a regular examination
+CC20_305_12,Life Changes - Received a raise at work
+CC20_305_13,Life Changes - Had a pay cut at work
+CC20_307,Police make R feel safe
+CC20_309a_1,"COVID-19 diagnosis - Yes, I have"
+CC20_309a_2,"COVID-19 diagnosis - Yes, a family member"
+CC20_309a_3,"COVID-19 diagnosis - Yes, a friend"
+CC20_309a_4,"COVID-19 diagnosis - Yes, a co-worker"
+CC20_309a_5,COVID-19 diagnosis - No
+CC20_309b_1,COVID-19 death - Family member
+CC20_309b_2,COVID-19 death - Friend
+CC20_309b_3,COVID-19 death - Co-worker
+CC20_309b_4,COVID-19 death - No one
+CC20_309c_1,Work status since pandemic - My hours have been reduced
+CC20_309c_2,"Work status since pandemic - My hours were reduced, but they have been restored"
+CC20_309c_3,Work status since pandemic - I have been temporarily laid off
+CC20_309c_4,Work status since pandemic - I was temporarily laid off but have now been re-hir
+CC20_309c_5,"Work status since pandemic - I had more than one job before the pandemic, and lo"
+CC20_309c_6,Work status since pandemic - I lost my job
+CC20_309c_7,Work status since pandemic - I was not working when the pandemic began
+CC20_309c_8,Work status since pandemic - My hours have increased
+CC20_309c_9,Work status since pandemic - I have taken additional jobs since the pandemic
+CC20_309c_10,Work status since pandemic - Nothing
+CC20_309dx_1,Emergency expense - Put it on my credit card and pay it off in full at the next 
+CC20_309dx_2,Emergency expense - Put it on my credit card and pay it off over time
+CC20_309dx_3,Emergency expense - With the money currently in my checking/savings account or w
+CC20_309dx_4,Emergency expense - Using money from a bank loan or line of credit
+CC20_309dx_5,Emergency expense - By borrowing from a friend or family member
+CC20_309dx_6,"Emergency expense - Using a payday loan, deposit advance, or overdraft"
+CC20_309dx_7,Emergency expense - By selling something
+CC20_309dx_8,Emergency expense - I wouldn't be able to pay for the expense right now
+CC20_309dx_9,Emergency expense - Other
+CC20_309d_t,Emergency expense - Open
+CC20_309e,genhealth
+CC20_310a,Know Party in Government -- U.S. House of Representatives
+CC20_310b,Know Party in Government -- U.S. Senate
+CC20_310c,Know Party in Government -- $inputstate State Senate
+CC20_310d,Know Party in Government -- $LowerChamberName
+CC20_311a,Know Party of Representative -- $CurrentGovName
+CC20_311b,Know Party of Representative -- $CurrentSen1Name
+CC20_311c,Know Party of Representative -- $CurrentSen2Name
+CC20_311d,Know Party of Representative -- $CurrentHouseName
+CC20_320a,Job Approval Institutions -- President Trump
+CC20_320b,Job Approval Institutions -- The U.S. Congress
+CC20_320c,Job Approval Institutions -- The U.S. Supreme Court
+CC20_320d,Job Approval Institutions -- The Governor of $inputstate
+CC20_320e,Job Approval Institutions -- $LegName
+CC20_320f,Job Approval Institutions -- $CurrentHouseName
+CC20_320g,Job Approval Institutions -- $CurrentSen1Name
+CC20_320h,Job Approval Institutions -- $CurrentSen2Name
+CC20_327a,Health Care -- Expand Medicare to a single comprehensive public health care cove
+CC20_327b,Health Care -- Allow the government to negotiate with drug companies to get a lo
+CC20_327c,Health Care -- Lower the eligibility age for Medicare from 65 to 50.
+CC20_327d,Health Care -- Repeal the entire Affordable Care Act.
+CC20_327e,Health Care -- Restore the Affordable Care Act’s mandate that all individuals be
+CC20_327f,Health Care -- Allow states to import prescription drugs from other countries.
+CC20_330a,Gun Control -- Prohibit state and local governments from publishing the names an
+CC20_330b,Gun Control -- Ban assault rifles
+CC20_330c,Gun Control -- Make it easier for people to obtain concealed-carry permit
+CC20_331a,Immigration -- Grant legal status to all illegal immigrants who have held jobs a
+CC20_331b,Immigration -- Increase the number of border patrols on the US-Mexican border.
+CC20_331c,Immigration -- Withhold federal funds from any local police department that does
+CC20_331d,Immigration -- Reduce legal immigration by 50 percent over the next 10 years by 
+CC20_331e,"Immigration -- Increase spending on border security by $25 billion, including bu"
+CC20_332a,Abortion -- Always allow a woman to obtain an abortion as a matter of choice
+CC20_332b,"Abortion -- Permit abortion only in case of rape, incest or when the woman's lif"
+CC20_332c,Abortion -- Prohibit all abortions after the 20th week of pregnancy
+CC20_332d,Abortion -- Allow employers to decline coverage of abortions in insurance plans
+CC20_332e,Abortion -- Prohibit the expenditure of funds authorized or appropriated by fede
+CC20_332f,Abortion -- Make abortions illegal in all circumstances
+CC20_332g,Abortion -- Prohibit states from requiring that abortions be performed only at h
+CC20_333a,Environment -- Give the Environmental Protection Agency power to regulate Carbon
+CC20_333b,Environment -- Require that each state use a minimum amount of renewable fuels (
+CC20_333c,Environment -- Strengthen the Environmental Protection Agency enforcement of the
+CC20_333d,Environment -- Raise the average fuel efficiency for all cars and trucks in the 
+CC20_334a,Policing policies -- Eliminate mandatory minimum sentences for non-violent drug 
+CC20_334b,Policing policies -- Require police officers to wear body cameras that record al
+CC20_334c,"Policing policies -- Increase the number of police on the street by 10 percent, "
+CC20_334d,"Policing policies -- Decrease the number of police on the street by 10 percent, "
+CC20_334e,Policing policies -- Ban the use of choke holds by police
+CC20_334f,Policing policies -- Create a national registry of police who have been investig
+CC20_334g,Policing policies -- End the Department of Defense program that sends surplus mi
+CC20_334h,Policing policies -- Allow individuals or their families to sue a police officer
+CC20_338a,Trade policy -- Tariffs on $200 billion worth of goods imported from China
+CC20_338b,"Trade policy -- 25% tariffs on imported steel and 10% on imported aluminum, EXCE"
+CC20_338c,"Trade policy -- 25% tariffs on all imported steel and 10% on imported aluminum, "
+CC20_338d,Trade policy -- Increase tariffs on European aircraft and agricultural products.
+CC20_340a,Rate ideology -- Yourself
+CC20_340b,Rate ideology -- $CurrentGovName
+CC20_340c,Rate ideology -- Joe Biden
+CC20_340d,Rate ideology -- Donald Trump
+CC20_340e,Rate ideology -- The Democratic Party
+CC20_340f,Rate ideology -- The Republican Party
+CC20_340g,Rate ideology -- $CurrentSen1Name
+CC20_340h,Rate ideology -- $CurrentSen2Name
+CC20_340i,Rate ideology -- $SenCand1Name
+CC20_340j,Rate ideology -- $SenCand2Name
+CC20_340k,Rate ideology -- $HouseCand1Name
+CC20_340l,Rate ideology -- $HouseCand2Name
+CC20_340m,Rate ideology -- $CurrentHouseName
+CC20_350a,Roll Call Votes -- Amend federal laws to prohibit discrimination on the basis of
+CC20_350b,Roll Call Votes -- Raise the minimum wage to $15 an hour.
+CC20_350c,Roll Call Votes -- Confirm Brett Kavanaugh to become a Justice of the Supreme Co
+CC20_350d,Roll Call Votes -- Require equal pay for women and men who are doing similar job
+CC20_350e,Roll Call Votes -- Provide permanent resident status to children of immigrants w
+CC20_350f,Roll Call Votes -- Remove President Trump from office for abuse of power
+CC20_350g,Roll Call Votes -- Remove President Trump from office for obstruction of Congres
+CC20_351a,"Stimulus bills -- In March, the CARES Act proposed to spend $2 trillion in emerg"
+CC20_351b,"Stimulus bills -- In May, the HEROES ACT proposed to spend an additional $3 tril"
+CC20_355a,Executive Orders Pre -- Withdraw the United States from the Paris Climate Agreem
+CC20_355b,Executive Orders Pre -- Withdraw the United States from the Trans-Pacific Partne
+CC20_355c,Executive Orders Pre -- Repeal the Clean Power Plant Rules (the Clean Power Plan
+CC20_355d,Executive Orders Pre -- Ban Transgender People in the Military
+CC20_355e,Executive Orders Pre -- Require able-bodied adults 18 to 49 years of age who do 
+CC20_356a,RGB replacement selection
+CC20_356,Support/Oppose confirming Amy Coney Barrett
+CC20_360,Party Registration
+CC20_361,Residency
+CC20_363,Vote Intention
+CC20_364a,President vote
+CC20_364a_t,President vote - open
+CC20_365_voted,Senate vote
+CC20_365_voted_t,Senate vote - open
+CC20_365b_voted,Senate vote 2nd race
+CC20_365b_voted_t,Senate vote 2nd race - open
+CC20_366_voted,Governor vote
+CC20_366_voted_t,Governor vote - open
+CC20_367_voted,House vote
+CC20_367_voted_t,House vote - open
+CC20_364b,President preference
+CC20_364b_t,President preference - open
+CC20_365,Senate preference
+CC20_365_t,Senate preference - open
+CC20_365b,Senate preference 2nd race
+CC20_365b_t,Senate preference 2nd race -  open
+CC20_365c,Senate second preference 2nd race
+CC20_365c_t,Senate second preference 2nd race - open
+CC20_366,Governor preference
+CC20_366_t,Governor preference - open
+CC20_367,House preference
+CC20_367_t,House preference - open
+CC20_367a,House second choice
+CC20_367a_t,House second choice - open
+presvote16post,2016 President Vote Post Election
+presvote16post_t,2016 President Vote Post Election - open
+pid3,3 point party ID
+pid3_t,3 point party ID - other
+pid7,7 point Party ID
+ownhome,Home ownership
+ownhome_t,Home ownership - open
+milstat_1,Military Household - I am
+milstat_2,Military Household - Family
+milstat_3,Military Household - I served previously
+milstat_4,Military Household - Family served previously
+milstat_5,Military Household - None
+cit1,US citizen
+immstat,Immigration background
+dualcit,Dual citizenship
+dualctry,Dual citizenship country
+employ,Employment Status
+employ_t,Employment Status - open
+hadjob,Had job in past 5 years
+urbancity,Type of Area Living In
+urbancity_t,Type of Area Living In - open
+child18,Child under 18 years
+child18num,Number of children under 18 years
+union,Labor union member
+union_coverage,Covered by union contract
+unionhh,Family labor union member
+investor,Stock ownership
+healthins_1,Health insurance - Through job
+healthins_2,Health insurance - Govt program
+healthins_3,Health insurance - Through school
+healthins_4,Health insurance - Purchase on own
+healthins_5,Health insurance - Not sure
+healthins_6,Health insurance - No
+healthins2,Purchase health insurance thru exchange
+phone,Phone service
+internethome,Internet Access at Home
+internetwork,Internet access at work
+sexuality,Sexual Orientation
+trans,Transgender
+industryclass,Industry classification
+pew_bornagain,Born Again (Pew version)
+pew_religimp,Importance of religion (Pew version)
+pew_churatd,Church attendance (Pew version)
+pew_prayer,Frequency of Prayer (Pew version)
+religpew,Religion
+religpew_t,Pew religion - open
+religpew_protestant,Protestant Church
+religpew_protestant_t,Protestant Church - open
+religpew_baptist,Baptist Church
+religpew_baptist_t,Baptist Church - open
+religpew_methodist,Methodist Church
+religpew_methodist_t,Methodist Church - open
+religpew_nondenom,Nondenominational or Independent Church
+religpew_nondenom_t,Nondenominational or Independent Church - open
+religpew_lutheran,Lutheran Church
+religpew_lutheran_t,Lutheran Church - open
+religpew_presby,Presbyterian Church
+religpew_presby_t,Presbyterian Church - open
+religpew_pentecost,Pentecostal Church
+religpew_pentecost_t,Pentecostal Church - open
+religpew_episcop,Episcopal Church
+religpew_episcop_t,Episcopal Church - open
+religpew_christian,Christian Church
+religpew_christian_t,Christian Church - open
+religpew_congreg,Congregational Church
+religpew_congreg_t,Congregational Church - open
+religpew_holiness,Holiness Church
+religpew_holiness_t,Holiness Church - open
+religpew_reformed,Reformed Church
+religpew_reformed_t,Reformed Church - open
+religpew_advent,Adventist Church
+religpew_advent_t,Adventist Church - open
+religpew_catholic,Catholic Church
+religpew_catholic_t,Catholic Church - open
+religpew_mormon,Mormon Church
+religpew_mormon_t,Mormon Church - open
+religpew_orthodox,Orthodox Church
+religpew_orthodox_t,Orthodox Church - open
+religpew_jewish,Jewish Group
+religpew_jewish_t,Jewish Group - open
+religpew_muslim,Muslim Group
+religpew_muslim_t,Muslim Group - open
+religpew_buddhist,Buddhist group
+religpew_buddhist_t,Buddhist group - open
+religpew_hindu,Hindu Group
+religpew_hindu_t,Hindu Group - open
+ideo5,Ideology
+newsint,Political Interest
+faminc_new,Family income
+lookupzip,Zip code used for CD mapping
+cdid116,CD 116th Congress
+HouseCand1Name,House Candidate 1 Name
+HouseCand2Name,House Candidate 2 Name
+HouseCand3Name,House Candidate 3 Name
+HouseCand4Name,House Candidate 4 Name
+HouseCand5Name,House Candidate 5 Name
+HouseCand6Name,House Candidate 6 Name
+HouseCand7Name,House Candidate 7 Name
+HouseCand8Name,House Candidate 8 Name
+HouseCand9Name,House Candidate 9 Name
+HouseCand1Party,House Candidate 1 Party
+HouseCand2Party,House Candidate 2 Party
+HouseCand3Party,House Candidate 3 Party
+HouseCand4Party,House Candidate 4 Party
+HouseCand5Party,House Candidate 5 Party
+HouseCand6Party,House Candidate 6 Party
+HouseCand7Party,House Candidate 7 Party
+HouseCand8Party,House Candidate 8 Party
+HouseCand9Party,House Candidate 9 Party
+SenCand1Name,Senate Candidate 1 Name
+SenCand2Name,Senate Candidate 2 Name
+SenCand1Party,Senate Candidate 1 Party
+SenCand2Party,Senate Candidate 2 Party
+SenCand1Name2,Senate Candidate 1 Name 2nd race
+SenCand2Name2,Senate Candidate 2 Name 2nd race
+SenCand3Name2,Senate Candidate 3 Name 2nd race
+SenCand4Name2,Senate Candidate 4 Name 2nd race
+SenCand5Name2,Senate Candidate 5 Party 2nd race
+SenCand6Name2,Senate Candidate 6 Name 2nd race
+SenCand1Party2,Senate Candidate 1 Party 2nd race
+SenCand2Party2,Senate Candidate 2 Party 2nd race
+SenCand3Party2,Senate Candidate 3 Party 2nd race
+SenCand4Party2,Senate Candidate 4 Party 2nd race
+SenCand5Party2,Senate Candidate 5 Name 2nd race
+SenCand6Party2,Senate Candidate 6 Party 2nd race
+GovCand1Name,Governor Candidate 1 Name
+GovCand2Name,Governor Candidate 2 Name
+GovCand1Party,Governor Candidate 1 Party
+GovCand2Party,Governor Candidate 2 Party
+CurrentHouseName,Current House Name
+CurrentHouseParty,Current House Party
+CurrentSen1Name,Current Senate 1 Name
+CurrentSen2Name,Current Senate 2 Name
+CurrentSen1Party,Current Senate 1 Party
+CurrentSen2Party,Current Senate 2 Party
+CurrentGovName,Current Governor Name
+CurrentGovParty,Current Governor Party
+LowerChamberName,Lower chamber name
+LegName,Legislature name
+countyfips,County FIPS code
+countyname,County Name
+page_one_timing,Timing Data for Page one
+page_CC20_300b_timing,Timing Data for Page CC20_300b
+page_CC20_300d_timing,Timing Data for Page CC20_300d
+page_CC19_302_timing,Timing Data for Page CC19_302
+page_CC20_303_timing,Timing Data for Page CC20_303
+page_CC20_305_timing,Timing Data for Page CC20_305
+page_CC20_307_timing,Timing Data for Page CC20_307
+page_CC20_309a_timing,Timing Data for Page CC20_309a
+page_CC20_309b_timing,Timing Data for Page CC20_309b
+page_CC20_309c_timing,Timing Data for Page CC20_309c
+page_CC20_309dx_timing,Timing Data for Page CC20_309dx
+page_CC20_309e_timing,Timing Data for Page CC20_309e
+page_CC20_310grid_timing,Timing Data for Page CC20_310grid
+page_CC20_311grid_timing,Timing Data for Page CC20_311grid
+page_approve_timing,Timing Data for Page approve
+page_CC20_327grid_timing,Timing Data for Page CC20_327grid
+page_CC20_330grid_timing,Timing Data for Page CC20_330grid
+page_CC20_331grid_timing,Timing Data for Page CC20_331grid
+page_CC20_332grid_timing,Timing Data for Page CC20_332grid
+page_CC20_333grid_timing,Timing Data for Page CC20_333grid
+page_CC20_334grid_timing,Timing Data for Page CC20_334grid
+page_CC20_338grid_timing,Timing Data for Page CC20_338grid
+page_CC20_340grid_timing,Timing Data for Page CC20_340grid
+page_CC20_350grid_timing,Timing Data for Page CC20_350grid
+page_CC20_351_timing,Timing Data for Page CC20_351
+page_CC20_355grid_timing,Timing Data for Page CC20_355grid
+page_CC20_356a_timing,Timing Data for Page CC20_356a
+page_CC20_356_timing,Timing Data for Page CC20_356
+page_CC20_360_timing,Timing Data for Page CC20_360
+page_urbanarea_timing,Timing Data for Page urbanarea
+page_CC20_363_timing,Timing Data for Page CC20_363
+page_CC20_364a_timing,Timing Data for Page CC20_364a
+page_CC20_365_voted_timing,Timing Data for Page CC20_365_voted
+page_CC20_365b_voted_timing,Timing Data for Page CC20_365b_voted
+page_CC20_366_voted_timing,Timing Data for Page CC20_366_voted
+page_CC20_367_voted_timing,Timing Data for Page CC20_367_voted
+page_CC20_364b_timing,Timing Data for Page CC20_364b
+page_CC20_365_timing,Timing Data for Page CC20_365
+page_CC20_365b_timing,Timing Data for Page CC20_365b
+page_CC20_365c_timing,Timing Data for Page CC20_365c
+page_CC20_366_timing,Timing Data for Page CC20_366
+page_CC20_367_timing,Timing Data for Page CC20_367
+page_CC20_367a_timing,Timing Data for Page CC20_367a
+page_page_pid3_timing,Timing Data for Page page_pid3
+page_page_pid7_timing,Timing Data for Page page_pid7
+page_demos7_timing,Timing Data for Page demos7
+page_employ_timing,Timing Data for Page employ
+page_hadjob_timing,Timing Data for Page hadjob
+page_pew_bornagain_timing,Timing Data for Page pew_bornagain
+page_pew_religimp_timing,Timing Data for Page pew_religimp
+page_pew_churatd_timing,Timing Data for Page pew_churatd
+page_pew_prayer_timing,Timing Data for Page pew_prayer
+page_religpew_timing,Timing Data for Page religpew
+page_religpew_protestant_timing,Timing Data for Page religpew_protestant
+page_religion_denom_timing,Timing Data for Page religion_denom
+page_marstat_timing,Timing Data for Page marstat
+page_demos2b_timing,Timing Data for Page demos2b
+page_cit1_timing,Timing Data for Page cit1
+page_immstat_timing,Timing Data for Page immstat
+page_dualcit_timing,Timing Data for Page dualcit
+page_dualctry_timing,Timing Data for Page dualctry
+page_home_timing,Timing Data for Page home
+page_demos2c_timing,Timing Data for Page demos2c
+page_p_milstat_timing,Timing Data for Page p_milstat
+page_child18_timing,Timing Data for Page child18
+page_demos3b_timing,Timing Data for Page demos3b
+page_union_coverage_timing,Timing Data for Page union_coverage
+page_demos3c_timing,Timing Data for Page demos3c
+page_investor_timing,Timing Data for Page investor
+page_healthins_timing,Timing Data for Page healthins
+page_healthins2_timing,Timing Data for Page healthins2
+page_demos8_timing,Timing Data for Page demos8
+page_CC20_hisp_timing,Timing Data for Page CC20_hisp
+page_CC20_asian_timing,Timing Data for Page CC20_asian
+page_presvote16post_timing,Timing Data for Page presvote16post
+page_industryclass_timing,Timing Data for Page industryclass
+page_sex_timing,Timing Data for Page sex
+regzip_confirm_post,Confirm registered zip code post
+reszip_confirm_post,Confirm zip code post
+inputzip_post,Zip code post
+votereg_post,Voter Registration Status post
+votereg_f_post,Registered to vote post
+regzip_post,Zip code where registered post
+inputstate_post,State post
+birthyr_post,Birth year - post
+gender_post,Gender - post
+region_post,Region post
+CC20_401,Voted in 2020
+CC20_402a,Main reason didn't vote
+CC20_402a_t,Main reason didn't vote - open
+CC20_402b,Second reason didn't vote
+CC20_402b_t,Second reason didn't vote - open
+CC20_403,Vote in person or by mail
+CC20_403b,Vote at precinct polling place or vote center
+CC20_403c,Where absentee ballot returned
+CC20_403c_t,Where absentee ballot returned - open
+CC20_403d,How long it took to return mail ballot
+CC20_403d_t,How long it took to return mail ballot - open
+CC20_404,Voting length wait time
+CC20_404_t,Voting length wait time - open
+CC20_405,Registered to vote on Election Day
+CC20_406a,Problem with voter registration or ID when trying to vote
+CC20_406b_1,Problem with voting - ID
+CC20_406b_2,Problem with voting - Registration
+CC20_406b_3,Problem with voting - Wrong place
+CC20_406c,Allowed to vote
+CC20_410,2020 Pres vote
+CC20_410_t,2020 Pres vote - open
+CC20_411,Senator Vote
+CC20_410b_t,Senator Vote - open
+CC20_411b,Senator vote 2nd race
+CC20_411b_t,Senator vote 2nd race - open
+CC20_412,House vote
+CC20_412_t,House vote - open
+CC20_413,Governor vote
+CC20_413_t,Governor vote - open
+CC20_410a_nv,President prefer
+CC20_410a_nv_t,President prefer - open
+CC20_411_nv,Senator prefer
+CC20_411_nv_t,Senator prefer - open
+CC20_411b_nv,Senator prefer 2nd race
+CC20_411b_nv_t,Senator prefer 2nd race - open
+CC20_412_nv,House prefer
+CC20_412_nv_t,House prefer - open
+CC20_413_nv,Governor prefer
+CC20_413_nv_t,Governor prefer - open
+CC20_411_GA1,GA Senate runoff - Ossoff vs. Perdue
+CC20_411_GA2,GA Senate runoff - Warnock vs. Loeffler
+CC20_414a,State Vote - AG
+CC20_414b,State Vote - SOS
+CC20_415c,Vote State legislature -- $inputstate State Senate
+CC20_415d,Vote State legislature -- $LowerChamberName
+CC20_416a,Race/ethnicity politicians -- $HouseCand1Name
+CC20_416b,Race/ethnicity politicians -- $HouseCand2Name
+CC20_416c,Race/ethnicity politicians -- $CurrentHouseName
+CC20_416a_other,Race/ethnicity politicians - $HouseCand1Name - open
+CC20_416b_other,Race/ethnicity politicians - $HouseCand2Name - open
+CC20_416c_other,Race/ethnicity politicians - $CurrentHouseName - open
+CC20_420_1,Use U.S. military troops - Ensure the supply of oil
+CC20_420_2,Use U.S. military troops - Destroy a terrorist camp
+CC20_420_3,Use U.S. military troops - Intervene in a region where there is genocide or a ci
+CC20_420_4,Use U.S. military troops - Assist the spread of democracy
+CC20_420_5,Use U.S. military troops - Protect American allies under attack by foreign natio
+CC20_420_6,Use U.S. military troops - Help the United Nations uphold international law
+CC20_420_7,Use U.S. military troops - None of the above
+CC20_421r,Tax increases vs. Spending cuts
+CC20_421r_dk_flag,Tax increases vs. Spending cuts - don't know
+CC20_422r,Raise sales tax vs. Raise income tax
+CC20_422r_dk_flag,Raise sales tax vs. Raise income tax - don't know
+CC20_430a_1,Past year - Attend local political meetings
+CC20_430a_2,Past year - Put up a political sign
+CC20_430a_3,Past year - Work for a candidate or campaign
+CC20_430a_4,"Past year - Attend a political protest, march or demonstration"
+CC20_430a_5,Past year - Contact a public official
+CC20_430a_6,"Past year - Donate money to a candidate, campaign, or political organization"
+CC20_430a_7,Past year - Donate blood
+CC20_430a_8,Past year - None of these
+CC20_430b_1,Donate money - Candidate for President
+CC20_430b_2,Donate money - Candidate for U.S. Senate in my state
+CC20_430b_3,Donate money - Candidate for U.S. Senate in another state
+CC20_430b_4,Donate money - Candidate for U.S. House in my state
+CC20_430b_5,Donate money - Candidate for U.S. House in another state
+CC20_430b_6,Donate money - Candidate for state office
+CC20_430b_7,Donate money - Political party committee
+CC20_430b_8,Donate money - Political action committee at work
+CC20_430b_9,Donate money - Political group
+CC20_430b_10,Donate money - Other
+CC20_430b_t,Donate money - open
+CC20_430c,Amount contribute to all candidates/committees
+CC20_431a,Contacted by candidate or political campaign
+CC20_431b_1,Manner of candidate contact - In person
+CC20_431b_2,Manner of candidate contact - Phone call
+CC20_431b_3,Manner of candidate contact - Email or text message
+CC20_431b_4,Manner of candidate contact - Letter or post card
+CC20_432a,Run for office - past year
+CC20_432b_1,Run for office - School Board
+CC20_432b_2,Run for office - Other local board or commission
+CC20_432b_3,Run for office - City Council
+CC20_432b_4,Run for office - Mayor
+CC20_432b_5,Run for office - City or District Attorney
+CC20_432b_6,Run for office - Countywide office
+CC20_432b_7,Run for office - State legislature
+CC20_432b_8,Run for office - Statewide office
+CC20_432b_9,Run for office - Federal legislature
+CC20_432b_10,Run for office - Judge
+CC20_432b_11,Run for office - Other
+CC20_432b_t,Run for office - open
+CC20_433a,3 pt party ID
+CC20_433_t,3 pt party ID - open
+CC20_433_dem,Party ID Dem strength
+CC20_433_rep,Party ID Rep strength
+CC20_433b,Party ID lean
+CC20_440a,Racial/Sexual agreement -- White people in the U.S. have certain advantages beca
+CC20_440b,"Racial/Sexual agreement -- Racial problems in the U.S. are rare, isolated situat"
+CC20_440c,Racial/Sexual agreement -- Women seek to gain power by getting control over men.
+CC20_440d,Racial/Sexual agreement -- Women are too easily offended.
+CC20_441a,"Racial Resentment -- Irish, Italians, Jewish and many other minorities overcame "
+CC20_441b,Racial Resentment -- Generations of slavery and discrimination have created cond
+CC20_441e,Racial Resentment -- I resent when Whites deny the existence of racial discrimin
+CC20_441f,Racial Resentment -- Whites get away with offenses that African Americans would 
+CC20_441g,Racial Resentment -- Whites do not go to great lengths to understand the problem
+CC20_442a,Executive Orders Two -- Assassination of Iranian General Qasem Soleimani
+CC20_442b,Executive Orders Two -- Withdraw the United States from the Iran Nuclear Accord 
+CC20_442c,Executive Orders Two -- Declare a national emergency to permit construction of b
+CC20_442d,Executive Orders Two -- Suspend a program that allows migrants to remain in the 
+CC20_442e,Executive Orders Two -- Withdraw troops from Kurdish-controlled region of northe
+CC20_443_1,State legislature spending -- Welfare
+CC20_443_2,State legislature spending -- Health Care
+CC20_443_3,State legislature spending -- Education
+CC20_443_4,State legislature spending -- Law Enforcement
+CC20_443_5,State legislature spending -- Transportation/Infrastructure
+gunown,Personal gun ownership
+numchildren,Number children
+edloan,Student debtor
+student,Student Full or Part-time
+lookupzip_post,Zip code for mapping CD - post
+cdid116_post,CD 116th Congress - post
+CurrentGovName_post,Current Governor Name - post
+CurrentGovParty_post,Current Governor Party - post
+CurrentHouseName_post,Current House Name - post
+CurrentHouseParty_post,Current House Party - post
+CurrentSen1Name_post,Current Senate 1 Name - post
+CurrentSen1Party_post,Current Senate 1 Party - post
+CurrentSen2Name_post,Current Senate 2 Name - post
+CurrentSen2Party_post,Current Senate 2 Party - post
+LegName_post,Legislature name - post
+LowerChamberName_post,Lower chamber name - post
+HouseCand1Name_post,House Candidate 1 Name - post
+HouseCand1Party_post,House Candidate 1 Party - post
+HouseCand2Name_post,House Candidate 2 Name - post
+HouseCand2Party_post,House Candidate 2 Party - post
+HouseCand3Name_post,House Candidate 3 Name - post
+HouseCand3Party_post,House Candidate 3 Party - post
+HouseCand4Name_post,House Candidate 4 Name - post
+HouseCand4Party_post,House Candidate 4 Party - post
+HouseCand5Name_post,House Candidate 5 Name - post
+HouseCand5Party_post,House Candidate 5 Party - post
+HouseCand6Name_post,House Candidate 6 Name - post
+HouseCand6Party_post,House Candidate 6 Party - post
+HouseCand7Name_post,House Candidate 7 Name - post
+HouseCand7Party_post,House Candidate 7 Party - post
+HouseCand8Name_post,House Candidate 8 Name - post
+HouseCand8Party_post,House Candidate 8 Party - post
+HouseCand9Name_post,House Candidate 9 Name - post
+HouseCand9Party_post,House Candidate 9 Party - post
+SenCand1Name_post,Senate Candidate 1 Name - post
+SenCand1Party_post,Senate Candidate 1 Party - post
+SenCand2Name_post,Senate Candidate 2 Name - post
+SenCand2Party_post,Senate Candidate 2 Party - post
+SenCand1Name2_post,Senate Candidate 1 Name 2nd race - post
+SenCand2Name2_post,Senate Candidate 2 Name 2nd race - post
+SenCand3Name2_post,Senate Candidate 3 Name 2nd race - post
+SenCand4Name2_post,Senate Candidate 4 Name 2nd race - post
+SenCand5Name2_post,Senate Candidate 5 Party 2nd race - post
+SenCand6Name2_post,Senate Candidate 6 Name 2nd race - post
+SenCand1Party2_post,Senate Candidate 1 Party 2nd race - post
+SenCand2Party2_post,Senate Candidate 2 Party 2nd race - post
+SenCand3Party2_post,Senate Candidate 3 Party 2nd race - post
+SenCand4Party2_post,Senate Candidate 4 Party 2nd race - post
+SenCand5Party2_post,Senate Candidate 5 Name 2nd race - post
+SenCand6Party2_post,Senate Candidate 6 Party 2nd race - post
+GovCand1Name_post,Governor Candidate 1 Name - post
+GovCand1Party_post,Governor Candidate 1 Party - post
+GovCand2Name_post,Governor Candidate 2 Name - post
+GovCand2Party_post,Governor Candidate 2 Party - post
+AttCand1Name,Attorney General Candidate 1 Name - post
+AttCand2Name,Attorney General Candidate 2 Name - post
+AttCand3Name,Attorney General Candidate 3 Name - post
+AttCand1Party,Attorney General Candidate 1 Party - post
+AttCand2Party,Attorney General Candidate 2 Party - post
+AttCand3Party,Attorney General Candidate 3 Party - post
+SecCand1Name,Secretary of State Candidate 1 Name - post
+SecCand2Name,Secretary of State Candidate 2 Name - post
+SecCand3Name,Secretary of State Candidate 3 Name - post
+SecCand1Party,Secretary of State Candidate 1 Party - post
+SecCand2Party,Secretary of State Candidate 2 Party - post
+SecCand3Party,Secretary of State Candidate 3 Party - post
+page_CC20_401_timing,Timing Data for Page CC20_401
+page_CC20_402a_timing,Timing Data for Page CC20_402a
+page_CC20_402b_timing,Timing Data for Page CC20_402b
+page_CC20_403_timing,Timing Data for Page CC20_403
+page_CC20_403c_timing,Timing Data for Page CC20_403c
+page_CC20_403d_timing,Timing Data for Page CC20_403d
+page_CC20_404_timing,Timing Data for Page CC20_404
+page_CC20_405_timing,Timing Data for Page CC20_405
+page_CC20_406a_timing,Timing Data for Page CC20_406a
+page_CC20_406b_timing,Timing Data for Page CC20_406b
+page_CC20_406c_timing,Timing Data for Page CC20_406c
+page_CC20_410_timing,Timing Data for Page CC20_410
+page_CC20_411_timing,Timing Data for Page CC20_411
+page_CC20_411b_timing,Timing Data for Page CC20_411b
+page_CC20_412_timing,Timing Data for Page CC20_412
+page_CC20_413_timing,Timing Data for Page CC20_413
+page_CC20_410a_nv_timing,Timing Data for Page CC20_410a_nv
+page_CC20_411_nv_timing,Timing Data for Page CC20_411_nv
+page_CC20_411b_nv_timing,Timing Data for Page CC20_411b_nv
+page_CC20_412_nv_timing,Timing Data for Page CC20_412_nv
+page_CC20_413_nv_timing,Timing Data for Page CC20_413_nv
+page_GArunoff_timing,Timing Data for Page GArunoff
+page_CC20_414a_timing,Timing Data for Page CC20_414a
+page_CC20_414b_timing,Timing Data for Page CC20_414b
+page_CC20_415_grid_timing,Timing Data for Page CC20_415_grid
+page_CC20_416_grid_timing,Timing Data for Page CC20_416_grid
+page_CC20_416a_other_timing,Timing Data for Page CC20_416a_other
+page_CC20_416b_other_timing,Timing Data for Page CC20_416b_other
+page_CC20_416c_other_timing,Timing Data for Page CC20_416c_other
+page_CC20_420_timing,Timing Data for Page CC20_420
+page_CC20_421r_timing,Timing Data for Page CC20_421r
+page_CC20_422r_timing,Timing Data for Page CC20_422r
+page_CC20_430a_timing,Timing Data for Page CC20_430a
+page_CC20_430b_timing,Timing Data for Page CC20_430b
+page_CC20_430c_timing,Timing Data for Page CC20_430c
+page_CC20_431a_timing,Timing Data for Page CC20_431a
+page_CC20_431b_timing,Timing Data for Page CC20_431b
+page_CC20_432a_timing,Timing Data for Page CC20_432a
+page_CC20_432b_timing,Timing Data for Page CC20_432b
+page_CC20_433a_timing,Timing Data for Page CC20_433a
+page_CC20_433_dem_timing,Timing Data for Page CC20_433_dem
+page_CC20_433_rep_timing,Timing Data for Page CC20_433_rep
+page_CC20_433b_timing,Timing Data for Page CC20_433b
+page_CC20_440_grid_timing,Timing Data for Page CC20_440_grid
+page_CC20_441_grid_timing,Timing Data for Page CC20_441_grid
+page_CC20_442_grid_timing,Timing Data for Page CC20_442_grid
+page_CC20_443_timing,Timing Data for Page CC20_443
+page_gunown_timing,Timing Data for Page gunown
+page_numchildren_timing,Timing Data for Page numchildren
+page_edloan_timing,Timing Data for Page edloan
+page_student_timing,Timing Data for Page student
+CL_voter_status,VOTER_STATUS
+CL_2020gvm,VOTED_IN_2020_GENERAL_VOTING_METHOD
+CL_2020ppep,VOTED_IN_2020_PRESIDENTIAL_PRIMARY_ELECTION_PARTY
+CL_2020ppvm,VOTED_IN_2020_PRESIDENTIAL_PRIMARY_VOTING_METHOD
+CL_2020pep,VOTED_IN_2020_PRIMARY_ELECTION_PARTY
+CL_2020pvm,VOTED_IN_2020_PRIMARY_VOTING_METHOD
+CL_state,REGISTRATION_ADDRESS_STATE
+CL_party,PARTY_AFFILIATION
+starttime,Questionnaire Start Time
+endtime,Questionnaire End Time
+starttime_post,Questionnaire Start Time - post
+endtime_post,Questionnaire End Time - post

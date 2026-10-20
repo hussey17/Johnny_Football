@@ -1,0 +1,5108 @@
+{
+  "V101": {
+    "variable_label": "Case ID",
+    "value_labels": {}
+  },
+  "commonweight_vv": {
+    "variable_label": "Common content with voter validation weights",
+    "value_labels": {}
+  },
+  "commonweight_vv_post": {
+    "variable_label": "Common content with voter validation weights post-election",
+    "value_labels": {}
+  },
+  "commonweight_vv_lgbt": {
+    "variable_label": "Weights for LGBT variable analysis",
+    "value_labels": {}
+  },
+  "commonweight": {
+    "variable_label": "Common content weights",
+    "value_labels": {}
+  },
+  "commonweight_post": {
+    "variable_label": "Common content weights post-election",
+    "value_labels": {}
+  },
+  "tookpost": {
+    "variable_label": "Took post-election wave",
+    "value_labels": {
+      "0": "No",
+      "1": "Yes"
+    }
+  },
+  "lookupzip": {
+    "variable_label": "Zip code for mapping CD",
+    "value_labels": {}
+  },
+  "inputstate": {
+    "variable_label": "State",
+    "value_labels": {
+      "1": "Alabama",
+      "2": "Alaska",
+      "4": "Arizona",
+      "5": "Arkansas",
+      "6": "California",
+      "8": "Colorado",
+      "9": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming",
+      "60": "American Samoa",
+      "64": "Federated States of Micronesia",
+      "66": "Guam",
+      "68": "Marshall Islands",
+      "69": "Northern Mariana Islands",
+      "70": "Palau",
+      "72": "Puerto Rico",
+      "74": "U.S. Minor Outlying Islands",
+      "78": "Virgin Islands",
+      "81": "Alberta",
+      "82": "British Columbia",
+      "83": "Manitoba",
+      "84": "New Brunswick",
+      "85": "Newfoundland",
+      "86": "Northwest Territories",
+      "87": "Nova Scotia",
+      "88": "Nunavut",
+      "89": "Ontario",
+      "90": "Prince Edward Island",
+      "91": "Quebec",
+      "92": "Saskatchewan",
+      "93": "Yukon Territory",
+      "99": "Not in the U.S. or Canada",
+      "998": "Skipped",
+      "999": "Not Asked"
+    }
+  },
+  "cdid113": {
+    "variable_label": "CD 113th/114th Congress",
+    "value_labels": {}
+  },
+  "cdid115": {
+    "variable_label": "CD 115th Congress",
+    "value_labels": {}
+  },
+  "countyfips": {
+    "variable_label": "County FIPS code",
+    "value_labels": {}
+  },
+  "countyname": {
+    "variable_label": "County Name",
+    "value_labels": {}
+  },
+  "CurrentGovName": {
+    "variable_label": "Current Governor Name",
+    "value_labels": {}
+  },
+  "CurrentGovParty": {
+    "variable_label": "Current Governor Party",
+    "value_labels": {}
+  },
+  "CurrentHouseGender": {
+    "variable_label": "Current House Gender",
+    "value_labels": {}
+  },
+  "CurrentHouseName": {
+    "variable_label": "Current House Name",
+    "value_labels": {}
+  },
+  "CurrentHouseParty": {
+    "variable_label": "Current House Party",
+    "value_labels": {}
+  },
+  "CurrentSen1Gender": {
+    "variable_label": "Current Senate 1 Gender",
+    "value_labels": {}
+  },
+  "CurrentSen1Name": {
+    "variable_label": "Current Senate 1 Name",
+    "value_labels": {}
+  },
+  "CurrentSen1Party": {
+    "variable_label": "Current Senate 1 Party",
+    "value_labels": {}
+  },
+  "CurrentSen2Gender": {
+    "variable_label": "Current Senate 2 Gender",
+    "value_labels": {}
+  },
+  "CurrentSen2Name": {
+    "variable_label": "Current Senate 2 Name",
+    "value_labels": {}
+  },
+  "CurrentSen2Party": {
+    "variable_label": "Current Senate 2 Party",
+    "value_labels": {}
+  },
+  "GovCand1Incumbent": {
+    "variable_label": "Governor Candidate 1 Incumbent",
+    "value_labels": {}
+  },
+  "GovCand1Name": {
+    "variable_label": "Governor Candidate 1 Name",
+    "value_labels": {}
+  },
+  "GovCand1Party": {
+    "variable_label": "Governor Candidate 1 Party",
+    "value_labels": {}
+  },
+  "GovCand2Incumbent": {
+    "variable_label": "Governor Candidate 2 Incumbent",
+    "value_labels": {}
+  },
+  "GovCand2Name": {
+    "variable_label": "Governor Candidate 2 Name",
+    "value_labels": {}
+  },
+  "GovCand2Party": {
+    "variable_label": "Governor Candidate 2 Party",
+    "value_labels": {}
+  },
+  "GovCand3Name": {
+    "variable_label": "Governor Candidate 3 Name",
+    "value_labels": {}
+  },
+  "GovCand3Party": {
+    "variable_label": "Governor Candidate 3 Party",
+    "value_labels": {}
+  },
+  "HouseCand1Incumbent": {
+    "variable_label": "House Candidate 1 Incumbent",
+    "value_labels": {}
+  },
+  "HouseCand1Name": {
+    "variable_label": "House Candidate 1 Name",
+    "value_labels": {}
+  },
+  "HouseCand1Party": {
+    "variable_label": "House Candidate 1 Party",
+    "value_labels": {}
+  },
+  "HouseCand2Incumbent": {
+    "variable_label": "House Candidate 2 Incumbent",
+    "value_labels": {}
+  },
+  "HouseCand2Name": {
+    "variable_label": "House Candidate 2 Name",
+    "value_labels": {}
+  },
+  "HouseCand2Party": {
+    "variable_label": "House Candidate 2 Party",
+    "value_labels": {}
+  },
+  "HouseCand3Name": {
+    "variable_label": "House Candidate 3 Name",
+    "value_labels": {}
+  },
+  "HouseCand3Party": {
+    "variable_label": "House Candidate 3 Party",
+    "value_labels": {}
+  },
+  "HouseCand4Name": {
+    "variable_label": "House Candidate 4 Name",
+    "value_labels": {}
+  },
+  "HouseCand4Party": {
+    "variable_label": "House Candidate 4 Party",
+    "value_labels": {}
+  },
+  "HouseCand5Name": {
+    "variable_label": "House Candidate 5 Name",
+    "value_labels": {}
+  },
+  "HouseCand5Party": {
+    "variable_label": "House Candidate 5 Party",
+    "value_labels": {}
+  },
+  "HouseCand6Name": {
+    "variable_label": "House Candidate 6 Name",
+    "value_labels": {}
+  },
+  "HouseCand6Party": {
+    "variable_label": "House Candidate 6 Party",
+    "value_labels": {}
+  },
+  "HouseCand7Name": {
+    "variable_label": "House Candidate 7 Name",
+    "value_labels": {}
+  },
+  "HouseCand7Party": {
+    "variable_label": "House Candidate 7 Party",
+    "value_labels": {}
+  },
+  "HouseCand8Name": {
+    "variable_label": "House Candidate 8 Name",
+    "value_labels": {}
+  },
+  "HouseCand8Party": {
+    "variable_label": "House Candidate 8 Party",
+    "value_labels": {}
+  },
+  "HouseCand9Name": {
+    "variable_label": "House Candidate 9 Name",
+    "value_labels": {}
+  },
+  "HouseCand9Party": {
+    "variable_label": "House Candidate 9 Party",
+    "value_labels": {}
+  },
+  "HouseCand10Name": {
+    "variable_label": "House Candidate 10 Name",
+    "value_labels": {}
+  },
+  "HouseCand10Party": {
+    "variable_label": "House Candidate 10 Party",
+    "value_labels": {}
+  },
+  "HouseCand11Name": {
+    "variable_label": "House Candidate 11 Name",
+    "value_labels": {}
+  },
+  "HouseCand11Party": {
+    "variable_label": "House Candidate 11 Party",
+    "value_labels": {}
+  },
+  "LegName": {
+    "variable_label": "Legislature name",
+    "value_labels": {}
+  },
+  "LowerChamberName": {
+    "variable_label": "Lower chamber name",
+    "value_labels": {}
+  },
+  "SenCand1Incumbent": {
+    "variable_label": "Senate Candidate 1 Incumbent",
+    "value_labels": {}
+  },
+  "SenCand1Name": {
+    "variable_label": "Senate Candidate 1 Name",
+    "value_labels": {}
+  },
+  "SenCand1Party": {
+    "variable_label": "Senate Candidate 1 Party",
+    "value_labels": {}
+  },
+  "SenCand2Incumbent": {
+    "variable_label": "Senate Candidate 2 Incumbent",
+    "value_labels": {}
+  },
+  "SenCand2Name": {
+    "variable_label": "Senate Candidate 2 Name",
+    "value_labels": {}
+  },
+  "SenCand2Party": {
+    "variable_label": "Senate Candidate 2 Party",
+    "value_labels": {}
+  },
+  "SenCand3Name": {
+    "variable_label": "Senate Candidate 3 Name",
+    "value_labels": {}
+  },
+  "SenCand3Party": {
+    "variable_label": "Senate Candidate 3 Party",
+    "value_labels": {}
+  },
+  "SenCand4Name": {
+    "variable_label": "Senate Candidate 4 Name",
+    "value_labels": {}
+  },
+  "SenCand4Party": {
+    "variable_label": "Senate Candidate 4 Party",
+    "value_labels": {}
+  },
+  "CCEStake": {
+    "variable_label": "Consent to participate",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "comptype": {
+    "variable_label": "Computer or mobile user",
+    "value_labels": {
+      "1": "Yes, I am taking this survey on a tablet or smart phone",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "add_confirm": {
+    "variable_label": "Is the name and address displayed above correct?",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "votereg": {
+    "variable_label": "Voter Registration Status",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "3": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "votereg_f": {
+    "variable_label": "Registered to vote",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "regzip": {
+    "variable_label": "Zip code where registered",
+    "value_labels": {
+      "999998": "Skipped",
+      "999999": "Not Asked"
+    }
+  },
+  "inputzip": {
+    "variable_label": "Zip code",
+    "value_labels": {
+      "999998": "Skipped",
+      "999999": "Not Asked"
+    }
+  },
+  "birthyr": {
+    "variable_label": "Birth year",
+    "value_labels": {
+      "9998": "Skipped",
+      "9999": "Not Asked"
+    }
+  },
+  "gender": {
+    "variable_label": "Gender",
+    "value_labels": {
+      "1": "Male",
+      "2": "Female",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "educ": {
+    "variable_label": "Education",
+    "value_labels": {
+      "1": "No HS",
+      "2": "High school graduate",
+      "3": "Some college",
+      "4": "2-year",
+      "5": "4-year",
+      "6": "Post-grad",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "race": {
+    "variable_label": "Race",
+    "value_labels": {
+      "1": "White",
+      "2": "Black",
+      "3": "Hispanic",
+      "4": "Asian",
+      "5": "Native American",
+      "6": "Mixed",
+      "7": "Other",
+      "8": "Middle Eastern",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "race_other": {
+    "variable_label": "Race, other",
+    "value_labels": {}
+  },
+  "hispanic": {
+    "variable_label": "Spanish, Latino or Hispanic origin or descent",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "marstat": {
+    "variable_label": "Marital Status",
+    "value_labels": {
+      "1": "Married",
+      "2": "Separated",
+      "3": "Divorced",
+      "4": "Widowed",
+      "5": "Single",
+      "6": "Domestic partnership",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_1": {
+    "variable_label": "Multi-racial - White",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_2": {
+    "variable_label": "Multi-racial - Black",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_3": {
+    "variable_label": "Multi-racial - Hispanic",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_4": {
+    "variable_label": "Multi-racial - Asian",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_5": {
+    "variable_label": "Multi-racial - Native American",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_8": {
+    "variable_label": "Multi-racial - Middle Eastern",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_97": {
+    "variable_label": "Multi-racial - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_98": {
+    "variable_label": "Multi-racial - Don't know",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "multrace_99": {
+    "variable_label": "Multi-racial - None of these",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_1": {
+    "variable_label": "Hispanic_origin - No Country in Particular",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_2": {
+    "variable_label": "Hispanic_origin - United States",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_3": {
+    "variable_label": "Hispanic_origin - Mexico",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_4": {
+    "variable_label": "Hispanic_origin - Puerto Rico",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_5": {
+    "variable_label": "Hispanic_origin - Cuba",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_6": {
+    "variable_label": "Hispanic_origin - Dominican Republic",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_7": {
+    "variable_label": "Hispanic_origin - South America",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_8": {
+    "variable_label": "Hispanic_origin - Central America",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_9": {
+    "variable_label": "Hispanic_origin - Caribbean",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_10": {
+    "variable_label": "Hispanic_origin - Spain",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_11": {
+    "variable_label": "Hispanic_origin - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_12": {
+    "variable_label": "Hispanic_origin - I am not of Latino, Hispanic or Spanish Heritage",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Hispanic_origin_t": {
+    "variable_label": "Hispanic_origin - None",
+    "value_labels": {}
+  },
+  "Asian_origin_1": {
+    "variable_label": "Asian_origin - No Country in Particular",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_2": {
+    "variable_label": "Asian_origin - United States",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_3": {
+    "variable_label": "Asian_origin - China",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_4": {
+    "variable_label": "Asian_origin - Japan",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_5": {
+    "variable_label": "Asian_origin - India",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_6": {
+    "variable_label": "Asian_origin - Philippines",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_7": {
+    "variable_label": "Asian_origin - Taiwan",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_8": {
+    "variable_label": "Asian_origin - Korea",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_9": {
+    "variable_label": "Asian_origin - Vietnam",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_10": {
+    "variable_label": "Asian_origin - Pakistan",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_11": {
+    "variable_label": "Asian_origin - Hmong",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_12": {
+    "variable_label": "Asian_origin - Cambodia",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_13": {
+    "variable_label": "Asian_origin - Thailand",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_14": {
+    "variable_label": "Asian_origin - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_15": {
+    "variable_label": "Asian_origin - I am not of Asian Heritage",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "Asian_origin_t": {
+    "variable_label": "Asian_origin - None",
+    "value_labels": {}
+  },
+  "ccesmodule": {
+    "variable_label": "Survey assigned",
+    "value_labels": {
+      "1": "UGA - N=1000",
+      "2": "CUB - N=1000",
+      "3": "TAM - N=1000",
+      "4": "HKR - N=1000",
+      "5": "TUL - N=1000",
+      "6": "DRF - N=1000",
+      "7": "GWM - N=1000",
+      "8": "UMD - N=1000",
+      "9": "CAM - N=1000",
+      "10": "UDS - N=1000",
+      "11": "CPC - N=1000",
+      "12": "SKL - N=1000",
+      "13": "VAN - N=1000",
+      "14": "UMB - N=1000",
+      "15": "HMS - N=1000",
+      "16": "COL - N=1000",
+      "17": "UVA - N=1500",
+      "18": "MIA - N=1000",
+      "19": "UMS - N=1000",
+      "20": "UHO - N=1000",
+      "21": "ASU - N=1000",
+      "22": "FSU - N=1000",
+      "23": "UMI - N=1000",
+      "24": "UMK - N=1000",
+      "25": "UCD - N=1000",
+      "26": "UCR - N=1000",
+      "27": "UML - N=1000",
+      "28": "IOW - N=1000",
+      "29": "DKU - N=1000",
+      "30": "DKA - N=1000",
+      "31": "NYU - N=1000",
+      "32": "BYU - N=1000",
+      "33": "NCC - N=1000",
+      "34": "IUA - N=1000",
+      "35": "IUB - N=1000",
+      "36": "HDC - N=1000",
+      "37": "DWD - N=1000 + 300 AA",
+      "38": "GWU - N=1000",
+      "39": "UMA - N=2500",
+      "40": "YAL - N=1500",
+      "41": "NUC - N=1000",
+      "42": "UND - N=1000",
+      "43": "UTA - N=1000",
+      "44": "UTB - N=1000",
+      "45": "MIZ - N=1000",
+      "46": "AMU - N=2000",
+      "47": "CWM - RECONTACT",
+      "48": "CFT - N=2000",
+      "49": "MCS - N=1500",
+      "50": "JAH - N=1600",
+      "51": "RCO - N=1000",
+      "52": "HUY - N=1500",
+      "53": "HUZ - N=1500",
+      "54": "UIU - N=1000",
+      "55": "HUD - N=1000",
+      "56": "KUL - N=1000",
+      "57": "UCM - N=1000",
+      "58": "FBC - N=1000",
+      "59": "UMN - N=1000",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_300_1": {
+    "variable_label": "Media Use - Blog",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300_2": {
+    "variable_label": "Media Use - TV",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300_3": {
+    "variable_label": "Media Use - Newspaper",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300_4": {
+    "variable_label": "Media Use - Radio",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300_5": {
+    "variable_label": "Media Use - Social Media",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300_6": {
+    "variable_label": "Media Use - None",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300b": {
+    "variable_label": "Watch local news, national news or both",
+    "value_labels": {
+      "1": "Local Newscast",
+      "2": "National Newscast",
+      "3": "Both",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300c": {
+    "variable_label": "Read print news, online news or both",
+    "value_labels": {
+      "1": "Print",
+      "2": "Online",
+      "3": "Both",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300d_1": {
+    "variable_label": "Social media - Posted a story, photo, video or link about politics",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300d_2": {
+    "variable_label": "Social media - Posted a comment about politics",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300d_3": {
+    "variable_label": "Social media - Read a story or watched a video about politics",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300d_4": {
+    "variable_label": "Social media - Followed a political event",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_300d_5": {
+    "variable_label": "Social media - Forwarded a story, photo, video or link about politics to friends",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301a": {
+    "variable_label": "Most Important Problem - Gun control",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301b": {
+    "variable_label": "Most Important Problem - Abortion",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301c": {
+    "variable_label": "Most Important Problem - Taxes",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301d": {
+    "variable_label": "Most Important Problem - Immigration",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301e": {
+    "variable_label": "Most Important Problem - Budget deficit",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301f": {
+    "variable_label": "Most Important Problem - Defense spending",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301g": {
+    "variable_label": "Most Important Problem - Social security",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301h": {
+    "variable_label": "Most Important Problem - Environment",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301i": {
+    "variable_label": "Most Important Problem - Jobs",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301j": {
+    "variable_label": "Most Important Problem - Crime",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301k": {
+    "variable_label": "Most Important Problem - National security",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301l": {
+    "variable_label": "Most Important Problem - Race relations",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301m": {
+    "variable_label": "Most Important Problem - Health care",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301n": {
+    "variable_label": "Most Important Problem - Gay marriage",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_301o": {
+    "variable_label": "Most Important Problem - Government corruption",
+    "value_labels": {
+      "1": "Very High Importance",
+      "2": "Somewhat High Importance",
+      "3": "Somewhat Low Importance",
+      "4": "Very Low Importance",
+      "5": "No Importance at All",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_302": {
+    "variable_label": "National Economy",
+    "value_labels": {
+      "1": "Gotten much better",
+      "2": "Gotten better",
+      "3": "Stayed about the same",
+      "4": "Gotten worse",
+      "5": "Gotten much worse",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_303": {
+    "variable_label": "Past year - household income",
+    "value_labels": {
+      "1": "Increased a lot",
+      "2": "Increased somewhat",
+      "3": "Stayed about the same",
+      "4": "Decreased somewhat",
+      "5": "Decreased a lot",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_304": {
+    "variable_label": "Next year - household income",
+    "value_labels": {
+      "1": "Get much better",
+      "2": "Get somewhat better",
+      "3": "Stay about the same",
+      "4": "Get somewhat worse",
+      "5": "Get much worse",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_1": {
+    "variable_label": "Past four years - Married",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_2": {
+    "variable_label": "Past four years - Lost a job",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_3": {
+    "variable_label": "Past four years - Finished school",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_4": {
+    "variable_label": "Past four years - Retired",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_5": {
+    "variable_label": "Past four years - Divorced",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_6": {
+    "variable_label": "Past four years - Had a child",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_7": {
+    "variable_label": "Past four years - Taken a new job",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_8": {
+    "variable_label": "Past four years - Been issued a traffic ticket",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_9": {
+    "variable_label": "Past four years - Been a victim of a crime",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_10": {
+    "variable_label": "Past four years - Visited an emergency room",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_305_11": {
+    "variable_label": "Past four years - Received a raise at work",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_307": {
+    "variable_label": "Police make R feel safe",
+    "value_labels": {
+      "1": "Mostly safe",
+      "2": "Somewhat safe",
+      "3": "Somewhat unsafe",
+      "4": "Mostly unsafe",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_1": {
+    "variable_label": "Do not get involved",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_2": {
+    "variable_label": "Send food, medicine and other aid to countries affected",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_3": {
+    "variable_label": "Provide arms to those opposing ISIS",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_4": {
+    "variable_label": "Enforce a no-fly zone",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_5": {
+    "variable_label": "Use drones and aircraft to bomb ISIS troops",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_6": {
+    "variable_label": "Send military support staff (non-combat)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_312_7": {
+    "variable_label": "Send significant force to fight ISIS",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_321a": {
+    "variable_label": "Party of Government Knowledge - Reps",
+    "value_labels": {
+      "1": "Republicans",
+      "2": "Democrats",
+      "3": "Neither",
+      "4": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_321b": {
+    "variable_label": "Party of Government Knowledge - Senate",
+    "value_labels": {
+      "1": "Republicans",
+      "2": "Democrats",
+      "3": "Neither",
+      "4": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_321c": {
+    "variable_label": "Party of Government Knowledge - State Senate",
+    "value_labels": {
+      "1": "Republicans",
+      "2": "Democrats",
+      "3": "Neither",
+      "4": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_321d": {
+    "variable_label": "Party of Government Knowledge - Lower Chamber",
+    "value_labels": {
+      "1": "Republicans",
+      "2": "Democrats",
+      "3": "Neither",
+      "4": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_322a": {
+    "variable_label": "Party Recall + Name Recognition - Governor",
+    "value_labels": {
+      "1": "Never Heard of Person",
+      "2": "Republican",
+      "3": "Democrat",
+      "4": "Other Party / Independent",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_322b": {
+    "variable_label": "Party Recall + Name Recognition - Senator 1",
+    "value_labels": {
+      "1": "Never Heard of Person",
+      "2": "Republican",
+      "3": "Democrat",
+      "4": "Other Party / Independent",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_322c": {
+    "variable_label": "Party Recall + Name Recognition - Senator 2",
+    "value_labels": {
+      "1": "Never Heard of Person",
+      "2": "Republican",
+      "3": "Democrat",
+      "4": "Other Party / Independent",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_322d": {
+    "variable_label": "Party Recall + Name Recognition - Rep",
+    "value_labels": {
+      "1": "Never Heard of Person",
+      "2": "Republican",
+      "3": "Democrat",
+      "4": "Other Party / Independent",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320a": {
+    "variable_label": "Approve of Job - Obama",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320b": {
+    "variable_label": "Approve of Job - Congress",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320c": {
+    "variable_label": "Approve of Job - Supreme Court",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320d": {
+    "variable_label": "Approve of Job - Governor",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320e": {
+    "variable_label": "Approve of Job - Legislature",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320f": {
+    "variable_label": "Approve of Job - Rep",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320g": {
+    "variable_label": "Approve of Job - Senator 1",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_320h": {
+    "variable_label": "Approve of Job - Senator 2",
+    "value_labels": {
+      "1": "Strongly approve",
+      "2": "Somewhat approve",
+      "3": "Somewhat disapprove",
+      "4": "Strongly disapprove",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_316": {
+    "variable_label": "Vote 2012",
+    "value_labels": {
+      "1": "No",
+      "2": "I usually vote but did not vote in 2012",
+      "3": "I am not sure",
+      "4": "Yes, I definitely voted.",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_326": {
+    "variable_label": "President 2012",
+    "value_labels": {
+      "1": "Barack Obama",
+      "2": "Mitt Romney",
+      "3": "Someone else",
+      "4": "Did not vote",
+      "5": "Don't recall",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_326_t": {
+    "variable_label": "President 2012 - open",
+    "value_labels": {}
+  },
+  "CC16_327": {
+    "variable_label": "Vote primary 2016",
+    "value_labels": {
+      "1": "Yes, voted in a primary or caucus",
+      "2": "No, didn't vote in a primary or caucus",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_328": {
+    "variable_label": "Vote primary 2016 candidate",
+    "value_labels": {
+      "1": "Hillary Clinton",
+      "2": "Bernie Sanders",
+      "3": "Another Democrat",
+      "4": "Donald Trump",
+      "5": "Ted Cruz",
+      "6": "John Kasich",
+      "7": "Marco Rubio",
+      "8": "Another Republican",
+      "9": "Someone else who is not a Democrat or Republican",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_330a": {
+    "variable_label": "Gun Control - Background checks for all sales, including at gun shows and over t",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_330b": {
+    "variable_label": "Gun Control - Prohibit state and local governments from publishing the names and",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_330d": {
+    "variable_label": "Gun Control - Ban assault rifles",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_330e": {
+    "variable_label": "Gun Control - Make it easier for people to obtain concealed-carry permit",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_1": {
+    "variable_label": "Immigration - Grant legal status to all illegal immigrants who have held jobs an",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_2": {
+    "variable_label": "Immigration - Increase the number of border patrols on the U.S.-Mexican border",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_3": {
+    "variable_label": "Immigration - Grant legal status to people who were brought to the US illegally ",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_4": {
+    "variable_label": "Immigration - Fine U.S. businesses that hire illegal immigrants",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_5": {
+    "variable_label": "Immigration - Admit no refugees from Syria",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_6": {
+    "variable_label": "Immigration - Increase the number of visas for overseas workers to work in the U",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_7": {
+    "variable_label": "Immigration - Identify and deport illegal immigrants",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_8": {
+    "variable_label": "Immigration - Ban Muslims from immigrating to the U.S.",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_331_9": {
+    "variable_label": "Immigration - None of these",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332a": {
+    "variable_label": "Abortion Policies - Always allow a woman to obtain an abortion as a matter of ch",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332b": {
+    "variable_label": "Abortion Policies - Permit abortion only in case of rape, incest or when the wom",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332c": {
+    "variable_label": "Abortion Policies - Prohibit all abortions after the 20th week of pregnancy",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332d": {
+    "variable_label": "Abortion Policies - Allow employers to decline coverage of abortions in insuranc",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332e": {
+    "variable_label": "Abortion Policies - Prohibit the expenditure of funds authorized or appropriated",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_332f": {
+    "variable_label": "Abortion Policies - Make abortions illegal in all circumstances",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_333a": {
+    "variable_label": "Environment Policies - Give Environmental Protection Agency power to regulate Ca",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_333b": {
+    "variable_label": "Environment Policies - Raise required fuel efficiency for the average automobile",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_333c": {
+    "variable_label": "Environment Policies - Require a minimum amount of renewable fuels (wind, solar,",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_333d": {
+    "variable_label": "Environment Policies - Strengthen enforcement of the Clean Air Act and Clean Wat",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_334a": {
+    "variable_label": "Crime Policies - Eliminate mandatory minimum sentences for non-violent drug offe",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_334b": {
+    "variable_label": "Crime Policies - Require police officers to wear body cameras that record all of",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_334c": {
+    "variable_label": "Crime Policies - Increase the number of police on the street by 10 percent, even",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_334d": {
+    "variable_label": "Crime Policies - Increase prison sentences for felons who have already committed",
+    "value_labels": {
+      "1": "Support",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_335": {
+    "variable_label": "Gay Marriage",
+    "value_labels": {
+      "1": "Favor",
+      "2": "Oppose",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_337_1": {
+    "variable_label": "Budget Priorities - Cut Defense Spending",
+    "value_labels": {
+      "1": "Ranked first",
+      "2": "Ranked second",
+      "3": "Ranked third",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_337_2": {
+    "variable_label": "Budget Priorities - Cut Domestic Spending",
+    "value_labels": {
+      "1": "Ranked first",
+      "2": "Ranked second",
+      "3": "Ranked third",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_337_3": {
+    "variable_label": "Budget Priorities - Raise Taxes",
+    "value_labels": {
+      "1": "Ranked first",
+      "2": "Ranked second",
+      "3": "Ranked third",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_340a": {
+    "variable_label": "Ideology - Yourself",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340b": {
+    "variable_label": "Ideology - Governor",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340c": {
+    "variable_label": "Ideology - Obama",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340d": {
+    "variable_label": "Ideology - Hillary Clinton",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340e": {
+    "variable_label": "Ideology - Donald Trump",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340f": {
+    "variable_label": "Ideology - Merrick Garland",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340g": {
+    "variable_label": "Ideology - The Democratic Party",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340h": {
+    "variable_label": "Ideology - The Republican Party",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340i": {
+    "variable_label": "Ideology - The United States Supreme Court",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340j": {
+    "variable_label": "Ideology - $CurrentSen1Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340k": {
+    "variable_label": "Ideology - $CurrentSen2Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340l": {
+    "variable_label": "Ideology - $SenCand1Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340m": {
+    "variable_label": "Ideology - $SenCand2Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340n": {
+    "variable_label": "Ideology - $HouseCand1Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340o": {
+    "variable_label": "Ideology - $HouseCand2Name",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_340p": {
+    "variable_label": "Ideology - House member",
+    "value_labels": {
+      "1": "Very Liberal",
+      "2": "Liberal",
+      "3": "Somewhat Liberal",
+      "4": "Middle of the Road",
+      "5": "Somewhat Conservative",
+      "6": "Conservative",
+      "7": "Very Conservative",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_350": {
+    "variable_label": "SC_Appointments",
+    "value_labels": {
+      "1": "Most were appointed by Democratic presidents",
+      "2": "Most were appointed by Republican presidents",
+      "3": "An equal number were appointed by Democratic and Republican presidents",
+      "4": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351A": {
+    "variable_label": "For or Against - Congress - Approve Garland nomination",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351B": {
+    "variable_label": "For or Against - Congress - Trans-Pacific Partnership Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351C": {
+    "variable_label": "For or Against - Congress - USA Freedom Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351D": {
+    "variable_label": "For or Against - Congress - Trade Adjustment Assistence Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351E": {
+    "variable_label": "For or Against - Congress - Education Reform",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351F": {
+    "variable_label": "For or Against - Congress - Highway and Transportation Funding Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351G": {
+    "variable_label": "For or Against - Congress - Iran Sanctions Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351H": {
+    "variable_label": "For or Against - Congress - Medicare Accountability and Cost Reform Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351I": {
+    "variable_label": "For or Against - Congress - Repeal Affordable Care Act",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_351K": {
+    "variable_label": "For or Against - Congress - Minimum wage",
+    "value_labels": {
+      "1": "For",
+      "2": "Against",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_360": {
+    "variable_label": "Party Registration",
+    "value_labels": {
+      "1": "No Party, Independent, Decline to state",
+      "2": "Democratic Party",
+      "3": "Republican Party",
+      "4": "Other",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_361": {
+    "variable_label": "Residence",
+    "value_labels": {
+      "1": "Less than 1 month",
+      "2": "2 to 6 months",
+      "3": "7 to 11 months",
+      "4": "1 to 2 years",
+      "5": "3 to 4 years",
+      "6": "5 or more years",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_364": {
+    "variable_label": "Does R Intend to Vote in 2016",
+    "value_labels": {
+      "1": "Yes, definitely",
+      "2": "Probably",
+      "3": "I already voted (early or absentee)",
+      "4": "No",
+      "5": "Undecided",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_364b": {
+    "variable_label": "Pres vote",
+    "value_labels": {
+      "1": "Donald Trump (Republican)",
+      "2": "Hillary Clinton (Democrat)",
+      "3": "Gary Johnson (Libertarian)",
+      "4": "Jill Stein (Green)",
+      "5": "Other",
+      "6": "I didn't vote in this election",
+      "7": "I'm not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_364b_t": {
+    "variable_label": "Pres vote - open",
+    "value_labels": {}
+  },
+  "CC16_364c": {
+    "variable_label": "Pres pref",
+    "value_labels": {
+      "1": "Donald Trump (Republican)",
+      "2": "Hillary Clinton (Democrat)",
+      "3": "Gary Johnson (Libertarian)",
+      "4": "Jill Stein (Green)",
+      "5": "Other",
+      "6": "I won't vote in this election",
+      "7": "I'm not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_364c_t": {
+    "variable_label": "Pres pref - open",
+    "value_labels": {}
+  },
+  "CC16_365": {
+    "variable_label": "Senator pref",
+    "value_labels": {
+      "1": "$SenCand1Name ($SenCand1Party)",
+      "2": "$SenCand2Name ($SenCand2Party)",
+      "3": "$SenCand3Name ($SenCand3Party)",
+      "4": "$SenCand4Name ($SenCand4Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_365_t": {
+    "variable_label": "Senator pref - open",
+    "value_labels": {}
+  },
+  "CC16_365a": {
+    "variable_label": "Senator pref 2nd choice",
+    "value_labels": {
+      "1": "$SenCand1Name ($SenCand1Party)",
+      "2": "$SenCand2Name ($SenCand2Party)",
+      "3": "$SenCand3Name ($SenCand3Party)",
+      "4": "$SenCand4Name ($SenCand4Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_365a_t": {
+    "variable_label": "Senator pref 2nd choice - open",
+    "value_labels": {}
+  },
+  "CC16_366": {
+    "variable_label": "Governor pref",
+    "value_labels": {
+      "1": "$GovCand1Name ($GovCand1Party)",
+      "2": "$GovCand2Name ($GovCand2Party)",
+      "3": "$GovCand3Name ($GovCand3Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_366_t": {
+    "variable_label": "Governor pref - open",
+    "value_labels": {}
+  },
+  "CC16_366a": {
+    "variable_label": "Governor pref 2nd choice",
+    "value_labels": {
+      "1": "$GovCand1Name ($GovCand1Party)",
+      "2": "$GovCand2Name ($GovCand2Party)",
+      "3": "$GovCand3Name ($GovCand3Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_366a_t": {
+    "variable_label": "Governor pref 2nd choice - open",
+    "value_labels": {}
+  },
+  "CC16_367": {
+    "variable_label": "House pref",
+    "value_labels": {
+      "1": "$HouseCand1Name ($HouseCand1Party)",
+      "2": "$HouseCand2Name ($HouseCand2Party)",
+      "3": "$HouseCand3Name ($HouseCand3Party)",
+      "4": "$HouseCand4Name ($HouseCand4Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "10": "$HouseCand5Name ($HouseCand5Party)",
+      "11": "$HouseCand6Name ($HouseCand6Party)",
+      "12": "$HouseCand7Name ($HouseCand7Party)",
+      "13": "$HouseCand8Name ($HouseCand8Party)",
+      "14": "$HouseCand9Name ($HouseCand9Party)",
+      "15": "$HouseCand10Name ($HouseCand10Party)",
+      "16": "$HouseCand11Name ($HouseCand11Party)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_367_t": {
+    "variable_label": "House pref - open",
+    "value_labels": {}
+  },
+  "CC16_367a": {
+    "variable_label": "House pref 2nd choice",
+    "value_labels": {
+      "1": "$HouseCand1Name ($HouseCand1Party)",
+      "2": "$HouseCand2Name ($HouseCand2Party)",
+      "3": "$HouseCand3Name ($HouseCand3Party)",
+      "4": "$HouseCand4Name ($HouseCand4Party)",
+      "7": "Other",
+      "8": "I'm not sure",
+      "9": "No one",
+      "10": "$HouseCand5Name ($HouseCand5Party)",
+      "11": "$HouseCand6Name ($HouseCand6Party)",
+      "12": "$HouseCand7Name ($HouseCand7Party)",
+      "13": "$HouseCand8Name ($HouseCand8Party)",
+      "14": "$HouseCand9Name ($HouseCand9Party)",
+      "15": "$HouseCand10Name ($HouseCand10Party)",
+      "16": "$HouseCand11Name ($HouseCand11Party)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_367a_t": {
+    "variable_label": "House pref 2nd choice - open",
+    "value_labels": {}
+  },
+  "CC16_365x": {
+    "variable_label": "Senator vote",
+    "value_labels": {
+      "1": "$SenCand1Name ($SenCand1Party)",
+      "2": "$SenCand2Name ($SenCand2Party)",
+      "3": "$SenCand3Name ($SenCand3Party)",
+      "4": "Other",
+      "5": "I did not vote in this race",
+      "6": "I did not vote",
+      "7": "Not sure",
+      "8": "$SenCand4Name ($SenCand4Party)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_365x_t": {
+    "variable_label": "Senator vote - open",
+    "value_labels": {}
+  },
+  "CC16_366x": {
+    "variable_label": "Governor vote",
+    "value_labels": {
+      "1": "$GovCand1Name ($GovCand1Party)",
+      "2": "$GovCand2Name ($GovCand2Party)",
+      "3": "$GovCand3Name ($GovCand3Party)",
+      "7": "Other",
+      "8": "I did not vote in this race",
+      "9": "I did not vote",
+      "10": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_366x_t": {
+    "variable_label": "Governor vote - open",
+    "value_labels": {}
+  },
+  "CC16_367x": {
+    "variable_label": "House vote",
+    "value_labels": {
+      "1": "$HouseCand1Name ($HouseCand1Party)",
+      "2": "$HouseCand2Name ($HouseCand2Party)",
+      "3": "$HouseCand3Name ($HouseCand3Party)",
+      "4": "$HouseCand4Name ($HouseCand4Party)",
+      "7": "Other",
+      "8": "I did not vote in this race",
+      "9": "I did not vote",
+      "10": "$HouseCand5Name ($HouseCand5Party)",
+      "11": "$HouseCand6Name ($HouseCand6Party)",
+      "12": "$HouseCand7Name ($HouseCand7Party)",
+      "13": "$HouseCand8Name ($HouseCand8Party)",
+      "14": "$HouseCand9Name ($HouseCand9Party)",
+      "15": "$HouseCand10Name ($HouseCand10Party)",
+      "16": "$HouseCand11Name ($HouseCand11Party)",
+      "90": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_367x_t": {
+    "variable_label": "House vote - open",
+    "value_labels": {}
+  },
+  "employ": {
+    "variable_label": "Employment Status",
+    "value_labels": {
+      "1": "Full-time",
+      "2": "Part-time",
+      "3": "Temporarily laid off",
+      "4": "Unemployed",
+      "5": "Retired",
+      "6": "Permanently disabled",
+      "7": "Homemaker",
+      "8": "Student",
+      "9": "Other",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "employ_t": {
+    "variable_label": "Employment Status - open",
+    "value_labels": {}
+  },
+  "hadjob": {
+    "variable_label": "Had job in past five years",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "whatkindofwork": {
+    "variable_label": "$whatkindofworktext",
+    "value_labels": {}
+  },
+  "jobactivities": {
+    "variable_label": "$jobactivitiestext",
+    "value_labels": {}
+  },
+  "industryclass": {
+    "variable_label": "Industry classification",
+    "value_labels": {
+      "1": "Agriculture",
+      "2": "Forestry",
+      "3": "Fishing and Hunting",
+      "4": "Mining",
+      "5": "Utilities",
+      "6": "Construction",
+      "7": "Manufacturing",
+      "8": "Wholesale Trade",
+      "9": "Retail Trade",
+      "10": "Transportation  and Warehousing",
+      "11": "Information",
+      "12": "Finance  and Insurance",
+      "13": "Real Estate and Rental and Leasing",
+      "14": "Professional, Scientific, and Technical Services",
+      "15": "Management of Companies and Enterprises",
+      "16": "Administrative and Support",
+      "17": "Waste Management and Remediation Services",
+      "18": " Education Services",
+      "19": " Health Care and Social Assistance",
+      "20": "Arts, Entertainment, and Recreation",
+      "21": "Hotel Accommodation  and  Food Services",
+      "22": "Other Services (except Public Administration)",
+      "23": "Public Administration",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "ownhome": {
+    "variable_label": "Home ownership",
+    "value_labels": {
+      "1": "Own",
+      "2": "Rent",
+      "3": "Other",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "ownhome_t": {
+    "variable_label": "Home ownership - open",
+    "value_labels": {}
+  },
+  "child18": {
+    "variable_label": "Child under 18 years",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "child18num": {
+    "variable_label": "Number of children under 18 years",
+    "value_labels": {
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "pid3": {
+    "variable_label": "3 point party ID",
+    "value_labels": {
+      "1": "Democrat",
+      "2": "Republican",
+      "3": "Independent",
+      "4": "Other",
+      "5": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "pid3_t": {
+    "variable_label": "3 point party ID - other",
+    "value_labels": {}
+  },
+  "pid7": {
+    "variable_label": "7 point Party ID",
+    "value_labels": {
+      "1": "Strong Democrat",
+      "2": "Not very strong Democrat",
+      "3": "Lean Democrat",
+      "4": "Independent",
+      "5": "Lean Republican",
+      "6": "Not very strong Republican",
+      "7": "Strong Republican",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "immstat": {
+    "variable_label": "Citizen",
+    "value_labels": {
+      "1": "Immigrant Citizen",
+      "2": "Immigrant non-citizen",
+      "3": "First generation",
+      "4": "Second generation",
+      "5": "Third generation",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "pew_bornagain": {
+    "variable_label": "Born Again (Pew version)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "pew_religimp": {
+    "variable_label": "Importance of religion (Pew version)",
+    "value_labels": {
+      "1": "Very important",
+      "2": "Somewhat important",
+      "3": "Not too important",
+      "4": "Not at all important",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "pew_churatd": {
+    "variable_label": "Church attendance (Pew version)",
+    "value_labels": {
+      "1": "More than once a week",
+      "2": "Once a week",
+      "3": "Once or twice a month",
+      "4": "A few times a year",
+      "5": "Seldom",
+      "6": "Never",
+      "7": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "pew_prayer": {
+    "variable_label": "Frequency of Prayer (Pew version)",
+    "value_labels": {
+      "1": "Several times a day",
+      "2": "Once a day",
+      "3": "A few times a week",
+      "4": "Once a week",
+      "5": "A few times a month",
+      "6": "Seldom",
+      "7": "Never",
+      "8": "Don't know",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew": {
+    "variable_label": "Pew religion",
+    "value_labels": {
+      "1": "Protestant",
+      "2": "Roman Catholic",
+      "3": "Mormon",
+      "4": "Eastern or Greek Orthodox",
+      "5": "Jewish",
+      "6": "Muslim",
+      "7": "Buddhist",
+      "8": "Hindu",
+      "9": "Atheist",
+      "10": "Agnostic",
+      "11": "Nothing in particular",
+      "12": "Something else",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_t": {
+    "variable_label": "Pew religion - open",
+    "value_labels": {}
+  },
+  "religpew_protestant": {
+    "variable_label": "Protestant Church",
+    "value_labels": {
+      "1": "Baptist",
+      "2": "Methodist",
+      "3": "Nondenominational or Independent Church",
+      "4": "Lutheran",
+      "5": "Presbyterian",
+      "6": "Pentecostal",
+      "7": "Episcopalian",
+      "8": "Church of Christ or Disciples of Christ",
+      "9": "Congregational or United Church of Christ",
+      "10": "Holiness",
+      "11": "Reformed",
+      "12": "Adventist",
+      "13": "Jehovah's Witness",
+      "90": "Something else",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_protestant_t": {
+    "variable_label": "Protestant Church - open",
+    "value_labels": {}
+  },
+  "religpew_baptist": {
+    "variable_label": "Baptist Church",
+    "value_labels": {
+      "1": "Southern Baptist Convention",
+      "2": "American Baptist Churches in USA",
+      "3": "National Baptist Convention",
+      "4": "Progressive Baptist Convention",
+      "5": "Independent Baptist",
+      "6": "Baptist General Conference",
+      "7": "Baptist Missionary Association",
+      "8": "Conservative Baptist Assoc. of America",
+      "9": "Free Will Baptist",
+      "10": "General Association of Regular Baptists",
+      "90": "Other Baptist",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_baptist_t": {
+    "variable_label": "Baptist Church - open",
+    "value_labels": {}
+  },
+  "religpew_methodist": {
+    "variable_label": "Methodist Church",
+    "value_labels": {
+      "1": "United Methodist Church",
+      "2": "Free Methodist Church",
+      "3": "African Methodist Episcopal",
+      "4": "African Methodist Episcopal Zion",
+      "5": "Christian Methodist Episcopal Church",
+      "90": "Other Methodist Church",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_methodist_t": {
+    "variable_label": "Methodist Church - open",
+    "value_labels": {}
+  },
+  "religpew_nondenom": {
+    "variable_label": "Nondenominational or Independent Church",
+    "value_labels": {
+      "1": "Nondenominational evangelical",
+      "2": "Nondenominational fundamentalist",
+      "3": "Nondenominational charismatic",
+      "4": "Interdenominational",
+      "5": "Community church",
+      "90": "Other",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_nondenom_t": {
+    "variable_label": "Nondenominational or Independent Church - open",
+    "value_labels": {}
+  },
+  "religpew_lutheran": {
+    "variable_label": "Lutheran Church",
+    "value_labels": {
+      "1": "Evangelical Lutheran Church in America (ELCA)",
+      "2": "Lutheran Church, Missouri Synod",
+      "3": "Lutheran Church, Wisconsin Synod",
+      "4": "Other Lutheran Church",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "religpew_lutheran_t": {
+    "variable_label": "Lutheran Church - open",
+    "value_labels": {}
+  },
+  "religpew_presby": {
+    "variable_label": "Presbyterian Church",
+    "value_labels": {
+      "1": "Presbyterian Church USA",
+      "2": "Presbyterian Church in America",
+      "3": "Associate Reformed Presbyterian",
+      "4": "Cumberland Presbyterian Church",
+      "5": "Orthodox Presbyterian",
+      "6": "Evangelical Presbyterian Church",
+      "90": "Other Presbyterian Church",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_presby_t": {
+    "variable_label": "Presbyterian Church - open",
+    "value_labels": {}
+  },
+  "religpew_pentecost": {
+    "variable_label": "Pentecostal Church",
+    "value_labels": {
+      "1": "Assemblies of God",
+      "2": "Church of God Cleveland TN",
+      "3": "Four Square Gospel",
+      "4": "Pentecostal Church of God",
+      "5": "Pentecostal Holiness Church",
+      "6": "Church of God in Christ",
+      "7": "Church of God of the Apostolic Faith",
+      "8": "Assembly of Christian Churches",
+      "9": "Apostolic Christian",
+      "90": "Other Pentecostal Church",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_pentecost_t": {
+    "variable_label": "Pentecostal Church - open",
+    "value_labels": {}
+  },
+  "religpew_episcop": {
+    "variable_label": "Episcopal Church",
+    "value_labels": {
+      "1": "Episcopal Church in the USA",
+      "2": "Anglican Church (Church of England)",
+      "3": "Anglican Orthodox Church",
+      "4": "Reformed Episcopal Church",
+      "90": "Other Episcopalian or Anglican Church",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_episcop_t": {
+    "variable_label": "Episcopal Church - open",
+    "value_labels": {}
+  },
+  "religpew_christian": {
+    "variable_label": "Christian Church",
+    "value_labels": {
+      "1": "Church of Christ",
+      "2": "Disciples of Christ",
+      "3": "Christian Churches and Churches of Christ",
+      "90": "Other Christian church",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_christian_t": {
+    "variable_label": "Christian Church - open",
+    "value_labels": {}
+  },
+  "religpew_congreg": {
+    "variable_label": "Congregational Church",
+    "value_labels": {
+      "1": "United Church of Christ",
+      "2": "Conservative Congregational Christian",
+      "3": "National Association of Congregational Christians",
+      "90": "Other Congregational",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_congreg_t": {
+    "variable_label": "Congregational Church - open",
+    "value_labels": {}
+  },
+  "religpew_holiness": {
+    "variable_label": "Holiness Church",
+    "value_labels": {
+      "1": "Church of the Nazarene",
+      "2": "Wesleyan Church",
+      "3": "Free Methodist Church",
+      "4": "Christian and Missionary Alliance",
+      "5": "Church of God (Anderson, Indiana)",
+      "6": "Salvation Army, American Rescue workers",
+      "90": "Other Holiness",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_holiness_t": {
+    "variable_label": "Holiness Church - open",
+    "value_labels": {}
+  },
+  "religpew_reformed": {
+    "variable_label": "Reformed Church",
+    "value_labels": {
+      "1": "Reformed Church in America",
+      "2": "Christian Reformed Church",
+      "90": "Other Reformed",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_reformed_t": {
+    "variable_label": "Reformed Church - open",
+    "value_labels": {}
+  },
+  "religpew_advent": {
+    "variable_label": "Adventist Church",
+    "value_labels": {
+      "1": "Seventh Day Adventist",
+      "2": "Church of God, General Conference",
+      "3": "Advent Christian",
+      "90": "Other Adventist",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_advent_t": {
+    "variable_label": "Adventist Church - open",
+    "value_labels": {}
+  },
+  "religpew_catholic": {
+    "variable_label": "Catholic Church",
+    "value_labels": {
+      "1": "Roman Catholic Church",
+      "2": "National Polish Catholic Church",
+      "3": "Greek-rite Catholic",
+      "4": "Armenian Catholic",
+      "5": "Old Catholic",
+      "90": "Other Catholic",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_catholic_t": {
+    "variable_label": "Catholic Church - open",
+    "value_labels": {}
+  },
+  "religpew_mormon": {
+    "variable_label": "Mormon Church",
+    "value_labels": {
+      "1": "The Church of Jesus Christ of Latter-day Saints",
+      "2": "Community of Christ",
+      "90": "Other Mormon",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_mormon_t": {
+    "variable_label": "Mormon Church - open",
+    "value_labels": {}
+  },
+  "religpew_orthodox": {
+    "variable_label": "Orthodox Church",
+    "value_labels": {
+      "1": "Greek Orthodox",
+      "2": "Russian Orthodox",
+      "3": "Orthodox Church in America",
+      "4": "Armenian Orthodox",
+      "5": "Eastern Orthodox",
+      "6": "Serbian Orthodox",
+      "90": "Other Orthodox",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_orthodox_t": {
+    "variable_label": "Orthodox Church - open",
+    "value_labels": {}
+  },
+  "religpew_jewish": {
+    "variable_label": "Jewish Group",
+    "value_labels": {
+      "1": "Reform",
+      "2": "Conservative",
+      "3": "Orthodox",
+      "4": "Reconstructionist",
+      "90": "Other",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_jewish_t": {
+    "variable_label": "Jewish Group - open",
+    "value_labels": {}
+  },
+  "religpew_muslim": {
+    "variable_label": "Muslim Group",
+    "value_labels": {
+      "1": "Sunni",
+      "2": "Shia",
+      "3": "Nation of Islam (Black Muslim)",
+      "90": "Other Muslim",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_muslim_t": {
+    "variable_label": "Muslim Group - open",
+    "value_labels": {}
+  },
+  "religpew_buddhist": {
+    "variable_label": "Buddhist group",
+    "value_labels": {
+      "1": "Theravada (Vipassana) Buddhism",
+      "2": "Mahayana (Zen) Buddhism",
+      "3": "Vajrayana (Tibetan) Buddhism",
+      "90": "Other Buddhist",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_buddhist_t": {
+    "variable_label": "Buddhist group - open",
+    "value_labels": {}
+  },
+  "religpew_hindu": {
+    "variable_label": "Hindu Group",
+    "value_labels": {
+      "1": "Vaishnava Hinduism",
+      "2": "Shaivite Hinduism",
+      "3": "Shaktism Hinduism",
+      "90": "Other Hindu",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "religpew_hindu_t": {
+    "variable_label": "Hindu Group - open",
+    "value_labels": {}
+  },
+  "ideo5": {
+    "variable_label": "Ideology",
+    "value_labels": {
+      "1": "Very liberal",
+      "2": "Liberal",
+      "3": "Moderate",
+      "4": "Conservative",
+      "5": "Very conservative",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "milstat_1": {
+    "variable_label": "Military Household - I am",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "milstat_2": {
+    "variable_label": "Military Household - Family",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "milstat_3": {
+    "variable_label": "Military Household - I served previously",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "milstat_4": {
+    "variable_label": "Military Household - Family served previously",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "milstat_5": {
+    "variable_label": "Military Household - None",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "citylength_1": {
+    "variable_label": "Current city residence length - Years",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "citylength_2": {
+    "variable_label": "Current city residence length - Months",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "union": {
+    "variable_label": "Labor union member",
+    "value_labels": {
+      "1": "Yes, I am currently a member of a labor union",
+      "2": "I formerly was a member of a labor union",
+      "3": "I am not now, nor have I been, a member of a labor union",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "unionhh": {
+    "variable_label": "Family labor union member",
+    "value_labels": {
+      "1": "Yes, a member of my household is currently a union member",
+      "2": "A member of my household was formerly a member of a labor union, but is not now",
+      "3": "No, no one in my household has ever been a member of a labor union",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "newsint": {
+    "variable_label": "Political Interest",
+    "value_labels": {
+      "1": "Most of the time",
+      "2": "Some of the time",
+      "3": "Only now and then",
+      "4": "Hardly at all",
+      "7": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "faminc": {
+    "variable_label": "Family income",
+    "value_labels": {
+      "1": "Less than $10,000",
+      "2": "$10,000 - $19,999",
+      "3": "$20,000 - $29,999",
+      "4": "$30,000 - $39,999",
+      "5": "$40,000 - $49,999",
+      "6": "$50,000 - $59,999",
+      "7": "$60,000 - $69,999",
+      "8": "$70,000 - $79,999",
+      "9": "$80,000 - $99,999",
+      "10": "$100,000 - $119,999",
+      "11": "$120,000 - $149,999",
+      "12": "$150,000 - $199,999",
+      "13": "$200,000 - $249,999",
+      "14": "$250,000 - $349,999",
+      "15": "$350,000 - $499,999",
+      "16": "$500,000 or more",
+      "31": "$150,000 or more",
+      "97": "Prefer not to say",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "investor": {
+    "variable_label": "Stock ownership",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "sexuality": {
+    "variable_label": "Sexual Orientation",
+    "value_labels": {
+      "1": "Heterosexual / straight",
+      "2": "Lesbian / gay woman",
+      "3": "Gay man",
+      "4": "Bisexual",
+      "5": "Other",
+      "6": "Prefer not to say",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "trans": {
+    "variable_label": "Transgender",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "3": "Prefer not to say",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_1": {
+    "variable_label": "Health insurance - Yes, through my job or a family member's employer",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_2": {
+    "variable_label": "Health insurance - Yes, through a government program, such as Medicare or Medica",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_3": {
+    "variable_label": "Health insurance - Yes, through my school",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_4": {
+    "variable_label": "Health insurance - Yes, I purchased my own",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_5": {
+    "variable_label": "Health insurance - Not sure",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins_6": {
+    "variable_label": "Health insurance - No",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "healthins2": {
+    "variable_label": "Purchase health insurance thru exchange",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "phone": {
+    "variable_label": "Phone service",
+    "value_labels": {
+      "1": "Both",
+      "2": "Cell only",
+      "3": "Landline",
+      "4": "No phone",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "internethome": {
+    "variable_label": "Internet Access at Home",
+    "value_labels": {
+      "1": "Broadband",
+      "2": "Dial-up",
+      "3": "None",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "internetwork": {
+    "variable_label": "Internet access at work",
+    "value_labels": {
+      "1": "Broadband",
+      "2": "Dial-up",
+      "3": "None",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "lookupzip_post": {
+    "variable_label": "Zip code for mapping CD - post",
+    "value_labels": {}
+  },
+  "cdid113_post": {
+    "variable_label": "CD 113th/114th Congress - post",
+    "value_labels": {}
+  },
+  "cdid115_post": {
+    "variable_label": "CD 115th Congress - post",
+    "value_labels": {}
+  },
+  "inputstate_post": {
+    "variable_label": "State",
+    "value_labels": {
+      "1": "Alabama",
+      "2": "Alaska",
+      "4": "Arizona",
+      "5": "Arkansas",
+      "6": "California",
+      "8": "Colorado",
+      "9": "Connecticut",
+      "10": "Delaware",
+      "11": "District of Columbia",
+      "12": "Florida",
+      "13": "Georgia",
+      "15": "Hawaii",
+      "16": "Idaho",
+      "17": "Illinois",
+      "18": "Indiana",
+      "19": "Iowa",
+      "20": "Kansas",
+      "21": "Kentucky",
+      "22": "Louisiana",
+      "23": "Maine",
+      "24": "Maryland",
+      "25": "Massachusetts",
+      "26": "Michigan",
+      "27": "Minnesota",
+      "28": "Mississippi",
+      "29": "Missouri",
+      "30": "Montana",
+      "31": "Nebraska",
+      "32": "Nevada",
+      "33": "New Hampshire",
+      "34": "New Jersey",
+      "35": "New Mexico",
+      "36": "New York",
+      "37": "North Carolina",
+      "38": "North Dakota",
+      "39": "Ohio",
+      "40": "Oklahoma",
+      "41": "Oregon",
+      "42": "Pennsylvania",
+      "44": "Rhode Island",
+      "45": "South Carolina",
+      "46": "South Dakota",
+      "47": "Tennessee",
+      "48": "Texas",
+      "49": "Utah",
+      "50": "Vermont",
+      "51": "Virginia",
+      "53": "Washington",
+      "54": "West Virginia",
+      "55": "Wisconsin",
+      "56": "Wyoming",
+      "60": "American Samoa",
+      "64": "Federated States of Micronesia",
+      "66": "Guam",
+      "68": "Marshall Islands",
+      "69": "Northern Mariana Islands",
+      "70": "Palau",
+      "72": "Puerto Rico",
+      "74": "U.S. Minor Outlying Islands",
+      "78": "Virgin Islands",
+      "81": "Alberta",
+      "82": "British Columbia",
+      "83": "Manitoba",
+      "84": "New Brunswick",
+      "85": "Newfoundland",
+      "86": "Northwest Territories",
+      "87": "Nova Scotia",
+      "88": "Nunavut",
+      "89": "Ontario",
+      "90": "Prince Edward Island",
+      "91": "Quebec",
+      "92": "Saskatchewan",
+      "93": "Yukon Territory",
+      "99": "Not in the U.S. or Canada",
+      "998": "Skipped",
+      "999": "Not Asked"
+    }
+  },
+  "regzip_confirm_post": {
+    "variable_label": "Confirm registered zip code post",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "reszip_confirm_post": {
+    "variable_label": "Confirm zip code post",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "inputzip_post": {
+    "variable_label": "Zip code post",
+    "value_labels": {
+      "999998": "Skipped",
+      "999999": "Not Asked"
+    }
+  },
+  "votereg_post": {
+    "variable_label": "Voter Registration Status",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "3": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "votereg_f_post": {
+    "variable_label": "Registered to vote post",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "regzip_post": {
+    "variable_label": "Zip code where registered post",
+    "value_labels": {
+      "999998": "Skipped",
+      "999999": "Not Asked"
+    }
+  },
+  "countyfips_post": {
+    "variable_label": "County FIPS code - post",
+    "value_labels": {}
+  },
+  "countyname_post": {
+    "variable_label": "County Name - post",
+    "value_labels": {}
+  },
+  "AskParty_post": {
+    "variable_label": "Ask party registration flag",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "CurrentGovName_post": {
+    "variable_label": "Current Governor Name - post",
+    "value_labels": {}
+  },
+  "CurrentGovParty_post": {
+    "variable_label": "Current Governor Party - post",
+    "value_labels": {}
+  },
+  "CurrentHouseGender_post": {
+    "variable_label": "Current House Gender - post",
+    "value_labels": {}
+  },
+  "CurrentHouseName_post": {
+    "variable_label": "Current House Name - post",
+    "value_labels": {}
+  },
+  "CurrentHouseParty_post": {
+    "variable_label": "Current House Party - post",
+    "value_labels": {}
+  },
+  "CurrentSen1Gender_post": {
+    "variable_label": "Current Senate 1 Gender - post",
+    "value_labels": {}
+  },
+  "CurrentSen1Name_post": {
+    "variable_label": "Current Senate 1 Name - post",
+    "value_labels": {}
+  },
+  "CurrentSen1Party_post": {
+    "variable_label": "Current Senate 1 Party - post",
+    "value_labels": {}
+  },
+  "CurrentSen2Gender_post": {
+    "variable_label": "Current Senate 2 Gender - post",
+    "value_labels": {}
+  },
+  "CurrentSen2Name_post": {
+    "variable_label": "Current Senate 2 Name - post",
+    "value_labels": {}
+  },
+  "CurrentSen2Party_post": {
+    "variable_label": "Current Senate 2 Party - post",
+    "value_labels": {}
+  },
+  "GovCand1Incumbent_post": {
+    "variable_label": "Governor Candidate 1 Incumbent - post",
+    "value_labels": {}
+  },
+  "GovCand1Name_post": {
+    "variable_label": "Governor Candidate 1 Name - post",
+    "value_labels": {}
+  },
+  "GovCand1Party_post": {
+    "variable_label": "Governor Candidate 1 Party - post",
+    "value_labels": {}
+  },
+  "GovCand2Incumbent_post": {
+    "variable_label": "Governor Candidate 2 Incumbent - post",
+    "value_labels": {}
+  },
+  "GovCand2Name_post": {
+    "variable_label": "Governor Candidate 2 Name - post",
+    "value_labels": {}
+  },
+  "GovCand2Party_post": {
+    "variable_label": "Governor Candidate 2 Party - post",
+    "value_labels": {}
+  },
+  "GovCand3Name_post": {
+    "variable_label": "Governor Candidate 3 Name - post",
+    "value_labels": {}
+  },
+  "GovCand3Party_post": {
+    "variable_label": "Governor Candidate 3 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand1Incumbent_post": {
+    "variable_label": "House Candidate 1 Incumbent - post",
+    "value_labels": {}
+  },
+  "HouseCand1Name_post": {
+    "variable_label": "House Candidate 1 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand1Party_post": {
+    "variable_label": "House Candidate 1 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand2Incumbent_post": {
+    "variable_label": "House Candidate 2 Incumbent - post",
+    "value_labels": {}
+  },
+  "HouseCand2Name_post": {
+    "variable_label": "House Candidate 2 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand2Party_post": {
+    "variable_label": "House Candidate 2 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand3Name_post": {
+    "variable_label": "House Candidate 3 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand3Party_post": {
+    "variable_label": "House Candidate 3 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand4Name_post": {
+    "variable_label": "House Candidate 4 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand4Party_post": {
+    "variable_label": "House Candidate 4 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand5Name_post": {
+    "variable_label": "House Candidate 5 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand5Party_post": {
+    "variable_label": "House Candidate 5 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand6Name_post": {
+    "variable_label": "House Candidate 6 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand6Party_post": {
+    "variable_label": "House Candidate 6 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand7Name_post": {
+    "variable_label": "House Candidate 7 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand7Party_post": {
+    "variable_label": "House Candidate 7 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand8Name_post": {
+    "variable_label": "House Candidate 8 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand8Party_post": {
+    "variable_label": "House Candidate 8 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand9Name_post": {
+    "variable_label": "House Candidate 9 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand9Party_post": {
+    "variable_label": "House Candidate 9 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand10Name_post": {
+    "variable_label": "House Candidate 10 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand10Party_post": {
+    "variable_label": "House Candidate 10 Party - post",
+    "value_labels": {}
+  },
+  "HouseCand11Name_post": {
+    "variable_label": "House Candidate 11 Name - post",
+    "value_labels": {}
+  },
+  "HouseCand11Party_post": {
+    "variable_label": "House Candidate 11 Party - post",
+    "value_labels": {}
+  },
+  "LegName_post": {
+    "variable_label": "Legislature name - post",
+    "value_labels": {}
+  },
+  "LowerChamberName_post": {
+    "variable_label": "Lower chamber name - post",
+    "value_labels": {}
+  },
+  "SenCand1Incumbent_post": {
+    "variable_label": "Senate Candidate 1 Incumbent - post",
+    "value_labels": {}
+  },
+  "SenCand1Name_post": {
+    "variable_label": "Senate Candidate 1 Name - post",
+    "value_labels": {}
+  },
+  "SenCand1Party_post": {
+    "variable_label": "Senate Candidate 1 Party - post",
+    "value_labels": {}
+  },
+  "SenCand2Incumbent_post": {
+    "variable_label": "Senate Candidate 2 Incumbent - post",
+    "value_labels": {}
+  },
+  "SenCand2Name_post": {
+    "variable_label": "Senate Candidate 2 Name - post",
+    "value_labels": {}
+  },
+  "SenCand2Party_post": {
+    "variable_label": "Senate Candidate 2 Party - post",
+    "value_labels": {}
+  },
+  "SenCand3Name_post": {
+    "variable_label": "Senate Candidate 3 Name - post",
+    "value_labels": {}
+  },
+  "SenCand3Party_post": {
+    "variable_label": "Senate Candidate 3 Party - post",
+    "value_labels": {}
+  },
+  "SenCand4Name_post": {
+    "variable_label": "Senate Candidate 4 Name - post",
+    "value_labels": {}
+  },
+  "SenCand4Party_post": {
+    "variable_label": "Senate Candidate 4 Party - post",
+    "value_labels": {}
+  },
+  "CC16_401": {
+    "variable_label": "Voted 2016",
+    "value_labels": {
+      "1": "I did not vote in the election this November.",
+      "2": "I thought about voting this time - but didn't",
+      "3": "I usually vote, but didn't this time.",
+      "4": "I attempted to vote but did not or could not.",
+      "5": "I definitely voted in the General Election.",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_402a": {
+    "variable_label": "Main reason didn't vote",
+    "value_labels": {
+      "1": "I forgot",
+      "2": "I'm not interested",
+      "3": "Too busy",
+      "4": "Did not like the candidates",
+      "5": "I am not registered",
+      "6": "I did not have the correct form of identification",
+      "7": "Out of town",
+      "8": "Sick or disabled",
+      "9": "Transportation",
+      "10": "Bad weather",
+      "11": "The line at the polls was too long",
+      "12": "I was not allowed to vote at the polls, even though I tried",
+      "13": "I requested but did not receive an absentee ballot",
+      "14": "I did not know where to vote",
+      "15": "I did not feel that I knew enough about the choices",
+      "16": "Other",
+      "55": "Don't know",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_402a_t": {
+    "variable_label": "Main reason didn't vote - open",
+    "value_labels": {}
+  },
+  "CC16_402b": {
+    "variable_label": "Second reason didn't vote",
+    "value_labels": {
+      "1": "I forgot",
+      "2": "I'm not interested",
+      "3": "Too busy",
+      "4": "Did not like the candidates",
+      "5": "I am not registered",
+      "6": "I did not have the correct form of identification",
+      "7": "Out of town",
+      "8": "Sick or disabled",
+      "9": "Transportation",
+      "10": "Bad weather",
+      "11": "The line at the polls was too long",
+      "12": "I was not allowed to vote at the polls, even though I tried",
+      "13": "I requested but did not receive an absentee ballot",
+      "14": "I did not know where to vote",
+      "15": "I did not feel that I knew enough about the choices",
+      "16": "Other",
+      "55": "Don't know",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_402b_t": {
+    "variable_label": "Second reason didn't vote - open",
+    "value_labels": {}
+  },
+  "CC16_403": {
+    "variable_label": "Vote in person or by mail",
+    "value_labels": {
+      "1": "In person on election day",
+      "2": "In person before election day (early)",
+      "3": "Voted by mail (or absentee)",
+      "4": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_403b": {
+    "variable_label": "Vote at precinct polling place or vote center",
+    "value_labels": {
+      "1": "At a precinct polling place",
+      "2": "At a vote center",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_404": {
+    "variable_label": "Voting length wait time",
+    "value_labels": {
+      "1": "Not at all",
+      "2": "Less than 10 minutes",
+      "3": "10 - 30 minutes",
+      "4": "31 minutes - 1 hour",
+      "5": "More than 1 hour",
+      "6": "Don't know",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_404_t": {
+    "variable_label": "Voting length wait time - open",
+    "value_labels": {}
+  },
+  "CC16_405": {
+    "variable_label": "Registered to vote on Election Day",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406a": {
+    "variable_label": "Problem with voter registration or ID when trying to vote",
+    "value_labels": {
+      "1": "No",
+      "2": "Yes",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406b_1": {
+    "variable_label": "Problem with voting - ID",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406b_2": {
+    "variable_label": "Problem with voting - Registration",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406b_3": {
+    "variable_label": "Problem with voting - Wrong Place",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406b_4": {
+    "variable_label": "Problem with voting - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_406b_t": {
+    "variable_label": "Problem with voting - open",
+    "value_labels": {}
+  },
+  "CC16_406c": {
+    "variable_label": "Allowed to vote",
+    "value_labels": {
+      "1": "No, I was not allowed to vote",
+      "2": "I was allowed to vote using a provisional ballot",
+      "3": "I voted",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_407a": {
+    "variable_label": "Feel intimidated voting",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "3": "Don't remember",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_407b": {
+    "variable_label": "Why intimidated voting",
+    "value_labels": {}
+  },
+  "CC16_410a": {
+    "variable_label": "President vote",
+    "value_labels": {
+      "1": "Donald Trump (Republican)",
+      "2": "Hillary Clinton (Democrat)",
+      "3": "Gary Johnson (Libertarian)",
+      "4": "Jill Stein (Green)",
+      "5": "Other",
+      "6": "I didn't vote in this election",
+      "7": "I'm not sure",
+      "8": "Evan McMullin (Independent)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_410a_t": {
+    "variable_label": "President vote - open",
+    "value_labels": {}
+  },
+  "CC16_410b": {
+    "variable_label": "Senator vote",
+    "value_labels": {
+      "1": "$SenCand1Name ($SenCand1Party)",
+      "2": "$SenCand2Name ($SenCand2Party)",
+      "3": "$SenCand3Name ($SenCand3Party)",
+      "4": "Other",
+      "5": "I did not vote in this race",
+      "7": "Not sure",
+      "8": "$SenCand4Name ($SenCand4Party)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_410b_t": {
+    "variable_label": "Senator vote - open",
+    "value_labels": {}
+  },
+  "CC16_411": {
+    "variable_label": "Governor vote",
+    "value_labels": {
+      "1": "$GovCand1Name ($GovCand1Party)",
+      "2": "$GovCand2Name ($GovCand2Party)",
+      "3": "$GovCand3Name ($GovCand3Party)",
+      "7": "Other",
+      "8": "I did not vote in this race",
+      "10": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_411_t": {
+    "variable_label": "Governor vote - open",
+    "value_labels": {}
+  },
+  "CC16_412": {
+    "variable_label": "House vote",
+    "value_labels": {
+      "1": "$HouseCand1Name ($HouseCand1Party)",
+      "2": "$HouseCand2Name ($HouseCand2Party)",
+      "3": "$HouseCand3Name ($HouseCand3Party)",
+      "4": "$HouseCand4Name ($HouseCand4Party)",
+      "7": "Other",
+      "8": "I did not vote in this race",
+      "10": "$HouseCand5Name ($HouseCand5Party)",
+      "11": "$HouseCand6Name ($HouseCand6Party)",
+      "12": "$HouseCand7Name ($HouseCand7Party)",
+      "13": "$HouseCand8Name ($HouseCand8Party)",
+      "14": "$HouseCand9Name ($HouseCand9Party)",
+      "15": "$HouseCand10Name ($HouseCand10Party)",
+      "16": "$HouseCand11Name ($HouseCand11Party)",
+      "90": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_412_t": {
+    "variable_label": "House vote - open",
+    "value_labels": {}
+  },
+  "CC16_410a_nv": {
+    "variable_label": "President prefer",
+    "value_labels": {
+      "1": "Donald Trump (Republican)",
+      "2": "Hillary Clinton (Democrat)",
+      "3": "Gary Johnson (Libertarian)",
+      "4": "Jill Stein (Green)",
+      "5": "Other",
+      "7": "I'm not sure",
+      "8": "Evan McMullin (Independent)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_410a_nv_t": {
+    "variable_label": "President prefer - open",
+    "value_labels": {}
+  },
+  "CC16_410b_nv": {
+    "variable_label": "Senator prefer",
+    "value_labels": {
+      "1": "$SenCand1Name ($SenCand1Party)",
+      "2": "$SenCand2Name ($SenCand2Party)",
+      "3": "$SenCand3Name ($SenCand3Party)",
+      "4": "Other",
+      "7": "Not sure",
+      "8": "$SenCand4Name ($SenCand4Party)",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_410b_nv_t": {
+    "variable_label": "Senator prefer - open",
+    "value_labels": {}
+  },
+  "CC16_411_nv": {
+    "variable_label": "Governor prefer",
+    "value_labels": {
+      "1": "$GovCand1Name ($GovCand1Party)",
+      "2": "$GovCand2Name ($GovCand2Party)",
+      "3": "$GovCand3Name ($GovCand3Party)",
+      "7": "Other",
+      "10": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_411_nv_t": {
+    "variable_label": "Governor prefer - open",
+    "value_labels": {}
+  },
+  "CC16_412_nv": {
+    "variable_label": "House prefer",
+    "value_labels": {
+      "1": "$HouseCand1Name ($HouseCand1Party)",
+      "2": "$HouseCand2Name ($HouseCand2Party)",
+      "3": "$HouseCand3Name ($HouseCand3Party)",
+      "4": "$HouseCand4Name ($HouseCand4Party)",
+      "7": "Other",
+      "10": "$HouseCand5Name ($HouseCand5Party)",
+      "11": "$HouseCand6Name ($HouseCand6Party)",
+      "12": "$HouseCand7Name ($HouseCand7Party)",
+      "13": "$HouseCand8Name ($HouseCand8Party)",
+      "14": "$HouseCand9Name ($HouseCand9Party)",
+      "15": "$HouseCand10Name ($HouseCand10Party)",
+      "16": "$HouseCand11Name ($HouseCand11Party)",
+      "90": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_412_nv_t": {
+    "variable_label": "House prefer - open",
+    "value_labels": {}
+  },
+  "CC16_413_grid": {
+    "variable_label": "For whom did you vote for in the following state elections ...",
+    "value_labels": {
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_413a": {
+    "variable_label": "Vote in state elections - Attorney General",
+    "value_labels": {
+      "1": "Democratic candidate",
+      "2": "Republican candidate",
+      "3": "Other candidate",
+      "4": "Did not vote in this race",
+      "5": "There was no race for this office",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_413b": {
+    "variable_label": "Vote in state elections - Secretary of State",
+    "value_labels": {
+      "1": "Democratic candidate",
+      "2": "Republican candidate",
+      "3": "Other candidate",
+      "4": "Did not vote in this race",
+      "5": "There was no race for this office",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_413c": {
+    "variable_label": "Vote in state elections - $inputstate State Senate",
+    "value_labels": {
+      "1": "Democratic candidate",
+      "2": "Republican candidate",
+      "3": "Other candidate",
+      "4": "Did not vote in this race",
+      "5": "There was no race for this office",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_413d": {
+    "variable_label": "Vote in state elections - $LowerChamberName",
+    "value_labels": {
+      "1": "Democratic candidate",
+      "2": "Republican candidate",
+      "3": "Other candidate",
+      "4": "Did not vote in this race",
+      "5": "There was no race for this office",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_1": {
+    "variable_label": "Approve use of US military - Ensure the supply of oil",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_2": {
+    "variable_label": "Approve use of US military - Destroy a terrorist camp",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_3": {
+    "variable_label": "Approve use of US military - Intervene in a region where there is genocide or a ",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_4": {
+    "variable_label": "Approve use of US military - Assist the spread of democracy",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_5": {
+    "variable_label": "Approve use of US military - Protect American allies under attack by foreign nat",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_6": {
+    "variable_label": "Approve use of US military - Help the United Nations uphold international law",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_414_7": {
+    "variable_label": "Approve use of US military - None of the above",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_415r": {
+    "variable_label": "Budget deficit - spending cuts vs tax increases",
+    "value_labels": {
+      "0": "0 - All from tax increases",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21",
+      "22": "22",
+      "23": "23",
+      "24": "24",
+      "25": "25",
+      "26": "26",
+      "27": "27",
+      "28": "28",
+      "29": "29",
+      "30": "30",
+      "31": "31",
+      "32": "32",
+      "33": "33",
+      "34": "34",
+      "35": "35",
+      "36": "36",
+      "37": "37",
+      "38": "38",
+      "39": "39",
+      "40": "40",
+      "41": "41",
+      "42": "42",
+      "43": "43",
+      "44": "44",
+      "45": "45",
+      "46": "46",
+      "47": "47",
+      "48": "48",
+      "49": "49",
+      "50": "50",
+      "51": "51",
+      "52": "52",
+      "53": "53",
+      "54": "54",
+      "55": "55",
+      "56": "56",
+      "57": "57",
+      "58": "58",
+      "59": "59",
+      "60": "60",
+      "61": "61",
+      "62": "62",
+      "63": "63",
+      "64": "64",
+      "65": "65",
+      "66": "66",
+      "67": "67",
+      "68": "68",
+      "69": "69",
+      "70": "70",
+      "71": "71",
+      "72": "72",
+      "73": "73",
+      "74": "74",
+      "75": "75",
+      "76": "76",
+      "77": "77",
+      "78": "78",
+      "79": "79",
+      "80": "80",
+      "81": "81",
+      "82": "82",
+      "83": "83",
+      "84": "84",
+      "85": "85",
+      "86": "86",
+      "87": "87",
+      "88": "88",
+      "89": "89",
+      "90": "90",
+      "91": "91",
+      "92": "92",
+      "93": "93",
+      "94": "94",
+      "95": "95",
+      "96": "96",
+      "97": "97",
+      "98": "98",
+      "99": "99",
+      "100": "100 - All from spending cuts",
+      "998": "Skipped",
+      "999": "Not Asked"
+    }
+  },
+  "CC16_416r": {
+    "variable_label": "Raise taxes - income tax vs. sales tax",
+    "value_labels": {
+      "0": "0 - All from sales tax",
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20",
+      "21": "21",
+      "22": "22",
+      "23": "23",
+      "24": "24",
+      "25": "25",
+      "26": "26",
+      "27": "27",
+      "28": "28",
+      "29": "29",
+      "30": "30",
+      "31": "31",
+      "32": "32",
+      "33": "33",
+      "34": "34",
+      "35": "35",
+      "36": "36",
+      "37": "37",
+      "38": "38",
+      "39": "39",
+      "40": "40",
+      "41": "41",
+      "42": "42",
+      "43": "43",
+      "44": "44",
+      "45": "45",
+      "46": "46",
+      "47": "47",
+      "48": "48",
+      "49": "49",
+      "50": "50",
+      "51": "51",
+      "52": "52",
+      "53": "53",
+      "54": "54",
+      "55": "55",
+      "56": "56",
+      "57": "57",
+      "58": "58",
+      "59": "59",
+      "60": "60",
+      "61": "61",
+      "62": "62",
+      "63": "63",
+      "64": "64",
+      "65": "65",
+      "66": "66",
+      "67": "67",
+      "68": "68",
+      "69": "69",
+      "70": "70",
+      "71": "71",
+      "72": "72",
+      "73": "73",
+      "74": "74",
+      "75": "75",
+      "76": "76",
+      "77": "77",
+      "78": "78",
+      "79": "79",
+      "80": "80",
+      "81": "81",
+      "82": "82",
+      "83": "83",
+      "84": "84",
+      "85": "85",
+      "86": "86",
+      "87": "87",
+      "88": "88",
+      "89": "89",
+      "90": "90",
+      "91": "91",
+      "92": "92",
+      "93": "93",
+      "94": "94",
+      "95": "95",
+      "96": "96",
+      "97": "97",
+      "98": "98",
+      "99": "99",
+      "100": "100 - All from income taxes",
+      "998": "Skipped",
+      "999": "Not Asked"
+    }
+  },
+  "CC16_417a_1": {
+    "variable_label": "Past year - Attend local political meetings (such as school board or city counci",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417a_2": {
+    "variable_label": "Past year - Put up a political sign (such as a lawn sign or bumper sticker)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417a_3": {
+    "variable_label": "Past year - Work for a candidate or campaign",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417a_4": {
+    "variable_label": "Past year - Donate money to a candidate, campaign, or political organization",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417a_5": {
+    "variable_label": "Past year - Donate blood",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417a_6": {
+    "variable_label": "Past year - None of these",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_1": {
+    "variable_label": "Donate money - Candidate for President",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_2": {
+    "variable_label": "Donate money - Candidate for U.S. Senate in my state",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_3": {
+    "variable_label": "Donate money - Candidate for U.S. Senate in another state",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_4": {
+    "variable_label": "Donate money - Candidate for U.S. House in my state",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_5": {
+    "variable_label": "Donate money - Candidate for U.S. House in another state",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_6": {
+    "variable_label": "Donate money - Candidate for state office",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_7": {
+    "variable_label": "Donate money - Political party committee (such as the DNC or RNC)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_8": {
+    "variable_label": "Donate money - Political action committee at work (such as corporate or union PA",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_9": {
+    "variable_label": "Donate money - Political group (not at your work)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_10": {
+    "variable_label": "Donate money - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417bx_t1": {
+    "variable_label": "Donate money - Political group not at work - open",
+    "value_labels": {}
+  },
+  "CC16_417bx_t2": {
+    "variable_label": "Donate money - Other - open",
+    "value_labels": {}
+  },
+  "CC16_417c": {
+    "variable_label": "Amount contribute to all candidates/committees",
+    "value_labels": {
+      "9999998": "Skipped",
+      "9999999": "Not Asked"
+    }
+  },
+  "CC16_417d_1": {
+    "variable_label": "How many of the above statements are true for you?",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "CC16_417d_2": {
+    "variable_label": "How many of the above statements are true for you?",
+    "value_labels": {
+      "-9": "Not Asked",
+      "-8": "Skipped"
+    }
+  },
+  "CC16_417e_1": {
+    "variable_label": "Campaign contributions are an effective way to influence public policy",
+    "value_labels": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat agree",
+      "5": "Strongly agree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417e_2": {
+    "variable_label": "Campaign contributions are an effective way to help my business/industry",
+    "value_labels": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat agree",
+      "5": "Strongly agree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417e_3": {
+    "variable_label": "Campaign contributions allow me to be part of a network with other contributors",
+    "value_labels": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat agree",
+      "5": "Strongly agree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417e_4": {
+    "variable_label": "I prefer to give directly to candidates rather than contribute money to a politi",
+    "value_labels": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat agree",
+      "5": "Strongly agree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_417e_5": {
+    "variable_label": "For anyone who can afford to contribute, it is a civic duty to contribute financ",
+    "value_labels": {
+      "1": "Strongly disagree",
+      "2": "Somewhat disagree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat agree",
+      "5": "Strongly agree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_425a": {
+    "variable_label": "Contacted by candidate/political org",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC416_25b_1": {
+    "variable_label": "Candidate/campaign contact - In person",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC416_25b_2": {
+    "variable_label": "Candidate/campaign contact - Phone call",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC416_25b_3": {
+    "variable_label": "Candidate/campaign contact - Email or text message",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC416_25b_4": {
+    "variable_label": "Candidate/campaign contact - Letter or post card",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418a": {
+    "variable_label": "Ever run for elective office",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_1": {
+    "variable_label": "Run for office - School Board",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_2": {
+    "variable_label": "Run for office - Other local board or commission (e.g. zoning commission)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_3": {
+    "variable_label": "Run for office - City Council",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_4": {
+    "variable_label": "Run for office - Mayor",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_5": {
+    "variable_label": "Run for office - City or District Attorney",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_6": {
+    "variable_label": "Run for office - Countywide office (e.g. supervisor)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_7": {
+    "variable_label": "Run for office - State legislature",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_8": {
+    "variable_label": "Run for office - Statewide office",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_9": {
+    "variable_label": "Run for office - Federal legislature (U.S. House or Senate)",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_10": {
+    "variable_label": "Run for office - Judge",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418bx_11": {
+    "variable_label": "Run for office - Other",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_418b_t": {
+    "variable_label": "Run for office - open",
+    "value_labels": {}
+  },
+  "CC16_421a": {
+    "variable_label": "3 pt party ID",
+    "value_labels": {
+      "1": "Democrat",
+      "2": "Republican",
+      "3": "Independent",
+      "4": "Other",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_421_t": {
+    "variable_label": "3 pt party ID - open",
+    "value_labels": {}
+  },
+  "CC16_421_dem": {
+    "variable_label": "Party ID Dem strength",
+    "value_labels": {
+      "1": "Strong Democrat",
+      "2": "Not so strong Democrat",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_421_rep": {
+    "variable_label": "Party ID Rep strength",
+    "value_labels": {
+      "1": "Strong Republican",
+      "2": "Not so strong Republican",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_421b": {
+    "variable_label": "Party ID lean",
+    "value_labels": {
+      "1": "The Democratic Party",
+      "2": "The Republican Party",
+      "3": "Neither",
+      "8": "Not sure",
+      "98": "Skipped",
+      "99": "Not Asked"
+    }
+  },
+  "CC16_422c": {
+    "variable_label": "Racism - angry racist exists",
+    "value_labels": {
+      "1": "Strongly agree",
+      "2": "Somewhat agree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat disagree",
+      "5": "Strongly disagree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_422d": {
+    "variable_label": "Racism - white people have advantages",
+    "value_labels": {
+      "1": "Strongly agree",
+      "2": "Somewhat agree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat disagree",
+      "5": "Strongly disagree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_422e": {
+    "variable_label": "Racism - fearful of people of other races",
+    "value_labels": {
+      "1": "Strongly agree",
+      "2": "Somewhat agree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat disagree",
+      "5": "Strongly disagree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_422f": {
+    "variable_label": "Racism - racial problems are rare, isoluated situations",
+    "value_labels": {
+      "1": "Strongly agree",
+      "2": "Somewhat agree",
+      "3": "Neither agree nor disagree",
+      "4": "Somewhat disagree",
+      "5": "Strongly disagree",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_423a": {
+    "variable_label": "Race/ethnicity politicians - $HouseCand1Name",
+    "value_labels": {
+      "1": "White",
+      "2": "Black",
+      "3": "Hispanic",
+      "4": "Asian",
+      "5": "Other",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_423b": {
+    "variable_label": "Race/ethnicity politicians - $HouseCand2Name",
+    "value_labels": {
+      "1": "White",
+      "2": "Black",
+      "3": "Hispanic",
+      "4": "Asian",
+      "5": "Other",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_423c": {
+    "variable_label": "Race/ethnicity politicians - $CurrentHouseName",
+    "value_labels": {
+      "1": "White",
+      "2": "Black",
+      "3": "Hispanic",
+      "4": "Asian",
+      "5": "Other",
+      "6": "Not sure",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_423a_other": {
+    "variable_label": "Race/ethnicity politicians - $HouseCand1Name - open",
+    "value_labels": {}
+  },
+  "CC16_423b_other": {
+    "variable_label": "Race/ethnicity politicians - $HouseCand2Name - open",
+    "value_labels": {}
+  },
+  "CC16_423c_other": {
+    "variable_label": "Race/ethnicity politicians - $CurrentHouseName - open",
+    "value_labels": {}
+  },
+  "CC16_426_1": {
+    "variable_label": "State spending - Welfare",
+    "value_labels": {
+      "1": "Greatly increase",
+      "2": "Slightly increase",
+      "3": "Maintain",
+      "4": "Slightly decrease",
+      "5": "Greatly decrease",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_426_2": {
+    "variable_label": "State spending - Health Care",
+    "value_labels": {
+      "1": "Greatly increase",
+      "2": "Slightly increase",
+      "3": "Maintain",
+      "4": "Slightly decrease",
+      "5": "Greatly decrease",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_426_3": {
+    "variable_label": "State spending - Education",
+    "value_labels": {
+      "1": "Greatly increase",
+      "2": "Slightly increase",
+      "3": "Maintain",
+      "4": "Slightly decrease",
+      "5": "Greatly decrease",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_426_4": {
+    "variable_label": "State spending - Law Enforcement",
+    "value_labels": {
+      "1": "Greatly increase",
+      "2": "Slightly increase",
+      "3": "Maintain",
+      "4": "Slightly decrease",
+      "5": "Greatly decrease",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_426_5": {
+    "variable_label": "State spending - Transportation/Infrastructure",
+    "value_labels": {
+      "1": "Greatly increase",
+      "2": "Slightly increase",
+      "3": "Maintain",
+      "4": "Slightly decrease",
+      "5": "Greatly decrease",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_a": {
+    "variable_label": "Grade local community - The schools",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_b": {
+    "variable_label": "Grade local community - The police",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_c": {
+    "variable_label": "Grade local community - The roads",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_d": {
+    "variable_label": "Grade local community - Zoning and development",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_e": {
+    "variable_label": "Grade local community - The Mayor or Town/City Manager",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "6": "Not applicable",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "CC16_427_f": {
+    "variable_label": "Grade local community - The Town/City Council",
+    "value_labels": {
+      "1": "A - Excellent",
+      "2": "B - Above Average",
+      "3": "C - Average",
+      "4": "D - Below Average",
+      "5": "F - Poor",
+      "6": "Not applicable",
+      "8": "Skipped",
+      "9": "Not Asked"
+    }
+  },
+  "edloan": {
+    "variable_label": "Student debtor",
+    "value_labels": {
+      "1": "Yes",
+      "2": "No",
+      "97": "Other",
+      "98": "Don't know",
+      "99": "None of these",
+      "998": "Skipped",
+      "999": "Not Asked"
+    }
+  },
+  "CL_matched": {
+    "variable_label": "Catalist - Panelist matched to voter file",
+    "value_labels": {}
+  },
+  "CL_voterstatus": {
+    "variable_label": "Catalist - Voter status",
+    "value_labels": {}
+  },
+  "CL_partyaffiliation": {
+    "variable_label": "Catalist - Party affiliation",
+    "value_labels": {}
+  },
+  "CL_state": {
+    "variable_label": "Catalist - Voter file matched state",
+    "value_labels": {}
+  },
+  "CL_E2016GVM": {
+    "variable_label": "Catalist - 2016 General election voting method",
+    "value_labels": {}
+  },
+  "CL_E2016PPEP": {
+    "variable_label": "Catalist - 2016 Presidential Primary election party",
+    "value_labels": {}
+  },
+  "CL_E2016PPVM": {
+    "variable_label": "Catalist - 2016 Presidential Primary election voting method",
+    "value_labels": {}
+  },
+  "CL_E2016PEP": {
+    "variable_label": "Catalist - 2016 Primary election party",
+    "value_labels": {}
+  },
+  "CL_E2016PVM": {
+    "variable_label": "Catalist - 2016 Primary election voting method",
+    "value_labels": {}
+  },
+  "starttime_pre": {
+    "variable_label": "Interview Start Time",
+    "value_labels": {}
+  },
+  "endtime_pre": {
+    "variable_label": "Interview End Time",
+    "value_labels": {}
+  },
+  "starttime_post": {
+    "variable_label": "Interview Start Time",
+    "value_labels": {}
+  },
+  "endtime_post": {
+    "variable_label": "Interview End Time",
+    "value_labels": {}
+  },
+  "dma": {
+    "variable_label": "dma",
+    "value_labels": {}
+  },
+  "dmaname": {
+    "variable_label": "DMA name",
+    "value_labels": {}
+  }
+}
