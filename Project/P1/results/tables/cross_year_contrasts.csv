@@ -1,0 +1,4 @@
+model,r_change_2024_minus_2016,cluster_se,ci_low,ci_high,p_value,clusters,assumption
+baseline_state_FE,0.03150492533,0.01746741616,-0.00359716165,0.0666070123,0.07743745003,50,arbitrary dependence within state across years; covariate-mix plus fit uncertainty
+probit_no_state_FE,0.03156906188,0.01730995775,-0.00321660057,0.06635472434,0.07429163466,50,arbitrary dependence within state across years; covariate-mix plus fit uncertainty
+heckprobit_COVI,-0.1503335306,0.1654613162,-0.4828404943,0.1821734332,0.368023282,50,arbitrary dependence within state across years; covariate-mix plus fit uncertainty

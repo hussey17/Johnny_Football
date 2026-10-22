@@ -1,0 +1,13 @@
+year,contrast,r_probability_change,parameter_only_cluster_se,ci_low,ci_high,target
+2016,Age +1 year (derivative),0.00191724257,0.0002286921823,0.001457668424,0.002376816717,"retained nonvoter covariate distribution, held fixed"
+2016,Four-year degree vs no HS,-0.05735295609,0.02237075376,-0.1023086689,-0.0123972433,"retained nonvoter covariate distribution, held fixed"
+2016,Postgraduate vs no HS,-0.07009576319,0.02248123031,-0.1152734869,-0.02491803946,"retained nonvoter covariate distribution, held fixed"
+2016,Female/woman vs male/man,-0.01019376646,0.007752287116,-0.02577257068,0.005385037763,"retained nonvoter covariate distribution, held fixed"
+2016,Black vs White,-0.140849544,0.03001623638,-0.2011694293,-0.08052965866,"retained nonvoter covariate distribution, held fixed"
+2016,Hispanic vs White,-0.0656687169,0.01416955685,-0.09414350747,-0.03719392632,"retained nonvoter covariate distribution, held fixed"
+2024,Age +1 year (derivative),0.0005015648847,0.0002419914302,1.526489896e-05,0.0009878648705,"retained nonvoter covariate distribution, held fixed"
+2024,Four-year degree vs no HS,-0.04458205045,0.01609505895,-0.07692628234,-0.01223781855,"retained nonvoter covariate distribution, held fixed"
+2024,Postgraduate vs no HS,-0.05649003799,0.018638318,-0.0939451403,-0.01903493568,"retained nonvoter covariate distribution, held fixed"
+2024,Female/woman vs male/man,0.01262725682,0.006789680236,-0.001017116455,0.02627163009,"retained nonvoter covariate distribution, held fixed"
+2024,Black vs White,-0.1147800832,0.01810941789,-0.151172321,-0.07838784546,"retained nonvoter covariate distribution, held fixed"
+2024,Hispanic vs White,-0.01318213671,0.013539058,-0.0403898924,0.01402561898,"retained nonvoter covariate distribution, held fixed"

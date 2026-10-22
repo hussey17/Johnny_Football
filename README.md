@@ -5,10 +5,10 @@ Master repo for the Advanced Econometrics (ECON 438) projects.
 | Folder | Contents | Start here |
 |---|---|---|
 | [`project1/`](project1/) | Project 1, US presidential disaster declarations, 1989-2026: all raw data, the scripts that fetched them, the manifest and fetch report, and the hand-coded tables (governors, FEMA's per capita indicator, state rainy-day funds) | [`project1/README.md`](project1/README.md) |
-| [`Project/P1/`](Project/P1/) | Nonvoter partisan preferences, 2016/2020/2024: CES and COVI extracts, combined respondent data, source documentation and reproducible preparation scripts | [`Project/P1/README.md`](Project/P1/README.md) |
+| [`Project/P1/`](Project/P1/) | Nonvoter partisan preferences, 2016/2020/2024: CES and COVI data, an executed 2016/2024 selection notebook, findings, tables and reproducible scripts | [`Project/P1/README.md`](Project/P1/README.md) |
 | `project2/` | (to come) | |
 
-For the nonvoter study, switch to branch `p1_non-voters` and follow [`Project/P1/README.md`](Project/P1/README.md). Its compact data are versioned; the large original CES files can be downloaded separately.
+For the nonvoter study, switch to branch `p1_nonvoters` and follow [`Project/P1/README.md`](Project/P1/README.md). The [executed notebook](Project/P1/notebooks/nonvoters_selection_2016_2024.ipynb) and [findings](Project/P1/results/findings_2016_2024.pdf) are included. Its compact data are versioned; the large original CES files can be downloaded separately.
 
 ## Quick start
 

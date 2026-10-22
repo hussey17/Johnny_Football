@@ -1,0 +1,5 @@
+year,benchmark,available_nonvoter_n,weighted_coverage_among_nonvoters,stated_r_share,baseline_predicted_r_same_subset,heck_predicted_r_same_subset
+2016,Pre-election stated preference,4436,0.8296372576,0.3779894342,0.4084218974,0.3045091945
+2016,Post-election hypothetical nonvoter preference,1884,0.2991476396,0.4047792717,0.4363925893,0.3046821093
+2024,Pre-election stated preference,1883,0.9021706371,0.4560426632,0.441055103,0.1598008581
+2024,Post-election hypothetical nonvoter preference,980,0.1837829637,0.3900467743,0.398884287,0.09670673521

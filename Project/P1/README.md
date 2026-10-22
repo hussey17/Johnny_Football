@@ -1,6 +1,8 @@
 # CES and COVI data for ECON 438 Project 1
 
-This package contains extracts from the vote-validated CES Common Content releases for 2016, 2020 and 2024, original COVI workbooks, source guides, and reproducible preparation scripts for the nonvoter-preferences study. Sources were collected on 20 October 2026. The large original CES microdata remain in the collection workspace and can be downloaded with the collector. No model has been estimated.
+This package contains extracts from the vote-validated CES Common Content releases for 2016, 2020 and 2024, original COVI workbooks, source guides, and reproducible preparation scripts for the nonvoter-preferences study. Sources were collected on 20 October 2026. The large original CES microdata remain in the collection workspace and can be downloaded with the collector. The separately fitted 2016 and 2024 analysis is now executed in the notebook linked below; 2020 remains available as data.
+
+**Latest analysis:** [executed notebook](notebooks/nonvoters_selection_2016_2024.ipynb), [concise findings PDF](results/findings_2016_2024.pdf), [findings in Markdown](results/findings_2016_2024.md), and [all outputs and reproduction commands](results/README.md). The notebook uses the supplied Lecture 10 notation and explains the binary-outcome extension.
 
 The [one-page study brief](nonvoter_study_brief.pdf) summarizes the research question, model and limitations.
 
@@ -122,7 +124,7 @@ assert len(joined) == len(ces) == 185600
 
 `sample_candidate = 1` is a transparent convenience flag for matched adult citizens in the 50 states who completed the post-wave, have positive adult post weights, all seven controls, and usable choice if a validated voter. It retains nonvoters with missing outcomes. It selects **32,453 / 36,513 / 31,484** rows in 2016 / 2020 / 2024, including **5,539 / 5,257 / 2,185** nonvoters. It is not the finalized model sample: the team should decide its target population, treatment of unknown party/ideology and income, and approach to attrition first.
 
-For a selection probit, use `turnout_matched` as the selection outcome and `republican_any` as the observed choice outcome. Include the chosen individual controls and separate state/year effects in both equations; put COVI only in selection if defending the exclusion. Use probability weights and state-clustered inference. Test error correlation using a robust Wald test rather than an ordinary LR test after weighted/clustered estimation. Do not let Stata silently drop voters with unknown choice without documenting that extra selection.
+For a selection probit, use `turnout_matched` as the selection outcome and `republican_any` as the observed choice outcome. For pooled specifications, state and year effects can coexist with COVI variation across state-years. The executed analysis instead fits each election separately: its joint model uses individual controls in both equations and COVI only in selection; full state indicators would absorb single-year COVI. Separate state-FE baselines and region-control robustness fits expose that tradeoff. Use probability weights and state-clustered inference. Test error correlation using a robust Wald test rather than an ordinary LR test after weighted/clustered estimation. Do not let Stata silently drop voters with unknown choice without documenting that extra selection.
 
 ## Rebuild or obtain sources
 
@@ -174,10 +176,10 @@ tab year sample_candidate, missing
 
 ## Git handoff
 
-This package is published at `Project/P1` on branch `p1_non-voters` of [hussey17/Johnny_Football](https://github.com/hussey17/Johnny_Football/tree/p1_non-voters/Project/P1). After cloning, switch to that branch and run the commands above from `Project/P1`:
+This package is published at `Project/P1` on branch `p1_nonvoters` of [hussey17/Johnny_Football](https://github.com/hussey17/Johnny_Football/tree/p1_nonvoters/Project/P1). After cloning, switch to that branch and run the commands above from `Project/P1`:
 
 ```sh
-git switch p1_non-voters
+git switch p1_nonvoters
 cd Project/P1
 ```
 

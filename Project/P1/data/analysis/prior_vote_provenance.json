@@ -1,0 +1,22 @@
+[
+  {
+    "year": 2016,
+    "source_file": "CCES16_Common_OUTPUT_Feb2018_VV.dta",
+    "columns": [
+      "V101",
+      "CC16_326",
+      "CC16_327",
+      "CC16_328"
+    ],
+    "source_sha256": "58a05eefc54057ae383461e8dac8e940adbc63db74e21c604251f9a9a6ca537d"
+  },
+  {
+    "year": 2024,
+    "source_file": "CCES24_Common_OUTPUT_vv_topost_final.dta",
+    "columns": [
+      "caseid",
+      "presvote20post"
+    ],
+    "source_sha256": "e4b5220cf96a9e7a1c3860e82a19be99416d206da0c728264d0c7a2fa8dd7d4c"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "bivariate_cdf_max_absolute_error": 1.8318679906315083e-14,
+  "reference": "independent 1D conditional-normal quadrature",
+  "test_points": 55,
+  "simulated_n": 12000,
+  "simulated_true_rho": 0.45,
+  "simulated_fitted_rho": 0.4977653937538883,
+  "simulated_true_beta": [
+    -0.15,
+    0.65
+  ],
+  "simulated_fitted_beta": [
+    -0.17949481562284866,
+    0.6263502811652135
+  ],
+  "likelihood_gradient_max_absolute_error": 1.4777944493116202e-11,
+  "multistart_max_nll_difference": 1.2212453270876722e-15,
+  "simulated_model_max_score": 2.730713872398094e-09
+}

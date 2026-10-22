@@ -1,0 +1,7 @@
+year,state_postal,dem_votes,rep_votes,rep_margin,electoral_votes,source_url
+2016,MI,2268839,2279543,10704,16,https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+2016,WI,1382536,1405284,22748,10,https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+2016,PA,2926441,2970733,44292,20,https://www.fec.gov/resources/cms-content/documents/federalelections2016.pdf
+2024,MI,2736533,2816636,80103,15,https://www.fec.gov/documents/5644/2024presgeresults.pdf
+2024,WI,1668229,1697626,29397,10,https://www.fec.gov/documents/5644/2024presgeresults.pdf
+2024,PA,3423042,3543308,120266,19,https://www.fec.gov/documents/5644/2024presgeresults.pdf

@@ -1,0 +1,3 @@
+year,original_n,candidate_n,voter_n,nonvoter_n,weighted_sample_turnout,matched_raw_n,unmatched_raw_n,choice_missing_voters_raw_n
+2016,64600,32453,26914,5539,0.8005882543,45117,19483,4585
+2024,60000,31484,29299,2185,0.9485289719,39800,20200,3507

@@ -1,0 +1,121 @@
+year,area,prior_group,current_status,prior_group_n,cell_n,weighted_fraction_within_prior_group,prior_group_kish_n
+2016,National,Prior Democrat,Democrat,15772,11697,0.7120332607,6419.203295
+2016,National,Prior Democrat,Republican,15772,1077,0.07903600345,6419.203295
+2016,National,Prior Democrat,Other candidate,15772,811,0.03169246747,6419.203295
+2016,National,Prior Democrat,Abstained,15772,2187,0.1772382683,6419.203295
+2016,National,Prior Republican,Democrat,11270,535,0.04822521007,5848.627939
+2016,National,Prior Republican,Republican,11270,8663,0.7782533432,5848.627939
+2016,National,Prior Republican,Other candidate,11270,825,0.04512665162,5848.627939
+2016,National,Prior Republican,Abstained,11270,1247,0.1283947951,5848.627939
+2016,National,Prior other,Democrat,878,156,0.1811658986,309.1051147
+2016,National,Prior other,Republican,878,246,0.3673564492,309.1051147
+2016,National,Prior other,Other candidate,878,385,0.3171626936,309.1051147
+2016,National,Prior other,Abstained,878,91,0.1343149586,309.1051147
+2016,National,Prior nonvoter,Democrat,38,6,0.2871748613,14.68684416
+2016,National,Prior nonvoter,Republican,38,17,0.4180687411,14.68684416
+2016,National,Prior nonvoter,Other candidate,38,6,0.09485506057,14.68684416
+2016,National,Prior nonvoter,Abstained,38,9,0.1999013371,14.68684416
+2016,MI,Prior Democrat,Democrat,607,428,0.6687421347,241.9650497
+2016,MI,Prior Democrat,Republican,607,51,0.1213467419,241.9650497
+2016,MI,Prior Democrat,Other candidate,607,37,0.02581187602,241.9650497
+2016,MI,Prior Democrat,Abstained,607,91,0.1840992473,241.9650497
+2016,MI,Prior Republican,Democrat,385,25,0.06666099127,236.6910245
+2016,MI,Prior Republican,Republican,385,293,0.766924201,236.6910245
+2016,MI,Prior Republican,Other candidate,385,23,0.03109682525,236.6910245
+2016,MI,Prior Republican,Abstained,385,44,0.1353179825,236.6910245
+2016,MI,Prior other,Democrat,35,7,0.172097412,14.74951534
+2016,MI,Prior other,Republican,35,14,0.5840716018,14.74951534
+2016,MI,Prior other,Other candidate,35,11,0.1682693102,14.74951534
+2016,MI,Prior other,Abstained,35,3,0.07556167601,14.74951534
+2016,WI,Prior Democrat,Democrat,393,285,0.7027573293,213.1695076
+2016,WI,Prior Democrat,Republican,393,28,0.08229201464,213.1695076
+2016,WI,Prior Democrat,Other candidate,393,22,0.03273687546,213.1695076
+2016,WI,Prior Democrat,Abstained,393,58,0.1822137806,213.1695076
+2016,WI,Prior Republican,Democrat,257,13,0.0408400227,140.9969004
+2016,WI,Prior Republican,Republican,257,202,0.8068240509,140.9969004
+2016,WI,Prior Republican,Other candidate,257,18,0.04619210602,140.9969004
+2016,WI,Prior Republican,Abstained,257,24,0.1061438204,140.9969004
+2016,WI,Prior other,Democrat,18,2,0.1728662608,7.499287452
+2016,WI,Prior other,Republican,18,3,0.3411192896,7.499287452
+2016,WI,Prior other,Other candidate,18,11,0.3943668129,7.499287452
+2016,WI,Prior other,Abstained,18,2,0.09164763678,7.499287452
+2016,WI,Prior nonvoter,Democrat,2,1,0.9406235988,1.125747946
+2016,WI,Prior nonvoter,Republican,2,1,0.05937640123,1.125747946
+2016,WI,Prior nonvoter,Other candidate,2,0,0,1.125747946
+2016,WI,Prior nonvoter,Abstained,2,0,0,1.125747946
+2016,PA,Prior Democrat,Democrat,861,625,0.7575960806,440.9056482
+2016,PA,Prior Democrat,Republican,861,100,0.1116731939,440.9056482
+2016,PA,Prior Democrat,Other candidate,861,42,0.0237898292,440.9056482
+2016,PA,Prior Democrat,Abstained,861,94,0.1069408962,440.9056482
+2016,PA,Prior Republican,Democrat,673,39,0.06464219255,396.7079161
+2016,PA,Prior Republican,Republican,673,542,0.8147270886,396.7079161
+2016,PA,Prior Republican,Other candidate,673,35,0.02424729158,396.7079161
+2016,PA,Prior Republican,Abstained,673,57,0.09638342729,396.7079161
+2016,PA,Prior other,Democrat,33,5,0.1400071112,18.96286187
+2016,PA,Prior other,Republican,33,9,0.3066078252,18.96286187
+2016,PA,Prior other,Other candidate,33,17,0.4937201238,18.96286187
+2016,PA,Prior other,Abstained,33,2,0.05966493982,18.96286187
+2024,National,Prior Democrat,Democrat,16308,14897,0.9093230913,5472.140431
+2024,National,Prior Democrat,Republican,16308,292,0.03903690586,5472.140431
+2024,National,Prior Democrat,Other candidate,16308,301,0.01063331979,5472.140431
+2024,National,Prior Democrat,Abstained,16308,818,0.04100668309,5472.140431
+2024,National,Prior Republican,Democrat,11969,310,0.01868370893,5059.78101
+2024,National,Prior Republican,Republican,11969,10855,0.9357811102,5059.78101
+2024,National,Prior Republican,Other candidate,11969,191,0.008913070438,5059.78101
+2024,National,Prior Republican,Abstained,11969,613,0.03662211045,5059.78101
+2024,National,Prior other,Democrat,895,276,0.2762255707,192.0525536
+2024,National,Prior other,Republican,895,227,0.3488765988,192.0525536
+2024,National,Prior other,Other candidate,895,323,0.3245167446,192.0525536
+2024,National,Prior other,Abstained,895,69,0.05038108582,192.0525536
+2024,National,Prior nonvoter,Democrat,2309,824,0.368341409,267.2698675
+2024,National,Prior nonvoter,Republican,2309,700,0.390310882,267.2698675
+2024,National,Prior nonvoter,Other candidate,2309,100,0.04351105092,267.2698675
+2024,National,Prior nonvoter,Abstained,2309,685,0.1978366581,267.2698675
+2024,MI,Prior Democrat,Democrat,607,557,0.8727758652,200.2568507
+2024,MI,Prior Democrat,Republican,607,11,0.04961765078,200.2568507
+2024,MI,Prior Democrat,Other candidate,607,6,0.02147349622,200.2568507
+2024,MI,Prior Democrat,Abstained,607,33,0.0561329878,200.2568507
+2024,MI,Prior Republican,Democrat,406,15,0.03552381736,213.8170359
+2024,MI,Prior Republican,Republican,406,364,0.9316608493,213.8170359
+2024,MI,Prior Republican,Other candidate,406,6,0.009885336441,213.8170359
+2024,MI,Prior Republican,Abstained,406,21,0.02292999692,213.8170359
+2024,MI,Prior other,Democrat,21,6,0.4085156494,8.609250632
+2024,MI,Prior other,Republican,21,5,0.1449739153,8.609250632
+2024,MI,Prior other,Other candidate,21,7,0.311417918,8.609250632
+2024,MI,Prior other,Abstained,21,3,0.1350925173,8.609250632
+2024,MI,Prior nonvoter,Democrat,92,35,0.2694330028,10.45696778
+2024,MI,Prior nonvoter,Republican,92,24,0.1363050027,10.45696778
+2024,MI,Prior nonvoter,Other candidate,92,3,0.004948123187,10.45696778
+2024,MI,Prior nonvoter,Abstained,92,30,0.5893138714,10.45696778
+2024,WI,Prior Democrat,Democrat,404,379,0.955791436,142.4110253
+2024,WI,Prior Democrat,Republican,404,8,0.03316228969,142.4110253
+2024,WI,Prior Democrat,Other candidate,404,7,7.087393062e-05,142.4110253
+2024,WI,Prior Democrat,Abstained,404,10,0.01097540039,142.4110253
+2024,WI,Prior Republican,Democrat,256,12,0.009750526859,113.5506472
+2024,WI,Prior Republican,Republican,256,234,0.9785809153,113.5506472
+2024,WI,Prior Republican,Other candidate,256,1,4.49581941e-06,113.5506472
+2024,WI,Prior Republican,Abstained,256,9,0.01166406206,113.5506472
+2024,WI,Prior other,Democrat,22,7,0.2250641959,6.546554172
+2024,WI,Prior other,Republican,22,9,0.7500771473,6.546554172
+2024,WI,Prior other,Other candidate,22,5,0.02424026686,6.546554172
+2024,WI,Prior other,Abstained,22,1,0.0006183899203,6.546554172
+2024,WI,Prior nonvoter,Democrat,54,20,0.3031945648,4.481794308
+2024,WI,Prior nonvoter,Republican,54,26,0.559614884,4.481794308
+2024,WI,Prior nonvoter,Other candidate,54,1,7.391298649e-06,4.481794308
+2024,WI,Prior nonvoter,Abstained,54,7,0.1371831599,4.481794308
+2024,PA,Prior Democrat,Democrat,863,811,0.9628259355,307.2227705
+2024,PA,Prior Democrat,Republican,863,19,0.02263354642,307.2227705
+2024,PA,Prior Democrat,Other candidate,863,10,0.005198934039,307.2227705
+2024,PA,Prior Democrat,Abstained,863,23,0.009341584008,307.2227705
+2024,PA,Prior Republican,Democrat,726,22,0.02146653477,292.1032375
+2024,PA,Prior Republican,Republican,726,671,0.9462438591,292.1032375
+2024,PA,Prior Republican,Other candidate,726,8,0.00359911349,292.1032375
+2024,PA,Prior Republican,Abstained,726,25,0.02869049268,292.1032375
+2024,PA,Prior other,Democrat,38,12,0.2590940483,6.804147461
+2024,PA,Prior other,Republican,38,7,0.08086029975,6.804147461
+2024,PA,Prior other,Other candidate,38,16,0.6262983427,6.804147461
+2024,PA,Prior other,Abstained,38,3,0.03374730928,6.804147461
+2024,PA,Prior nonvoter,Democrat,111,48,0.3216380612,14.93730884
+2024,PA,Prior nonvoter,Republican,111,36,0.3977598803,14.93730884
+2024,PA,Prior nonvoter,Other candidate,111,5,0.06201660437,14.93730884
+2024,PA,Prior nonvoter,Abstained,111,22,0.2185854541,14.93730884

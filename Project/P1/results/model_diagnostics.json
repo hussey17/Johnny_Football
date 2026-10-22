@@ -1,0 +1,184 @@
+[
+  {
+    "year": 2016,
+    "model": "turnout_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.8716131932415697e-08,
+    "weighted_loglik": -15139.933671193085,
+    "n_selected": 32453,
+    "hessian_min_eigenvalue": 3.9006934060342697,
+    "hessian_condition": 11769.832514880834,
+    "score_jacobian_asymmetry": 2.5847379792054426e-11
+  },
+  {
+    "year": 2016,
+    "model": "turnout_COVI",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.6602814598846153e-08,
+    "weighted_loglik": -15262.702949620438,
+    "n_selected": 32453,
+    "hessian_min_eigenvalue": 40.10702461397038,
+    "hessian_condition": 1151.1522543840435,
+    "score_jacobian_asymmetry": 2.237793284010081e-11
+  },
+  {
+    "year": 2016,
+    "model": "baseline_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.7825398809403585e-08,
+    "weighted_loglik": -6993.042017986929,
+    "n_selected": 26914,
+    "hessian_min_eigenvalue": 1.3722272022856559,
+    "hessian_condition": 14713.275339261729,
+    "score_jacobian_asymmetry": 1.0111841919346887e-11
+  },
+  {
+    "year": 2016,
+    "model": "probit_no_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 4.496126880774823e-09,
+    "weighted_loglik": -7122.866935832371,
+    "n_selected": 26914,
+    "hessian_min_eigenvalue": 7.960992088053124,
+    "hessian_condition": 2584.027340941621,
+    "score_jacobian_asymmetry": 9.831885305899846e-12
+  },
+  {
+    "year": 2016,
+    "model": "heckprobit_COVI",
+    "weighted_loglik": -22383.063714377655,
+    "rho": 0.34608568155630026,
+    "normalized_max_score": 2.433448224334413e-08,
+    "probability_floor_count": 0,
+    "multistart": [
+      {
+        "start_rho": -0.6,
+        "rho": 0.3460882765517884,
+        "negative_mean_loglik": 0.6897070752900175,
+        "normalized_max_score": 2.9133008234735388e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      },
+      {
+        "start_rho": 0,
+        "rho": 0.3460913718840619,
+        "negative_mean_loglik": 0.689707075290425,
+        "normalized_max_score": 2.865683096499816e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      },
+      {
+        "start_rho": 0.6,
+        "rho": 0.34608568155630026,
+        "negative_mean_loglik": 0.6897070752897314,
+        "normalized_max_score": 2.433448224334413e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      }
+    ],
+    "q": 30,
+    "p": 29,
+    "hessian_min_eigenvalue": 8.196435365174313,
+    "hessian_condition": 5763.434846815535,
+    "rho_se_delta": 0.45452982800841457,
+    "rho_ci_low": -0.5893784550050469,
+    "rho_ci_high": 0.8850688099609221,
+    "rho_wald_p": 0.48780789548584447,
+    "score_jacobian_asymmetry": 2.8015784137025435e-11
+  },
+  {
+    "year": 2024,
+    "model": "turnout_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.7352795274581705e-08,
+    "weighted_loglik": -5633.76194333302,
+    "n_selected": 31484,
+    "hessian_min_eigenvalue": 0.016715474727566588,
+    "hessian_condition": 1021014.2257561749,
+    "score_jacobian_asymmetry": 2.203524862576245e-11
+  },
+  {
+    "year": 2024,
+    "model": "turnout_COVI",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.0135927958893667e-08,
+    "weighted_loglik": -5810.447578496285,
+    "n_selected": 31484,
+    "hessian_min_eigenvalue": 0.016623996387695128,
+    "hessian_condition": 1074311.9883449764,
+    "score_jacobian_asymmetry": 2.473506469091724e-11
+  },
+  {
+    "year": 2024,
+    "model": "baseline_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 1.7138367838407653e-08,
+    "weighted_loglik": -4576.013951962297,
+    "n_selected": 29299,
+    "hessian_min_eigenvalue": 1.4510912470981236,
+    "hessian_condition": 9961.461442608019,
+    "score_jacobian_asymmetry": 2.7858035323014008e-11
+  },
+  {
+    "year": 2024,
+    "model": "probit_no_state_FE",
+    "optimizer_success": true,
+    "message": "Optimization terminated successfully.",
+    "normalized_max_score": 2.118351282024046e-09,
+    "weighted_loglik": -4721.798120046915,
+    "n_selected": 29299,
+    "hessian_min_eigenvalue": 3.4579245377982275,
+    "hessian_condition": 4295.532060187529,
+    "score_jacobian_asymmetry": 2.5057081409762816e-11
+  },
+  {
+    "year": 2024,
+    "model": "heckprobit_COVI",
+    "weighted_loglik": -10519.634722036317,
+    "rho": 0.8259202243928957,
+    "normalized_max_score": 2.9148060520617535e-08,
+    "probability_floor_count": 0,
+    "multistart": [
+      {
+        "start_rho": -0.6,
+        "rho": 0.8259202243928957,
+        "negative_mean_loglik": 0.3341263728254452,
+        "normalized_max_score": 2.9148060520617535e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      },
+      {
+        "start_rho": 0,
+        "rho": 0.8259207286395113,
+        "negative_mean_loglik": 0.33412637282919205,
+        "normalized_max_score": 2.9567782389326654e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      },
+      {
+        "start_rho": 0.6,
+        "rho": 0.8259199859881343,
+        "negative_mean_loglik": 0.3341263728289123,
+        "normalized_max_score": 2.963917058997261e-08,
+        "optimizer_success": true,
+        "message": "Optimization terminated successfully."
+      }
+    ],
+    "q": 32,
+    "p": 31,
+    "hessian_min_eigenvalue": 0.01421136820862901,
+    "hessian_condition": 1625571.0743699868,
+    "rho_se_delta": 0.10758066006843299,
+    "rho_ci_low": 0.4581814727690773,
+    "rho_ci_high": 0.9522443310174286,
+    "rho_wald_p": 0.0010883734899884195,
+    "score_jacobian_asymmetry": 3.439762363832699e-11
+  }
+]
