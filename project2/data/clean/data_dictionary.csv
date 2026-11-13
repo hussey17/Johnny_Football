@@ -1,0 +1,52 @@
+variable,description,unit,source
+date,first day of the month (YYYY-MM-DD),,constructed
+year,calendar year,,constructed
+mon,calendar month 1-12,,constructed
+month,month as YYYY-MM,,constructed
+in_sample,1 for 1978m1-2025m12 (T = 576); 0 for the 1977 lead-in year kept for lags,0/1,constructed
+t,time index 1..576 within the sample,,constructed
+s,linear trend t/T used in trend interactions,,constructed
+A,"Gallup presidential job approval, mean of polls whose midpoint falls in the month",%,Gallup via UCSB
+a,"logit of approval, ln(A/(100-A))",,constructed
+A_fill,observed / interpolated / nearest: how A was obtained (see README step 3),,constructed
+n_polls,number of Gallup polls behind A (0 = filled),count,Gallup via UCSB
+disapprove,"Gallup disapproval, monthly mean (not filled)",%,Gallup via UCSB
+S,University of Michigan consumer sentiment,"index, 1966Q1=100",FRED UMCSENT
+U,"civilian unemployment rate, seasonally adjusted",%,FRED UNRATE
+pi,"inflation, 100*ln(CPI_t/CPI_{t-12})",%,FRED CPIAUCSL
+W,"real wage growth, 100*ln(real_wage_t/real_wage_{t-12})",%,"FRED AHETPI, CPIAUCSL"
+CPI,"CPI-U all items, seasonally adjusted",1982-84=100,FRED CPIAUCSL
+AHE,"average hourly earnings, production and nonsupervisory employees, SA",$,FRED AHETPI
+real_wage,AHE / CPI,,constructed
+rec,NBER recession indicator,0/1,FRED USREC
+CPI_filled,1 if CPI was missing at source and filled (2025m10),0/1,constructed
+U_filled,1 if U was missing at source and filled (2025m10),0/1,constructed
+P,elite polarisation: mean of House and Senate gaps between Republican and Democratic DW-NOMINATE dim-1 means,NOMINATE units,Voteview
+P_house,"House gap, Republican minus Democratic dim-1 mean",NOMINATE units,Voteview
+P_senate,"Senate gap, Republican minus Democratic dim-1 mean",NOMINATE units,Voteview
+congress,Congress in session on the 15th of the month,,constructed
+era,polarisation era 1/2/3 (terciles of P over the sample),,constructed
+E1,1 in Era 1,0/1,constructed
+E2,1 in Era 2,0/1,constructed
+E3,1 in Era 3,0/1,constructed
+G,mass polarisation: in-party minus out-party approval,pct points,Gallup via UCSB
+G_lag12,"G lagged 12 months, as used in the model",pct points,constructed
+G_fill,observed / interpolated / nearest: how the partisan values were obtained,,constructed
+in_party_app,approval among identifiers of the president's party,%,Gallup via UCSB
+out_party_app,approval among identifiers of the other party,%,Gallup via UCSB
+dem_app,approval among Democrats,%,Gallup via UCSB
+ind_app,approval among Independents,%,Gallup via UCSB
+rep_app,approval among Republicans,%,Gallup via UCSB
+n_partisan,number of Gallup polls with a party breakdown in the month,count,Gallup via UCSB
+admin,"administration id (ford, carter, ..., trump1, biden, trump2); use for fixed effects",,constructed
+pres_name,president in office on the 15th of the month,,constructed
+pres_party,D or R,,constructed
+pres_dem,1 if the president is a Democrat,0/1,constructed
+admin_month,months the administration has held (1 = first month assigned to it),count,constructed
+second_term,1 in a re-elected president's second term,0/1,constructed
+honeymoon,1 in the first six months of a new administration,0/1,constructed
+inaug_month,1 in January of an inauguration year (month assigned to the outgoing president),0/1,constructed
+rally_gulf,"Gulf War, 1991m1-1991m3",0/1,constructed
+rally_911,"September 11, 2001m9-2002m3",0/1,constructed
+rally_iraq,"Iraq invasion, 2003m3-2003m4",0/1,constructed
+covid,"COVID onset, 2020m3-2020m5",0/1,constructed

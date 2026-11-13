@@ -1,0 +1,302 @@
+{
+  "checks": [
+    {
+      "id": "P1",
+      "check": "every president page parsed with polls",
+      "passed": true,
+      "detail": "ford=36, carter=91, reagan=135, bush41=110, clinton=216, bush43=282, obama=418, trump1=180, biden=50, trump2=12"
+    },
+    {
+      "id": "P2",
+      "check": "all poll dates valid, end >= start, field period <= 45 days",
+      "passed": true,
+      "detail": "max field period 35 days; median 4"
+    },
+    {
+      "id": "P3",
+      "check": "all percentages within [0, 100]",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "id": "P4",
+      "check": "approve + disapprove + unsure within 97-103 (rounding)",
+      "passed": true,
+      "detail": "0 polls outside"
+    },
+    {
+      "id": "P5",
+      "check": "in-party approval > out-party approval in every partisan poll",
+      "passed": true,
+      "detail": "1396 partisan polls"
+    },
+    {
+      "id": "P6",
+      "check": "overall approval lies between the lowest and highest party value (2 pt tolerance)",
+      "passed": true,
+      "detail": "0 of 1357 polls outside"
+    },
+    {
+      "id": "P7",
+      "check": "no duplicate polls and no poll outside its president's tenure",
+      "passed": true,
+      "detail": "enforced in build_polls()"
+    },
+    {
+      "id": "M1",
+      "check": "estimation sample is 1978m1-2025m12, contiguous, one row per month",
+      "passed": true,
+      "detail": "T = 576"
+    },
+    {
+      "id": "M2",
+      "check": "no missing values in model variables over the sample",
+      "passed": true,
+      "detail": "none missing"
+    },
+    {
+      "id": "M3",
+      "check": "logit approval finite (0 < A < 100)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "id": "M4",
+      "check": "share of months with no Gallup poll (filled) below 10%",
+      "passed": true,
+      "detail": "12 of 576 months filled: {'observed': 564, 'interpolated': 9, 'nearest': 3}; months: 1980-10, 1981-01, 1986-02, 1986-11, 1987-02, 1987-05, 1987-09, 1987-11, 1988-02, 1989-01, 1989-02, 2022-12"
+    },
+    {
+      "id": "M5",
+      "check": "no run of filled approval months longer than 3",
+      "passed": true,
+      "detail": "longest run 2"
+    },
+    {
+      "id": "M6",
+      "check": "mass polarisation G observed in at least 85% of months",
+      "passed": true,
+      "detail": "{'observed': 561, 'interpolated': 10, 'nearest': 5}"
+    },
+    {
+      "id": "M7",
+      "check": "G > 0 in every month (presidents' own party always approves more)",
+      "passed": true,
+      "detail": "min G = 15.0"
+    },
+    {
+      "id": "V1",
+      "check": "Voteview: both parties in both chambers for Congresses 95-119",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "id": "V2",
+      "check": "elite polarisation rises over the sample (P in 119th > P in 95th)",
+      "passed": true,
+      "detail": "P: 0.581 -> 0.917"
+    },
+    {
+      "id": "V3",
+      "check": "the three polarisation eras are contiguous blocks",
+      "passed": true,
+      "detail": "Era 1: 1978-01 to 1992-12 (180 months); Era 2: 1993-01 to 2008-12 (192 months); Era 3: 2009-01 to 2025-12 (204 months)"
+    },
+    {
+      "id": "B1",
+      "check": "post-9/11 rally: approval peaks >= 85 in 2001m9-2001m11",
+      "passed": true,
+      "detail": "value 88.00"
+    },
+    {
+      "id": "B2",
+      "check": "Gulf War rally: approval >= 80 in 1991m2-1991m3",
+      "passed": true,
+      "detail": "value 85.60"
+    },
+    {
+      "id": "B3",
+      "check": "Carter low: approval <= 35 in 1979-1980",
+      "passed": true,
+      "detail": "value 28.67"
+    },
+    {
+      "id": "B4",
+      "check": "G.W. Bush low: approval <= 30 in 2008",
+      "passed": true,
+      "detail": "value 27.00"
+    },
+    {
+      "id": "B5",
+      "check": "unemployment peak 10.8% in 1982",
+      "passed": true,
+      "detail": "value 10.80"
+    },
+    {
+      "id": "B6",
+      "check": "unemployment COVID peak 14.8% in 2020m4",
+      "passed": true,
+      "detail": "value 14.80"
+    },
+    {
+      "id": "B7",
+      "check": "inflation peak 13-15% (log, y/y) in 1980",
+      "passed": true,
+      "detail": "value 13.62"
+    },
+    {
+      "id": "B8",
+      "check": "inflation 2022 peak 8-9.5% (log, y/y)",
+      "passed": true,
+      "detail": "value 8.60"
+    },
+    {
+      "id": "B9",
+      "check": "sentiment record low 50.0 in 2022m6",
+      "passed": true,
+      "detail": "value 50.00"
+    },
+    {
+      "id": "B10",
+      "check": "recession dummy = 1 in 2008m12 and 2020m4, 0 in 2019m6",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "fixes": [
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "george-bush: row marked 'interpolated' by UCSB",
+      "rows": 3,
+      "action": "dropped; months without a poll are filled by our own rule (step 3)"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "donald-j-trump: wrong year in poll dates 2017-08-27 to 2018-09-30",
+      "rows": 1,
+      "action": "set to 2018-08-27 to 2018-09-30"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "donald-j-trump: wrong year in poll dates 2018-07-30 to 2017-08-26",
+      "rows": 1,
+      "action": "set to 2018-07-30 to 2018-08-26"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "donald-j-trump: partisan breakdown listed with its own dates",
+      "rows": 48,
+      "action": "merged with overall approval on (start, end); unmatched partisan polls kept as their own rows"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "joseph-r-biden: mistyped year in end date '2/20/224'",
+      "rows": 1,
+      "action": "set to 2024-02-20 (year taken from the start date)"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "donald-j-trump-2nd-term: non-Gallup polls (AP-NORC, CNN, Ipsos, ...)",
+      "rows": 47,
+      "action": "dropped to keep one consistent pollster"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "in-party approval below out-party approval (reagan 1981-03-13 (D=87, R=41); reagan 1981-02-13 (D=78, R=39))",
+      "rows": 2,
+      "action": "partisan values set to missing (likely swapped columns); overall approval kept"
+    },
+    {
+      "dataset": "Gallup/UCSB",
+      "issue": "polls in an inauguration month taken for the incoming president",
+      "rows": 10,
+      "action": "not used in that month (the month belongs to the outgoing president, in office on the 15th)"
+    },
+    {
+      "dataset": "FRED",
+      "issue": "CPIAUCSL missing for 2025-10 (2025 federal government shutdown)",
+      "rows": 1,
+      "action": "geometric mean of the neighbouring months; flagged in CPIAUCSL_filled"
+    },
+    {
+      "dataset": "FRED",
+      "issue": "UNRATE missing for 2025-10 (2025 federal government shutdown)",
+      "rows": 1,
+      "action": "arithmetic mean of the neighbouring months; flagged in UNRATE_filled"
+    },
+    {
+      "dataset": "FRED",
+      "issue": "UMCSENT is quarterly before 1978 (Feb, May, Aug, Nov)",
+      "rows": 16,
+      "action": "left missing; only affects the 1977 lead-in year, not the 1978m1-2025m12 sample"
+    },
+    {
+      "dataset": "Voteview",
+      "issue": "party_code stored as '100.0'/'200.0' from the 115th Congress on",
+      "rows": 848,
+      "action": "converted to integers before filtering"
+    }
+  ],
+  "eras": {
+    "1": {
+      "first": "1978-01",
+      "last": "1992-12",
+      "months": 180,
+      "mean_P": 0.619
+    },
+    "2": {
+      "first": "1993-01",
+      "last": "2008-12",
+      "months": 192,
+      "mean_P": 0.721
+    },
+    "3": {
+      "first": "2009-01",
+      "last": "2025-12",
+      "months": 204,
+      "mean_P": 0.843
+    }
+  },
+  "largest_changes": [
+    {
+      "month": "2001-09",
+      "dA": 19.7,
+      "admin": "bush43"
+    },
+    {
+      "month": "1979-12",
+      "dA": 17.5,
+      "admin": "carter"
+    },
+    {
+      "month": "1990-10",
+      "dA": -14.8,
+      "admin": "bush41"
+    },
+    {
+      "month": "1991-01",
+      "dA": 14.3,
+      "admin": "bush41"
+    },
+    {
+      "month": "1989-06",
+      "dA": 14.0,
+      "admin": "bush41"
+    },
+    {
+      "month": "1990-08",
+      "dA": 13.2,
+      "admin": "bush41"
+    },
+    {
+      "month": "2001-10",
+      "dA": 12.3,
+      "admin": "bush43"
+    },
+    {
+      "month": "1993-05",
+      "dA": -10.5,
+      "admin": "clinton"
+    }
+  ]
+}

@@ -5,7 +5,7 @@ Master repo for the Advanced Econometrics (ECON 438) projects.
 | Folder | Contents | Start here |
 |---|---|---|
 | [`project1/`](project1/) | Project 1, US presidential disaster declarations, 1989-2026: all raw data, the scripts that fetched them, the manifest and fetch report, and the hand-coded tables (governors, FEMA's per capita indicator, state rainy-day funds) | [`project1/README.md`](project1/README.md) |
-| `project2/` | (to come) | |
+| [`project2/`](project2/) | Project 2, presidential approval, the economy and polarisation, 1978-2025: raw data (Gallup via UCSB, FRED, Voteview), the fetch and build scripts, the quality-check report, and the model-ready monthly file `data/clean/analysis_monthly.csv` | [`project2/README.md`](project2/README.md) |
 
 ## Quick start
 
